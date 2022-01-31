@@ -1,25 +1,31 @@
 # PyMC
-
-This is the homepage for the PyMC project, not the library.
+PyMC is a community driven project with the goal of making Bayesian modeling
+and probabilistic programming intuitive and performant.
 
 ::::{grid} 3
 :class-container: 'full-width'
 
 :::{grid-item-card} PyMC - Data Umbrella Sprint
 :link: https://pymc-data-umbrella.xyz
+:class-header: bg-pymc-one
+
 Event
 ^^^
 PyMC team is conducting a virtual sprint on 18th,19th February with Data Umbrella. We'll have some giveaways as well!!
 :::
-:::{grid-item-card} PyMC Migration Guide
-:link: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiny-fu49z1AhVVxzgGHeGgCbMQFnoECAQQAQ&url=https%3A%2F%2Fwww.pymc-labs.io%2Fblog-posts%2Fthe-quickest-migration-guide-ever-from-pymc3-to-pymc-v40%2F&usg=AOvVaw0DBWSvSCoRCqbLuwo4fDUt
+:::{grid-item-card} Welcome to the PyMC blog
+:link: welcome_post
+:link-type: ref
+:class-header: bg-pymc-two
 
 Blog Post
 ^^^
-Check Eric Ma's blog post on migrating from PyMC3 to PyMC 4.0 here
+Check out the new PyMC blog, learn what to expect from it and how to subscribe
 :::
 :::{grid-item-card} Probabilistic Programming in PyMC
 :link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
+:class-header: bg-pymc-three
+
 Talk
 ^^^
 Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
@@ -37,5 +43,6 @@ blog
 :hidden:
 :caption: External links
 
+PyMC documentation <https://docs.pymc.io>
 Twitter <https://twitter.com/pymc_devs>
 :::

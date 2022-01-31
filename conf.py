@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'PyMC project website'
-copyright = '2022, PyMC Team'
-author = 'PyMC Team'
+project = "PyMC project website"
+copyright = "2022, PyMC Team"
+author = "PyMC Team"
 version = ""
 release = ""
 
@@ -42,7 +42,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+# templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -74,13 +74,14 @@ blog_baseurl = "https://pymc.io"
 blog_title = "PyMC Examples"
 blog_path = "blog"
 blog_authors = {
-    "contributors": ("PyMC Contributors", "https://docs.pymc.io"),
+    "contributors": ("PyMC Contributors", "https://pymc.io"),
+    "oriol": ("Oriol Abril Pla", "https://oriolabril.github.io"),
 }
 blog_default_author = "contributors"
 fontawesome_included = True
 
 ogp_site_url = "https://pymc.io"
-ogp_image = "http://example.org/_static/PyMC.jpg"
+ogp_image = "http://pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
 ogp_custom_meta_tags = [
@@ -99,14 +100,28 @@ html_theme = "sphinx_book_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 
 html_theme_options = {
-    "repository_url": "https://github.com/mjhajharia/pymc.io",
+    "repository_url": "https://github.com/pymc-devs/pymc.io",
+    "repository_branch": "main",
     "use_repository_button": True,
     "use_edit_page_button": True,
-    "use_issues_button": True,
+    "use_issues_button": False,
+    "logo_only": True,
+    "search_bar_text": "Search..."
 }
 
 html_logo = "_static/PyMC.jpg"
 html_favicon = "_static/favicon.ico"
 
-html_static_path = ['_static']
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 html_title = "Keeping up with PyMC"
+
+blog_sidebars = [
+    "sidebar-logo.html",
+    "search-field.html",
+    "postcard.html",
+    "tagcloud.html",
+    "categories.html",
+]
+
+html_sidebars = {"blog/*": blog_sidebars, "blog": blog_sidebars}

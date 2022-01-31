@@ -1,0 +1,9 @@
+Sphinx
+sphinx-book-theme
+sphinx-copybutton
+sphinx-design
+myst-nb
+ablog
+sphinx-codeautolink
+sphinxext-opengraph
+sphinx-notfound-page

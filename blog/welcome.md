@@ -29,7 +29,7 @@ with tags, categories, authors... For now we are starting with three categories:
   to the project or how they improved the models at their company
   thanks to PyMC.
 
-Subscribe to the blog feed clicking [here](https://pymc.io/blog/atom.xml)
+Subscribe to the blog feed clicking [here](https://www.pymc.io/blog/atom.xml)
 
 ## How can you contribute to the blog?
 If you have a blog post about using PyMC that doesn't fit the documentation but

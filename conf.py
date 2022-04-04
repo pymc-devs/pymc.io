@@ -74,7 +74,7 @@ intersphinx_mapping = {
 }
 
 blog_baseurl = "https://pymc.io"
-blog_title = "PyMC Examples"
+blog_title = "Keeping up with PyMC"
 blog_path = "blog"
 blog_authors = {
     "contributors": ("PyMC Contributors", "https://pymc.io"),
@@ -84,7 +84,7 @@ blog_default_author = "contributors"
 fontawesome_included = True
 
 ogp_site_url = "https://pymc.io"
-ogp_image = "http://pymc.io/_static/PyMC.jpg"
+ogp_image = "https://pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
 ogp_custom_meta_tags = [

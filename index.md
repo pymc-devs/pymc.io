@@ -117,6 +117,7 @@ about/testimonials
 :caption: Blog
 
 Recent posts <blog>
+Blog feed <https://www.pymc.io/blog/atom.xml>
 :::
 
 :::{toctree}

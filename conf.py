@@ -52,6 +52,7 @@ exclude_patterns = [
     ".DS_Store",
     ".ipynb_checkpoints",
     "_build",
+    "jupyter_execute",
 ]
 
 # -- Options for extensions
@@ -66,8 +67,10 @@ intersphinx_mapping = {
     "bambi": ("https://bambinos.github.io/bambi/main", None),
     "mpl": ("https://matplotlib.org/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
-    "scipy": ("https://docs.scipy.org/doc/scipy/reference/", None),
-    "xarray": ("http://xarray.pydata.org/en/stable/", None),
+    "pymc": ("https://docs.pymc.io/en/stable", None),
+    "nb": ("https://docs.pymc.io/projects/examples/en/latest/", None),
+    "scipy": ("https://docs.scipy.org/doc/scipy/", None),
+    "xarray": ("https://xarray.pydata.org/en/stable/", None),
 }
 
 blog_baseurl = "https://pymc.io"
@@ -122,6 +125,7 @@ blog_sidebars = [
     "postcard.html",
     "tagcloud.html",
     "categories.html",
+    "sbt-sidebar-nav.html",
 ]
 
 html_sidebars = {"blog/*": blog_sidebars, "blog": blog_sidebars}

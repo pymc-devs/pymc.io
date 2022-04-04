@@ -52,6 +52,7 @@ exclude_patterns = [
     ".DS_Store",
     ".ipynb_checkpoints",
     "_build",
+    "jupyter_execute",
 ]
 
 # -- Options for extensions
@@ -66,12 +67,14 @@ intersphinx_mapping = {
     "bambi": ("https://bambinos.github.io/bambi/main", None),
     "mpl": ("https://matplotlib.org/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
-    "scipy": ("https://docs.scipy.org/doc/scipy/reference/", None),
-    "xarray": ("http://xarray.pydata.org/en/stable/", None),
+    "pymc": ("https://docs.pymc.io/en/stable", None),
+    "nb": ("https://docs.pymc.io/projects/examples/en/latest/", None),
+    "scipy": ("https://docs.scipy.org/doc/scipy/", None),
+    "xarray": ("https://xarray.pydata.org/en/stable/", None),
 }
 
 blog_baseurl = "https://pymc.io"
-blog_title = "PyMC Examples"
+blog_title = "Keeping up with PyMC"
 blog_path = "blog"
 blog_authors = {
     "contributors": ("PyMC Contributors", "https://pymc.io"),
@@ -81,7 +84,7 @@ blog_default_author = "contributors"
 fontawesome_included = True
 
 ogp_site_url = "https://pymc.io"
-ogp_image = "http://pymc.io/_static/PyMC.jpg"
+ogp_image = "https://pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
 ogp_custom_meta_tags = [
@@ -122,6 +125,7 @@ blog_sidebars = [
     "postcard.html",
     "tagcloud.html",
     "categories.html",
+    "sbt-sidebar-nav.html",
 ]
 
 html_sidebars = {"blog/*": blog_sidebars, "blog": blog_sidebars}

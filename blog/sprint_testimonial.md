@@ -2,7 +2,7 @@
 # Participating in the PyMC-Data Umbrella sprint: Interview with Sandra Meneses
 
 :::{post} Apr 7, 2022
-:tags: community
+:tags: community, sprint, contributing
 :category: testimonial
 :author: Sandra Meneses, Data Umbrella
 :::

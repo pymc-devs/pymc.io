@@ -66,7 +66,8 @@ This year, anyone new to open source and over 18 years can participate!
 
 Blog post
 ^^^
-Read about the recent PyMC-Data Umbrella sprint directly from the participants
+Read about the recent PyMC-Data Umbrella sprint in this interview with
+Sandra Meneses, one of the participants who submitted a PR
 :::
 :::{grid-item-card} PyMC 4.0 is closing in
 :link: v4_announcement

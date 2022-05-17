@@ -31,7 +31,7 @@ many other activities:
 Release announcement
 ^^^
 Check out the offical release announcement with all the improvements PyMC 4.0 will bring!
-
+:::
 :::{grid-item-card} PyMC - Data Umbrella Sprint
 :link: https://discourse.pymc.io/tag/office-hours
 :class-header: bg-pymc-one

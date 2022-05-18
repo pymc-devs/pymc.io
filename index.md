@@ -23,14 +23,14 @@ many other activities:
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} PyMC 4.0 is ready
+:::{grid-item-card} PyMC 4.0 finally released!
 :link: v4_announcement
 :link-type: ref
-:class-header: bg-pymc-one
+:class-header: bg-pymc-three
 
 Release announcement
 ^^^
-Check out the offical release announcement with all the improvements PyMC 4.0 will bring!
+Check out the offical release announcement with all the improvements PyMC 4.0 brings.
 :::
 
 :::{grid-item-card} PyMC - Data Umbrella Sprint
@@ -60,7 +60,6 @@ Blog post
 ^^^
 Read about the recent PyMC-Data Umbrella sprint in this interview with
 Sandra Meneses, one of the participants who submitted a PR
-:::
 
 ::::
 :::::

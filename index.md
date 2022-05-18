@@ -13,7 +13,7 @@ PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the 
 ```{retrolite} pymc_example.ipynb
 ---
 width: 100%
-height: 250px
+height: 300px
 ```
 
 ### Features
@@ -25,7 +25,7 @@ Here is what sets it apart:
 * **User friendly**: Simple syntax and documentation with many examples and tutorials for building various models.
 * **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend, which supports compilation to C and JAX, automatic gradient calculation, GPU computing, and complex graph-optimizations.
 * **Batteries included**: Comes with a suite of probability distributions, support Gaussian processes, ABC, SMC and much more.
-* **Extensible**: easily incorporates custom step methods and unusual probability distributions.
+* **Extensible**: Easily incorporates custom step methods and probability distributions.
 * **Deployable**: Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
 
 ## Announcements
@@ -38,13 +38,14 @@ Here is what sets it apart:
 :link: v4_announcement
 :link-type: ref
 :class-header: bg-pymc-three
+:columns: 12
 
 Release announcement
 ^^^
 Check out the offical release announcement with all the improvements PyMC 4.0 brings.
 :::
 
-:::{grid-item-card} PyMC - Data Umbrella Sprint
+:::{grid-item-card} PyMC - Office Hours
 :link: https://discourse.pymc.io/tag/office-hours
 :class-header: bg-pymc-one
 
@@ -57,6 +58,7 @@ Subscribe on Discourse to be notified of the next event!
 :::{grid-item-card} Probabilistic Programming in PyMC
 :link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
 :class-header: bg-pymc-two
+
 Talk
 ^^^
 Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0

@@ -84,6 +84,22 @@ blog_authors = {
 blog_default_author = "contributors"
 fontawesome_included = True
 
+def remove_catalogs(app):
+    """
+    This removes the tag, category and archive pages so ablog rewrites them.
+    They need to be present initially for the toctree and sidebar to work.
+    """
+
+    app.env.project.docnames -= {"blog/tag", "blog/category", "blog/archive"}
+    yield "blog", {}, "layout.html"
+
+def setup(app):
+    """
+    Add extra step to sphinx build
+    """
+
+    app.connect("html-collect-pages", remove_catalogs, 100)
+
 ogp_site_url = "https://pymc.io"
 ogp_image = "https://pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True

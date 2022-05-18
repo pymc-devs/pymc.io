@@ -60,6 +60,7 @@ Blog post
 ^^^
 Read about the recent PyMC-Data Umbrella sprint in this interview with
 Sandra Meneses, one of the participants who submitted a PR
+:::
 
 ::::
 :::::

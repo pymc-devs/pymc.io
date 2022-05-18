@@ -32,6 +32,7 @@ Release announcement
 ^^^
 Check out the offical release announcement with all the improvements PyMC 4.0 will bring!
 :::
+
 :::{grid-item-card} PyMC - Data Umbrella Sprint
 :link: https://discourse.pymc.io/tag/office-hours
 :class-header: bg-pymc-one
@@ -41,33 +42,15 @@ Event
 The PyMC team has recently started hosting office hours regularly.
 Subscribe on Discourse to be notified of the next event!
 :::
-:::{grid-item-card} Welcome to the PyMC blog
-:link: welcome_post
-:link-type: ref
-:class-header: bg-pymc-two
 
-Blog Post
-^^^
-Check out the new PyMC blog, learn what to expect from it and how to subscribe
-:::
 :::{grid-item-card} Probabilistic Programming in PyMC
 :link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
 :class-header: bg-pymc-three
-
 Talk
 ^^^
 Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
 :::
 
-:::{grid-item-card} PyMC is participating in GSoC
-:link: https://github.com/pymc-devs/pymc/wiki/GSoC-2022-projects
-:class-header: bg-pymc-two
-
-Internships
-^^^
-If you are interested in open source, GSoC is the perfect opportunity to dive in and get involved.
-This year, anyone new to open source and over 18 years can participate!
-:::
 :::{grid-item-card} Sprint testimonials
 :link: sprint_testimonial
 :link-type: ref
@@ -79,7 +62,6 @@ Read about the recent PyMC-Data Umbrella sprint in this interview with
 Sandra Meneses, one of the participants who submitted a PR
 :::
 
-:::
 ::::
 :::::
 

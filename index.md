@@ -4,10 +4,8 @@ sd_hide_title: true
 
 ## The PyMC library
 
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users
-to fit Bayesian models using a variety of numerical methods,
-most notably Markov chain Monte Carlo (MCMC) and variational inference (VI).
-Its flexibility and extensibility make it applicable to a large suite of problems.
+{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using Markov chain Monte Carlo (MCMC) methods.
+PyMC focuses on usability, flexibility, scalability, and extensibility.
 Along with core model specification and fitting functionality,
 PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
 
@@ -21,14 +19,14 @@ height: 250px
 ### Features
 PyMC strives to make Bayesian modeling as simple and painless as possible,
 allowing users to focus on their scientific problem, rather than on the methods used to solve it.
-Here is a partial list of its features:
+Here is what sets it apart:
 
-* Modern methods for fitting Bayesian models, including MCMC and VI.
-* Includes a large suite of well-documented statistical distributions.
-* Uses {doc}`Aesara <aesara:index>` as the computational backend, allowing for fast expression evaluation, automatic gradient calculation, and GPU computing.
-* Built-in support for Gaussian process modeling.
-* Extensible: easily incorporates custom step methods and unusual probability distributions.
-* Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
+* **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
+* **User friendly**: Simple syntax and documentation with many examples and tutorials for building various models.
+* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend, which supports compilation to C and JAX, automatic gradient calculation, GPU computing, and complex graph-optimizations.
+* **Batteries included**: Comes with a suite of probability distributions, support Gaussian processes, ABC, SMC and much more.
+* **Extensible**: easily incorporates custom step methods and unusual probability distributions.
+* **Deployable**: Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
 
 ## Announcements
 

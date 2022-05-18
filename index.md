@@ -42,7 +42,7 @@ Here is what sets it apart:
 
 Release announcement
 ^^^
-Check out the offical release announcement with all the improvements PyMC 4.0 brings.
+Our first new major release in over 10 years. PyMC 4.0 is a major rewrite of PyMC with many great new features while keeping the same API of PyMC3.
 :::
 
 :::{grid-item-card} PyMC - Office Hours

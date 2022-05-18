@@ -2,20 +2,30 @@
 sd_hide_title: true
 ---
 
-# The PyMC project
-PyMC is a community driven project with the goal of making Bayesian modeling
-and probabilistic programming intuitive and performant.
+## The PyMC library
 
-The flagship of the PyMC project is the PyMC library, but PyMC also coordinates
-many other activities:
+{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users
+to fit Bayesian models using a variety of numerical methods,
+most notably Markov chain Monte Carlo (MCMC) and variational inference (VI).
+Its flexibility and extensibility make it applicable to a large suite of problems.
+Along with core model specification and fitting functionality,
+PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
 
-* Organizing [PyMCon](https://pymcon.com)
-* Curating the {doc}`PyMC example gallery <nb:index>`
-* Answer questions and moderate discussions on [PyMC Discourse](https://discourse.pymc.io/)
-* Translating the code examples of Bayesian statistics books in
-  [PyMC resources](https://github.com/pymc-devs/pymc-resources)
-* [Office hours](https://discourse.pymc.io/tag/office-hours) and
-  [sprints](https://pymc-data-umbrella.xyz/en/latest/) to encourage people to contribute to open source
+### Interactive Demo
+```{retrolite} pymc_example.ipynb
+```
+
+### Features
+PyMC strives to make Bayesian modeling as simple and painless as possible,
+allowing users to focus on their scientific problem, rather than on the methods used to solve it.
+Here is a partial list of its features:
+
+* Modern methods for fitting Bayesian models, including MCMC and VI.
+* Includes a large suite of well-documented statistical distributions.
+* Uses {doc}`Aesara <aesara:index>` as the computational backend, allowing for fast expression evaluation, automatic gradient calculation, and GPU computing.
+* Built-in support for Gaussian process modeling.
+* Extensible: easily incorporates custom step methods and unusual probability distributions.
+* Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
 
 ## Announcements
 
@@ -65,30 +75,20 @@ Sandra Meneses, one of the participants who submitted a PR
 ::::
 :::::
 
-## The PyMC library
+# The PyMC project
+PyMC is a community driven project with the goal of making Bayesian modeling
+and probabilistic programming intuitive and performant.
 
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users
-to fit Bayesian models using a variety of numerical methods,
-most notably Markov chain Monte Carlo (MCMC) and variational inference (VI).
-Its flexibility and extensibility make it applicable to a large suite of problems.
-Along with core model specification and fitting functionality,
-PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
+The flagship of the PyMC project is the PyMC library, but PyMC also coordinates
+many other activities:
 
-### Interactive Demo
-```{retrolite} pymc_example.ipynb
-```
-
-### Features
-PyMC strives to make Bayesian modeling as simple and painless as possible,
-allowing users to focus on their scientific problem, rather than on the methods used to solve it.
-Here is a partial list of its features:
-
-* Modern methods for fitting Bayesian models, including MCMC and VI.
-* Includes a large suite of well-documented statistical distributions.
-* Uses {doc}`Aesara <aesara:index>` as the computational backend, allowing for fast expression evaluation, automatic gradient calculation, and GPU computing.
-* Built-in support for Gaussian process modeling.
-* Extensible: easily incorporates custom step methods and unusual probability distributions.
-* Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
+* Organizing [PyMCon](https://pymcon.com)
+* Curating the {doc}`PyMC example gallery <nb:index>`
+* Answer questions and moderate discussions on [PyMC Discourse](https://discourse.pymc.io/)
+* Translating the code examples of Bayesian statistics books in
+  [PyMC resources](https://github.com/pymc-devs/pymc-resources)
+* [Office hours](https://discourse.pymc.io/tag/office-hours) and
+  [sprints](https://pymc-data-umbrella.xyz/en/latest/) to encourage people to contribute to open source
 
 
 :::{toctree}

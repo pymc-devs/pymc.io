@@ -5,6 +5,11 @@
 :tags: community, sprint, contributing
 :category: testimonial
 :author: Sandra Meneses, Data Umbrella
+:image: 0
+:exclude:
+
+Read about the recent PyMC-Data Umbrella sprint in this interview with
+Sandra Meneses, one of the participants who submitted a PR
 :::
 
 ![Image with a picture of Sandra Meneses, the PyMC and Data Umbrella logos

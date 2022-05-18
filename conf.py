@@ -39,6 +39,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_codeautolink",
     "notfound.extension",
+    "jupyterlite_sphinx",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

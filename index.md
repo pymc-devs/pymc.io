@@ -92,6 +92,10 @@ Its flexibility and extensibility make it applicable to a large suite of problem
 Along with core model specification and fitting functionality,
 PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
 
+### Interactive Demo
+```{retrolite} pymc_example.ipynb
+```
+
 ### Features
 PyMC strives to make Bayesian modeling as simple and painless as possible,
 allowing users to focus on their scientific problem, rather than on the methods used to solve it.

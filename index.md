@@ -13,6 +13,9 @@ PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the 
 
 ### Interactive Demo
 ```{retrolite} pymc_example.ipynb
+---
+width: 90%
+height: 300px
 ```
 
 ### Features

@@ -127,6 +127,7 @@ html_theme_options = {
     "use_issues_button": False,
     "logo_only": True,
     "search_bar_text": "Search...",
+    "show_navbar_depth": 2,
 }
 
 html_logo = "_static/PyMC.jpg"

@@ -45,7 +45,7 @@ Subscribe on Discourse to be notified of the next event!
 
 :::{grid-item-card} Probabilistic Programming in PyMC
 :link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
-:class-header: bg-pymc-three
+:class-header: bg-pymc-two
 Talk
 ^^^
 Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
@@ -54,7 +54,7 @@ Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
 :::{grid-item-card} Sprint testimonials
 :link: sprint_testimonial
 :link-type: ref
-:class-header: bg-pymc-three
+:class-header: bg-pymc-one
 
 Blog post
 ^^^

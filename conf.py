@@ -53,6 +53,7 @@ exclude_patterns = [
     ".ipynb_checkpoints",
     "_build",
     "jupyter_execute",
+    "README.md",
 ]
 
 # -- Options for extensions
@@ -109,7 +110,7 @@ html_theme_options = {
     "use_edit_page_button": True,
     "use_issues_button": False,
     "logo_only": True,
-    "search_bar_text": "Search..."
+    "search_bar_text": "Search...",
 }
 
 html_logo = "_static/PyMC.jpg"
@@ -119,13 +120,39 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_title = "Keeping up with PyMC"
 
-blog_sidebars = [
-    "sidebar-logo.html",
-    "search-field.html",
-    "postcard.html",
-    "tagcloud.html",
-    "categories.html",
-    "sbt-sidebar-nav.html",
-]
-
-html_sidebars = {"blog/*": blog_sidebars, "blog": blog_sidebars}
+html_sidebars = {
+    "blog/tag": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "tagcloud.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/category": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "categories.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/archive": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "archives.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/*": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "postcard.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "[!blog]**": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "sbt-sidebar-nav.html",
+    ]
+}

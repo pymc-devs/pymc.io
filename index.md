@@ -42,7 +42,7 @@ Here is what sets it apart:
 
 Release announcement
 ^^^
-Our first new major release in over 10 years. PyMC 4.0 is a major rewrite of PyMC with many great new features while keeping the same API of PyMC3.
+PyMC 4.0 is a major rewrite of the library with many great new features while keeping the same modeling API of PyMC3.
 :::
 
 :::{grid-item-card} PyMC - Office Hours

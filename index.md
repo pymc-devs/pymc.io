@@ -106,19 +106,12 @@ Here is a partial list of its features:
 
 :::{toctree}
 :hidden:
-:caption: About PyMC
 
 about/ecosystem
 about/history
 about/testimonials
-:::
 
-:::{toctree}
-:hidden:
-:caption: Blog
-
-Recent posts <blog>
-Blog feed <https://www.pymc.io/blog/atom.xml>
+Blog <blog>
 :::
 
 :::{toctree}

@@ -53,6 +53,7 @@ exclude_patterns = [
     ".ipynb_checkpoints",
     "_build",
     "jupyter_execute",
+    "README.md",
 ]
 
 # -- Options for extensions
@@ -83,6 +84,22 @@ blog_authors = {
 blog_default_author = "contributors"
 fontawesome_included = True
 
+def remove_catalogs(app):
+    """
+    This removes the tag, category and archive pages so ablog rewrites them.
+    They need to be present initially for the toctree and sidebar to work.
+    """
+
+    app.env.project.docnames -= {"blog/tag", "blog/category", "blog/archive"}
+    yield "blog", {}, "layout.html"
+
+def setup(app):
+    """
+    Add extra step to sphinx build
+    """
+
+    app.connect("html-collect-pages", remove_catalogs, 100)
+
 ogp_site_url = "https://pymc.io"
 ogp_image = "https://pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
@@ -109,7 +126,8 @@ html_theme_options = {
     "use_edit_page_button": True,
     "use_issues_button": False,
     "logo_only": True,
-    "search_bar_text": "Search..."
+    "search_bar_text": "Search...",
+    "show_navbar_depth": 2,
 }
 
 html_logo = "_static/PyMC.jpg"
@@ -119,13 +137,39 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 html_title = "Keeping up with PyMC"
 
-blog_sidebars = [
-    "sidebar-logo.html",
-    "search-field.html",
-    "postcard.html",
-    "tagcloud.html",
-    "categories.html",
-    "sbt-sidebar-nav.html",
-]
-
-html_sidebars = {"blog/*": blog_sidebars, "blog": blog_sidebars}
+html_sidebars = {
+    "blog/tag": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "tagcloud.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/category": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "categories.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/archive": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "archives.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog/*": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "postcard.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "blog": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "sbt-sidebar-nav.html",
+    ],
+    "[!blog]**": [
+        "sidebar-logo.html",
+        "search-field.html",
+        "sbt-sidebar-nav.html",
+    ]
+}

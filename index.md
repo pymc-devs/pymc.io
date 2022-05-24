@@ -119,7 +119,6 @@ Blog <blog>
 :caption: External links
 
 PyMC documentation <https://docs.pymc.io>
-PyMC latest docs <https://docs.pymc.io/en/latest>
 Discourse <https://discourse.pymc.io>
 Twitter <https://twitter.com/pymc_devs>
 YouTube <https://www.youtube.com/c/PyMCDevelopers>

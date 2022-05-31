@@ -4,9 +4,9 @@
 :hidden:
 
 Home <welcome>
-Examples <https://docs.pymc.io/projects/examples/en/latest/gallery.html>
-User guide <https://docs.pymc.io/en/latest/learning.html>
-API <https://docs.pymc.io/en/latest/api.html>
+Examples <https://www.pymc.io/projects/examples/en/latest/gallery.html>
+User guide <https://www.pymc.io/projects/docs/en/latest/learning.html>
+API <https://www.pymc.io/projects/docs/en/latest/api.html>
 Community <community/index>
-Contributing <https://docs.pymc.io/en/latest/contributing/index.html>
+Contributing <https://www.pymc.io/projects/docs/en/latest/contributing/index.html>
 :::

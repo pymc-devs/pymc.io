@@ -200,4 +200,6 @@ html_sidebars = {
         "postcard.html",
         "sidebar-nav-bs.html",
     ],
+    "blog": ["sidebar-nav-bs.html"],
+    "[!blog]**": ["sidebar-nav-bs.html"],
 }

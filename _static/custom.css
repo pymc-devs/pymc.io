@@ -9,3 +9,11 @@
 .bg-pymc-three {
     background-color: #e7b07b96 !important;
 }
+
+.navbar-brand {
+  display: inline-block !important;
+}
+
+.supportbutton a {
+ color: var(--pst-color-sidebar-link-active);
+}

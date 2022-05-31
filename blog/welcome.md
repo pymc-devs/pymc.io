@@ -45,7 +45,7 @@ Blog posts can be written as Markdown, Jupyter notebooks or restructured text. A
 rendered without problem and can easily link to posts using different types of files.
 
 ### Flexible content layout
-:::{margin} **Our own "PyMC book"**
+:::{sidebar} **Our own "PyMC book"**
 We have also improved the [PyMC example gallery](https://docs.pymc.io/projects/examples/en/latest/)
 thinking of the notebooks as book chapters. Check it out!
 :::

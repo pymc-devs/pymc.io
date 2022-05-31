@@ -1,5 +1,5 @@
 Sphinx
-sphinx-book-theme
+pydata-sphinx-theme
 sphinx-copybutton
 sphinx-design
 myst-nb
@@ -8,3 +8,4 @@ sphinx-codeautolink
 sphinxext-opengraph
 sphinx-notfound-page
 jupyterlite-sphinx
+sphinxext-rediraffe

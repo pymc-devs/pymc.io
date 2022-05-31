@@ -13,6 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from pathlib import Path
 
 
 # -- Project information -----------------------------------------------------
@@ -40,10 +41,11 @@ extensions = [
     "sphinx_codeautolink",
     "notfound.extension",
     "jupyterlite_sphinx",
+    "sphinxext.rediraffe",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -85,6 +87,10 @@ blog_authors = {
 blog_default_author = "contributors"
 fontawesome_included = True
 
+rediraffe_redirects = {
+    "index.md": "welcome.md",
+}
+
 def remove_catalogs(app):
     """
     This removes the tag, category and archive pages so ablog rewrites them.
@@ -94,12 +100,26 @@ def remove_catalogs(app):
     app.env.project.docnames -= {"blog/tag", "blog/category", "blog/archive"}
     yield "blog", {}, "layout.html"
 
+def remove_index(app):
+    """
+    This removes the index pages so rediraffe generates the redirect placeholder
+    It needs to be present initially for the toctree as it defines the navbar.
+    """
+
+    index_file = Path(app.outdir) / "index.html"
+    index_file.unlink()
+
+    app.env.project.docnames -= {"index"}
+    yield "", {}, "layout.html"
+
+
 def setup(app):
     """
-    Add extra step to sphinx build
+    Add extra steps to sphinx build
     """
 
     app.connect("html-collect-pages", remove_catalogs, 100)
+    app.connect("html-collect-pages", remove_index, 100)
 
 ogp_site_url = "https://pymc.io"
 ogp_image = "https://pymc.io/_static/PyMC.jpg"
@@ -115,20 +135,45 @@ ogp_custom_meta_tags = [
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_book_theme"
+html_theme = "pydata_sphinx_theme"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
 html_theme_options = {
-    "repository_url": "https://github.com/pymc-devs/pymc.io",
-    "repository_branch": "main",
-    "use_repository_button": True,
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/pymc-devs/pymc",
+            "icon": "fab fa-github-square",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/pymc_devs",
+            "icon": "fab fa-twitter-square",
+        },
+        {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/c/PyMCDevelopers",
+            "icon": "fab fa-youtube",
+        },
+        {
+            "name": "Discourse",
+            "url": "https://discourse.pymc.io",
+            "icon": "fab fa-discourse",
+        },
+    ],
     "use_edit_page_button": True,
-    "use_issues_button": False,
-    "logo_only": True,
+    "navbar_end": ["search-field.html", "navbar-icon-links.html"],
+    "page_sidebar_items": ["page-toc", "edit-this-page", "donate"],
     "search_bar_text": "Search...",
-    "show_navbar_depth": 2,
+    "show_nav_level": 2,
+}
+html_context = {
+    "github_user": "pymc-devs",
+    "github_repo": "pymc.io",
+    "github_version": "main",
+    "doc_path": ".",
 }
 
 html_logo = "_static/PyMC.jpg"
@@ -136,41 +181,23 @@ html_favicon = "_static/favicon.ico"
 
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-html_title = "Keeping up with PyMC"
+html_title = "PyMC project website"
 
 html_sidebars = {
     "blog/tag": [
-        "sidebar-logo.html",
-        "search-field.html",
         "tagcloud.html",
-        "sbt-sidebar-nav.html",
+        "sidebar-nav-bs.html",
     ],
     "blog/category": [
-        "sidebar-logo.html",
-        "search-field.html",
         "categories.html",
-        "sbt-sidebar-nav.html",
+        "sidebar-nav-bs.html",
     ],
     "blog/archive": [
-        "sidebar-logo.html",
-        "search-field.html",
         "archives.html",
-        "sbt-sidebar-nav.html",
+        "sidebar-nav-bs.html",
     ],
     "blog/*": [
-        "sidebar-logo.html",
-        "search-field.html",
         "postcard.html",
-        "sbt-sidebar-nav.html",
+        "sidebar-nav-bs.html",
     ],
-    "blog": [
-        "sidebar-logo.html",
-        "search-field.html",
-        "sbt-sidebar-nav.html",
-    ],
-    "[!blog]**": [
-        "sidebar-logo.html",
-        "search-field.html",
-        "sbt-sidebar-nav.html",
-    ]
 }

@@ -7,3 +7,4 @@ ablog
 sphinx-codeautolink
 sphinxext-opengraph
 sphinx-notfound-page
+jupyterlite-sphinx

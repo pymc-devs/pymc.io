@@ -2,6 +2,82 @@
 sd_hide_title: true
 ---
 
+## The PyMC library
+
+{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using Markov chain Monte Carlo (MCMC) methods.
+PyMC focuses on usability, flexibility, scalability, and extensibility.
+Along with core model specification and fitting functionality,
+PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
+
+### Interactive Demo
+```{retrolite} pymc_example.ipynb
+---
+width: 100%
+height: 300px
+```
+
+### Features
+PyMC strives to make Bayesian modeling as simple and painless as possible,
+allowing users to focus on their scientific problem, rather than on the methods used to solve it.
+Here is what sets it apart:
+
+* **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
+* **User friendly**: Simple syntax and documentation with many examples and tutorials for building various models.
+* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend, which supports compilation to C and JAX, automatic gradient calculation, GPU computing, and complex graph-optimizations.
+* **Batteries included**: Comes with a suite of probability distributions, support Gaussian processes, ABC, SMC and much more.
+* **Extensible**: Easily incorporates custom step methods and probability distributions.
+* **Deployable**: Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
+
+## Announcements
+
+:::::{container} full-width
+::::{grid} 1 2 2 3
+:gutter: 3
+
+:::{grid-item-card} PyMC 4.0 is officially released!
+:link: v4_announcement
+:link-type: ref
+:class-header: bg-pymc-three
+:columns: 12
+
+Release announcement
+^^^
+PyMC 4.0 is a major rewrite of the library with many great new features while keeping the same modeling API of PyMC3.
+:::
+
+:::{grid-item-card} PyMC - Office Hours
+:link: https://discourse.pymc.io/tag/office-hours
+:class-header: bg-pymc-one
+
+Event
+^^^
+The PyMC team has recently started hosting office hours regularly.
+Subscribe on Discourse to be notified of the next event!
+:::
+
+:::{grid-item-card} Probabilistic Programming in PyMC
+:link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
+:class-header: bg-pymc-two
+
+Talk
+^^^
+Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
+:::
+
+:::{grid-item-card} Sprint testimonials
+:link: sprint_testimonial
+:link-type: ref
+:class-header: bg-pymc-one
+
+Blog post
+^^^
+Read about the recent PyMC-Data Umbrella sprint in this interview with
+Sandra Meneses, one of the participants who submitted a PR
+:::
+
+::::
+:::::
+
 # The PyMC project
 PyMC is a community driven project with the goal of making Bayesian modeling
 and probabilistic programming intuitive and performant.
@@ -16,92 +92,6 @@ many other activities:
   [PyMC resources](https://github.com/pymc-devs/pymc-resources)
 * [Office hours](https://discourse.pymc.io/tag/office-hours) and
   [sprints](https://pymc-data-umbrella.xyz/en/latest/) to encourage people to contribute to open source
-
-## Announcements
-
-:::::{container} full-width
-::::{grid} 1 2 2 3
-:gutter: 3
-
-:::{grid-item-card} PyMC - Data Umbrella Sprint
-:link: https://discourse.pymc.io/tag/office-hours
-:class-header: bg-pymc-one
-
-Event
-^^^
-The PyMC team has recently started hosting office hours regularly.
-Subscribe on Discourse to be notified of the next event!
-:::
-:::{grid-item-card} Welcome to the PyMC blog
-:link: welcome_post
-:link-type: ref
-:class-header: bg-pymc-two
-
-Blog Post
-^^^
-Check out the new PyMC blog, learn what to expect from it and how to subscribe
-:::
-:::{grid-item-card} Probabilistic Programming in PyMC
-:link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
-:class-header: bg-pymc-three
-
-Talk
-^^^
-Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
-:::
-
-:::{grid-item-card} PyMC is participating in GSoC
-:link: https://github.com/pymc-devs/pymc/wiki/GSoC-2022-projects
-:class-header: bg-pymc-two
-
-Internships
-^^^
-If you are interested in open source, GSoC is the perfect opportunity to dive in and get involved.
-This year, anyone new to open source and over 18 years can participate!
-:::
-:::{grid-item-card} Sprint testimonials
-:link: sprint_testimonial
-:link-type: ref
-:class-header: bg-pymc-three
-
-Blog post
-^^^
-Read about the recent PyMC-Data Umbrella sprint in this interview with
-Sandra Meneses, one of the participants who submitted a PR
-:::
-:::{grid-item-card} PyMC 4.0 is closing in
-:link: v4_announcement
-:link-type: ref
-:class-header: bg-pymc-one
-
-Release announcement
-^^^
-Check out this blog post for a sneak preview of all the improvements PyMC 4.0 will bring!
-Or install the already available beta release and try it for yourself!
-:::
-::::
-:::::
-
-## The PyMC library
-
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users
-to fit Bayesian models using a variety of numerical methods,
-most notably Markov chain Monte Carlo (MCMC) and variational inference (VI).
-Its flexibility and extensibility make it applicable to a large suite of problems.
-Along with core model specification and fitting functionality,
-PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
-
-### Features
-PyMC strives to make Bayesian modeling as simple and painless as possible,
-allowing users to focus on their scientific problem, rather than on the methods used to solve it.
-Here is a partial list of its features:
-
-* Modern methods for fitting Bayesian models, including MCMC and VI.
-* Includes a large suite of well-documented statistical distributions.
-* Uses {doc}`Aesara <aesara:index>` as the computational backend, allowing for fast expression evaluation, automatic gradient calculation, and GPU computing.
-* Built-in support for Gaussian process modeling.
-* Extensible: easily incorporates custom step methods and unusual probability distributions.
-* Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
 
 
 :::{toctree}

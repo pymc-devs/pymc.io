@@ -67,18 +67,19 @@ myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 
 intersphinx_mapping = {
     "aesara": ("https://aesara.readthedocs.io/en/latest/", None),
-    "arviz": ("https://arviz-devs.github.io/arviz", None),
+    "arviz": ("https://python.arviz.org", None),
     "bambi": ("https://bambinos.github.io/bambi/main", None),
     "mpl": ("https://matplotlib.org/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
-    "pymc": ("https://docs.pymc.io/en/stable", None),
-    "nb": ("https://docs.pymc.io/projects/examples/en/latest/", None),
+    "pymc": ("https://www.pymc.io/projects/docs/en/latest", None),
+    "nb": ("https://www.pymc.io/projects/examples/en/latest/", None),
+    "pmx": ("https://www.pymc.io/projects/experimental/en/latest/", None),
     "scipy": ("https://docs.scipy.org/doc/scipy/", None),
-    "xarray": ("https://xarray.pydata.org/en/stable/", None),
+    "xarray": ("https://docs.xarray.dev/en/stable/", None),
 }
 
 blog_baseurl = "https://pymc.io"
-blog_title = "Keeping up with PyMC"
+blog_title = "PyMC project website"
 blog_path = "blog"
 blog_authors = {
     "contributors": ("PyMC Contributors", "https://pymc.io"),
@@ -86,6 +87,8 @@ blog_authors = {
 }
 blog_default_author = "contributors"
 fontawesome_included = True
+
+notfound_urls_prefix = ""
 
 rediraffe_redirects = {
     "index.md": "welcome.md",

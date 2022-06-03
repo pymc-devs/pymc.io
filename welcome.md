@@ -15,7 +15,7 @@ Here is what sets it apart:
 
 * **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
 * **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
-* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend to compile to C and JAX, run your models on the GPU, and benefit from complex graph-optimizations.
+* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend to compile to C and JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
 
@@ -79,6 +79,28 @@ Blog post
 ^^^
 Read about the recent PyMC-Data Umbrella sprint in this interview with
 Sandra Meneses, one of the participants who submitted a PR
+:::
+
+::::
+:::::
+
+## Sponsors
+:::::{container} full-width
+::::{grid} 1 2 2 3
+:gutter: 3
+
+:::
+:img-top:
+https://www.numfocus.org/wp-content/uploads/2017/03/1457562110.png
+
+[NumFOCUS](https://numfocus.org) is our non-profit umbrella organization. [Donate to PyMC](https://numfocus.org/donate-to-pymc3).
+:::
+
+:::
+:img-top:
+https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true
+
+[PyMC Labs](https://pymc-labs.io) offers professional consulting services for PyMC.
 :::
 
 ::::

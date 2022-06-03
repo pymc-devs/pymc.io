@@ -4,10 +4,21 @@ sd_hide_title: true
 
 # Home
 
+<center><img src="https://github.com/pymc-devs/brand/blob/main/logos/1-pymcdevs.png?raw=true" width="75%"/></center>
+
 {doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using Markov chain Monte Carlo (MCMC) methods.
-PyMC focuses on usability, flexibility, scalability, and extensibility.
-Along with core model specification and fitting functionality,
-PyMC integrates with {doc}`ArviZ <arviz:index>` for exploratory analysis of the results.
+
+## Features
+PyMC strives to make Bayesian modeling as simple and painless as possible, allowing users to focus on their problem rather than the methods.
+
+Here is what sets it apart:
+
+* **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
+* **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
+* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend to compile to C and JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
+* **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
+* **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+
 
 ## Interactive Demo
 ```{retrolite} pymc_example.ipynb
@@ -16,17 +27,12 @@ width: 100%
 height: 300px
 ```
 
-## Features
-PyMC strives to make Bayesian modeling as simple and painless as possible,
-allowing users to focus on their scientific problem, rather than on the methods used to solve it.
-Here is what sets it apart:
-
-* **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
-* **User friendly**: Simple syntax and documentation with many examples and tutorials for building various models.
-* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend, which supports compilation to C and JAX, automatic gradient calculation, GPU computing, and complex graph-optimizations.
-* **Batteries included**: Comes with a suite of probability distributions, support Gaussian processes, ABC, SMC and much more.
-* **Extensible**: Easily incorporates custom step methods and probability distributions.
-* **Deployable**: Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
+## Get started
+* [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
+* [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
+* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/howto/api_quickstart.html)
+* [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
+* [Discourse help forum](https://discourse.pymc.io)
 
 ## Announcements
 
@@ -78,21 +84,29 @@ Sandra Meneses, one of the participants who submitted a PR
 ::::
 :::::
 
-## The PyMC project
-PyMC is a community driven project with the goal of making Bayesian modeling
-and probabilistic programming intuitive and performant.
+## Sponsors
+:::::{container} full-width
+::::{grid} 1 2 2 2
+:gutter: 2
 
-The flagship of the PyMC project is the PyMC library, but PyMC also coordinates
-many other activities:
+:::{grid-item-card} NumFOCUS
+:link: https://numfocus.org
 
-* Organizing [PyMCon](https://pymcon.com)
-* Curating the {doc}`PyMC example gallery <nb:index>`
-* Answer questions and moderate discussions on [PyMC Discourse](https://discourse.pymc.io/)
-* Translating the code examples of Bayesian statistics books in
-  [PyMC resources](https://github.com/pymc-devs/pymc-resources)
-* [Office hours](https://discourse.pymc.io/tag/office-hours) and
-  [sprints](https://pymc-data-umbrella.xyz/en/latest/) to encourage people to contribute to open source
+<img src="https://www.numfocus.org/wp-content/uploads/2017/03/1457562110.png"/>
 
+NumFOCUS is our non-profit umbrella organization.
+:::
+
+:::{grid-item-card} PyMC Labs
+:link: https://pymc-labs.io
+
+<img src="https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true"/>
+
+PyMC Labs offers professional consulting services for PyMC.
+:::
+
+::::
+:::::
 
 :::{toctree}
 :hidden:
@@ -111,5 +125,5 @@ Twitter <https://twitter.com/pymc_devs>
 YouTube <https://www.youtube.com/c/PyMCDevelopers>
 LinkedIn <https://www.linkedin.com/company/pymc/>
 Meetup <https://www.meetup.com/pymc-online-meetup/>
-Website repo <https://github.com/pymc-devs/pymc.io>
+GitHub <https://www.github.com/pymc-devs/pymc>
 :::

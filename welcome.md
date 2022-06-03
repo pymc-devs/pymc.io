@@ -14,7 +14,7 @@ PyMC strives to make Bayesian modeling as simple and painless as possible, allow
 Here is what sets it apart:
 
 * **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
-* **User friendly**: Write your models in simple Python. Comprehensive documentation with many examples and tutorials for building various models.
+* **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
 * **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend to compile to C and JAX, run your models on the GPU, and benefit from complex graph-optimizations.
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).

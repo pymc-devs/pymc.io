@@ -86,23 +86,23 @@ Sandra Meneses, one of the participants who submitted a PR
 
 ## Sponsors
 :::::{container} full-width
-::::{grid} 1 1
+::::{grid} 1 2 2 2
 :gutter: 2
 
 :::{grid-item-card} NumFOCUS
 :link: https://numfocus.org
-:img-top:
-https://www.numfocus.org/wp-content/uploads/2017/03/1457562110.png
 
-[NumFOCUS](https://numfocus.org) is our non-profit umbrella organization. [Donate to PyMC](https://numfocus.org/donate-to-pymc3).
+<img src="https://www.numfocus.org/wp-content/uploads/2017/03/1457562110.png"/>
+
+NumFOCUS is our non-profit umbrella organization.
 :::
 
 :::{grid-item-card} PyMC Labs
 :link: https://pymc-labs.io
-:img-top:
-https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true
 
-[PyMC Labs](https://pymc-labs.io) offers professional consulting services for PyMC.
+<img src="https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true"/>
+
+PyMC Labs offers professional consulting services for PyMC.
 :::
 
 ::::

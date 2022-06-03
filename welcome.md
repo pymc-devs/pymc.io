@@ -76,6 +76,12 @@ Sandra Meneses, one of the participants who submitted a PR
 ::::
 :::::
 
+## Get started
+* [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
+* [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
+* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/howto/api_quickstart.html)
+* [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
+* [Discourse help forum](https://discourse.pymc.io)
 
 :::{toctree}
 :hidden:

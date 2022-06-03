@@ -100,5 +100,5 @@ Twitter <https://twitter.com/pymc_devs>
 YouTube <https://www.youtube.com/c/PyMCDevelopers>
 LinkedIn <https://www.linkedin.com/company/pymc/>
 Meetup <https://www.meetup.com/pymc-online-meetup/>
-Website repo <https://github.com/pymc-devs/pymc.io>
+GitHub <https://www.github.com/pymc-devs/pymc>
 :::

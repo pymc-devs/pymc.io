@@ -14,11 +14,11 @@ PyMC strives to make Bayesian modeling as simple and painless as possible, allow
 Here is what sets it apart:
 
 * **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
-* **User friendly**: Simple syntax and documentation with many examples and tutorials for building various models.
-* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend, which supports compilation to C and JAX, automatic gradient calculation, GPU computing, and complex graph-optimizations.
-* **Batteries included**: Comes with a suite of probability distributions, support Gaussian processes, ABC, SMC and much more. It integrates nicely with the {doc}`ArviZ <arviz:index>` for visualizaton.
-* **Extensible**: Easily incorporates custom step methods and probability distributions.
-* **Deployable**: Bayesian models can be embedded in larger programs, and results can be analyzed with the full power of Python.
+* **User friendly**: Write your models in simple Python. Comprehensive documentation with many examples and tutorials for building various models.
+* **Fast**: Uses {doc}`Aesara <aesara:index>` as its computational backend to compile to C and JAX, run your models on the GPU, and benefit from complex graph-optimizations.
+* **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics.
+* **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and [contribute](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+
 
 ## Interactive Demo
 ```{retrolite} pymc_example.ipynb

@@ -17,7 +17,7 @@ The items in this guide are designed to help maximize the chances that you good 
 (ask_discourse/search)=
 ## Search
 
-The PyMC Discourse is full of questions that have already received useful answers.  So definitely use the search function to see if anyone has asked questions that are similar to yours.  Try different combinations of keywords because past questions don't necessarily include {ref}`a great title <title>`.  You can also search discourse for topics by selecting relevant {ref}`tags` (or filter search results by tag).  You should also try searching {doc}`the PyMC documentation <pymc:index>` because it covers both the PyMC API and common use-cases.  If you find something that is related but does not solve your specific problem, include links to these related pages and explain why the what you have found does not solve your problem.
+The PyMC Discourse is full of questions that have already received useful answers.  So definitely use the search function to see if anyone has asked questions that are similar to yours.  Try different combinations of keywords because past questions don't necessarily include {ref}`a great title <ask_discourse/title>`.  You can also search discourse for topics by selecting relevant {ref}`ask_discourse/tags` (or filter search results by tag).  You should also try searching {doc}`the PyMC documentation <pymc:index>` because it covers both the PyMC API and common use-cases.  If you find something that is related but does not solve your specific problem, include links to these related pages and explain why the what you have found does not solve your problem.
 
 
 (ask_discourse/problem)=
@@ -57,7 +57,7 @@ After streamlining your code down to just the essentials, make sure that you dou
 ## A Good Title
 The title of your topic is critical because it's the first thing people will see when you submit your question.  If the question doesn't seem relevant or interesting or if people can't understand what your question might be about, then you may not get people to read and answer your question.
 
-Highlight what you believe to be the critical aspects of your question.  Finally, if you have trouble summarizing what aspects of your problem are important, you can try waiting until you have written your entire topic, including the {ref}`mwe` before trying to write the title.
+Highlight what you believe to be the critical aspects of your question.  Finally, if you have trouble summarizing what aspects of your problem are important, you can try waiting until you have written your entire topic, including the {ref}`ask_discourse/mwe` before trying to write the title.
 
 **Good titles**:
 - "Why doesn't pm.sample() use all my cores?"

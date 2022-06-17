@@ -177,6 +177,7 @@ html_context = {
     "github_repo": "pymc.io",
     "github_version": "main",
     "doc_path": ".",
+    "default_mode": "light",
 }
 
 html_logo = "_static/PyMC.jpg"

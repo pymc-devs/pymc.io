@@ -12,12 +12,12 @@ The items in this guide are designed to help maximize the chances that you good 
 - {ref}`ask_discourse/versions`
 - {ref}`ask_discourse/tags`
 - {ref}`ask_discourse/example`
-- {ref}`ask_discourse/summary`
+- {ref}`Summary <ask_discourse/summary>`
 
 (ask_discourse/search)=
 ## Search
 
-The PyMC Discourse is full of questions that have already received useful answers.  So definitely use the search function to see if anyone has asked questions that are similar to yours.  Try different combinations of keywords because past questions don't necessarily include {ref}`title`<a great title>.  You can also search disourse for topics by selecting relevant {ref}`tags` (or filter search results by tag).  You should also try searching {ref}`the PyMC documentation <pymc/>` because it covers both the PyMC API and common use-cases.  If you find something that is related but does not solve your specific problem, include links to these related pages and explain why the what you have found does not solve your problem.
+The PyMC Discourse is full of questions that have already received useful answers.  So definitely use the search function to see if anyone has asked questions that are similar to yours.  Try different combinations of keywords because past questions don't necessarily include {ref}`a great title <title>`.  You can also search discourse for topics by selecting relevant {ref}`tags` (or filter search results by tag).  You should also try searching {doc}`the PyMC documentation <pymc:index>` because it covers both the PyMC API and common use-cases.  If you find something that is related but does not solve your specific problem, include links to these related pages and explain why the what you have found does not solve your problem.
 
 
 (ask_discourse/problem)=
@@ -81,13 +81,14 @@ Please include information about what versions of the relevant packages you have
 - How you installed PyMC (e.g., pip, conda, mamba)
 
 
-(ask_discourse/tags)
+(ask_discourse/tags)=
 ## Tags
 Discourse includes two ways to classify topics: categories and tags.  Each topic belongs to exactly one category.  The most popular categories are for questions (e.g., `Questions/v4`, `Questions/v3`), but `Development` and `Sharing` are also quite popular.  Each topic may have more than one tag.  When you post your topic, search through the tags for any key words that might be relevant.  Tags include things like `bug`, `gaussian_process`, and `gpu`.
 
 Categories and tags are an important part of how discourse functions.  Users can subscribe to categories and/or tags that are of interest.  This means that careful selection of a category and one or more tags can alert the most relevant users to your question and get you answers quicker.
 
-```{important} Categories and tags are a critical part of how Discourse works.  Many users subscribe to categories and tags that are relevant to their own expertise.  This allows them to focus exclusively on questions that they are able to answer.  So if you post a questions under a generic category (e.g., "General") or post without any tags, your question is far less likely to attract the attention of those users most capable of answer your question!```
+```{important}
+Categories and tags are a critical part of how Discourse works.  Many users subscribe to categories and tags that are relevant to their own expertise.  This allows them to focus exclusively on questions that they are able to answer.  So if you post a questions under a generic category (e.g., "General") or post without any tags, your question is far less likely to attract the attention of those users most capable of answer your question!
 ```
 
 (ask_discourse/example)=
@@ -127,9 +128,11 @@ Python version: 3.10.2\
 Operating system: linux\
 How you installed PyMC: conda
 
+---
 
-(ask_discourse/summary)=
 ```{admonition} Summary
+:name: ask_discourse/summary
+
 - Search for information both on Discourse and in the PyMC documentation
 - Precisely describe your problem
 - Provide a self-contained bit of code that reproduces your problem as concisely as possible

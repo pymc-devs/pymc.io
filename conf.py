@@ -124,8 +124,8 @@ def setup(app):
     app.connect("html-collect-pages", remove_catalogs, 100)
     app.connect("html-collect-pages", remove_index, 100)
 
-ogp_site_url = "https://pymc.io"
-ogp_image = "https://pymc.io/_static/PyMC.jpg"
+ogp_site_url = "https://www.pymc.io"
+ogp_image = "https://www.pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
 ogp_custom_meta_tags = [

@@ -5,7 +5,7 @@
 :tags: sprint, contributing
 :category: news
 :author: Reshama Shaikh, Thomas Wiecki
-:image: 1
+:image: 0
 :exclude:
 
 The PyMC coordinated a development hackathon in May/June 2022 to complete updates and documentation in order to release [v4.0 of the PyMC library](https://twitter.com/pymc_devs/status/1533863780601446401).

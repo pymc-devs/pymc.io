@@ -116,13 +116,13 @@ The new version also brings Plot Conditional Adjusted Predictions, if you are in
 ### Connect with PyMC
 
 Connect with PyMC via:
-- Website:  https://www.pymc.io
-- Discourse: https://discourse.pymc.io
-- YouTube: https://www.youtube.com/c/PyMCDevelopers
-- Star GH repo:  https://github.com/pymc-devs/pymc
-- Join Meetup: https://www.meetup.com/pymc-online-meetup/
-- Twitter: https://twitter.com/pymc_devs
-- LinkedIn: https://www.linkedin.com/company/pymc/
+- Website:  [pymc.io](https://www.pymc.io)
+- Discourse: [discourse.pymc.io](https://discourse.pymc.io)
+- YouTube: [PyMCDevelopers](https://www.youtube.com/c/PyMCDevelopers)
+- Star GH repo:  [pymc-devs/pymc](https://github.com/pymc-devs/pymc)
+- Join Meetup: [pymc-online-meetup](https://www.meetup.com/pymc-online-meetup/)
+- Twitter: [@pymc_devs](https://twitter.com/pymc_devs)
+- LinkedIn: [@pymc](https://www.linkedin.com/company/pymc/)
 
 ### Support PyMC
 

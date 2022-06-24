@@ -127,3 +127,8 @@ Connect with PyMC via:
 ### Support PyMC
 
 You can support the PyMC project by making a donation to the [PyMC on Open Collective](https://opencollective.com/pymc#category-CONTRIBUTE).
+
+### References
+
+- [PyMC v4.0 Release Announcement](https://www.pymc.io/blog/v4_announcement.html)
+- [PyMC v4.0 Release Notes](https://github.com/pymc-devs/pymc/blob/main/RELEASE-NOTES.md)

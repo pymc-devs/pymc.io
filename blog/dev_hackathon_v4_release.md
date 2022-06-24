@@ -13,7 +13,7 @@ The PyMC coordinated a development hackathon in May/June 2022 to complete update
 
 ![v4 release social media card](../_static/hackathon_v4_release/v4release_card.png)
 
-The PyMC team planned a 7-day online sprint beginning May 30, 2022.  The goal was to complete remaining issues on the v4.0 release.  But, *mainly* it was to finalize the documentation and update the website for PyMC.
+The [v4.0 release of the PyMC library](https://twitter.com/pymc_devs/status/1533863780601446401) was officially announced on June 6, 2022.  To achieve this milestone, the PyMC team planned a week-long online sprint beginning May 30, 2022.  The goal was to complete remaining issues on the v4.0 release.  But, *mainly* it was to finalize the documentation and update the website for PyMC.
 
 There are 3 separate websites for [PyMC](https://www.pymc.io/welcome.html):  
 - [Website and Blog](https://www.pymc.io/welcome.html)

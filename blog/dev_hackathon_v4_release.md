@@ -35,6 +35,7 @@ We shared the sprint events on our new [PyMC Online Meetup](https://www.meetup.c
 - Chris Fonnesbeck (Nashville, USA)
 - Osvaldo Martin (Argentina)
 - Rob Zinkov (Germany)
+- Maxim Kochurov (Moscow, Russia)
 - Reshama Shaikh (New York, USA)
 
 The PyMC project also have begun the 2022 [Google Summer of Code](https://github.com/pymc-devs/pymc/wiki/GSoC-2022-projects) (GSOC) program and the following GSOC folks joined:  

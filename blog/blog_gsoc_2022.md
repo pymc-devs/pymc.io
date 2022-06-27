@@ -39,7 +39,8 @@ Increase Support for Batched Multivariate Distributions
 Learn more at [Purna's GSOC blog](https://purna135.github.io/gsoc/gsoc-2022-with-pymc/).
 
 1. __What motivated you to apply for GSoC with PyMC?__
-    GSoC is a place where I can not only apply my existing skills but also learn new ones. And the learning does not stop with technical knowledge. GSoC introduces me to a new paradigm for collaboratively developing code. Furthermore, GSoC is a platform that allows me to build on and hone my current skills, which motivates me to apply for GSoC.
+
+     GSoC is a place where I can not only apply my existing skills but also learn new ones. And the learning does not stop with technical knowledge. GSoC introduces me to a new paradigm for collaboratively developing code. Furthermore, GSoC is a platform that allows me to build on and hone my current skills, which motivates me to apply for GSoC.
 
 1. __Why did you choose your specific project topic?__
 

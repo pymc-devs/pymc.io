@@ -46,6 +46,7 @@ A number of contributors joined from the community:
 - Ivan Finaev
 - percevalve
 - Rob Zinkov (Germany)
+
 There were lots of people throughout the week, and it is likely we are forgetting some folks. If we forgot you, let us know!
 
 :::{figure-md} hackathon_screenshot

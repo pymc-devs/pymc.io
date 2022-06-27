@@ -13,11 +13,18 @@ We are excited to introduce to the community our cohort of GSoC students working
 
 ## Purna Chandra Mansingh
 
-![photo of Purna Chandra Mansingh](../_static/gsoc_2022/purna.jpg)
-
 **Project Name**
 
 Increase Support for Batched Multivariate Distributions
+
+::::{grid}
+:::{grid-item} 
+:columns: 12 6 6 4
+
+![photo of Purna Chandra Mansingh](../_static/gsoc_2022/purna.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
 
 **Bio**
 >I am a final-year student at Hyderabad Central University pursuing a Master's in Computer Applications. I've been working in the fields of data science and machine learning for the past year. I enjoy working on complex problems and am a technical instructor. In my spare time, I enjoy contributing what I've learned to open-source projects.
@@ -26,6 +33,8 @@ Increase Support for Batched Multivariate Distributions
 - Twitter: [@purna_mansingh](https://twitter.com/purna_mansingh)
 - LinkedIn: [purna135](https://www.linkedin.com/in/purna135/)
 - GitHub: [@purna135](http://github.com/purna135)
+:::
+::::
 
 Learn more at [Purna's GSOC blog](https://purna135.github.io/gsoc/gsoc-2022-with-pymc/).
 

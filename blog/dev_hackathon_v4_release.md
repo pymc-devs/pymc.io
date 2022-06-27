@@ -15,10 +15,6 @@ The PyMC team coordinated a development hackathon in May/June 2022 to complete u
 
 The [v4.0 release of the PyMC library](https://twitter.com/pymc_devs/status/1533863780601446401) was officially announced on June 6, 2022.  To achieve this milestone, the PyMC team planned a week-long online sprint beginning May 30, 2022.  The goal was to complete remaining issues on the v4.0 release.  But, *mainly* it was to finalize the documentation and update the website for PyMC.
 
-There are 3 separate websites for [PyMC](https://www.pymc.io/welcome.html):  
-- [Website and Blog](https://www.pymc.io/welcome.html)
-- [Documentation (API)](https://www.pymc.io/projects/docs/en/stable/api.html)
-- [Examples](https://www.pymc.io/projects/examples/en/latest/gallery.html)
 
 And all 3 websites had separate navigation bars and it was confusing for the users, maybe for the library maintainers too?
 

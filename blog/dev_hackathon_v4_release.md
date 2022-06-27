@@ -53,7 +53,7 @@ There were lots of people throughout the week, and it is likely we are forgettin
 
 ![grid screenshot of 9 people](../_static/hackathon_v4_release/tweet1_hackathon.png)
 
-Day 2 of PyMC v4.0 Developer Hackathon, June 2, 2022; Photo credit: [Thomas Wiecki](https://www.pymc-labs.io/team/thomas-wiecki/); (from left to right): Alex Andorra, Christian Luhmann, Connor Hassan , Maxime Kochurov, Oriol Abril Pla, Purna C, Ricardo Vieira, Rob Zinkov, Thomas Wiecki
+Day 2 of PyMC v4.0 Developer Hackathon, June 2, 2022; Photo credit: [Thomas Wiecki](https://www.pymc-labs.io/team/thomas-wiecki/); (from left to right): Alex Andorra, Christian Luhmann, Connor Hassan , Maxime Kochurov, Oriol Abril Pla, Purna Chandra Mansingh, Ricardo Vieira, Rob Zinkov, Thomas Wiecki
 :::
 
 ## Highlight Achievements During the Sprint

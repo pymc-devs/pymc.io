@@ -34,7 +34,6 @@ We shared the sprint events on our new [PyMC Online Meetup](https://www.meetup.c
 - Oriol Abril Pla (Finland)
 - Chris Fonnesbeck (Nashville, USA)
 - Osvaldo Martin (Argentina)
-- Rob Zinkov (Germany)
 - Maxim Kochurov (Moscow, Russia)
 - Reshama Shaikh (New York, USA)
 

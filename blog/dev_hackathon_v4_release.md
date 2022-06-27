@@ -1,4 +1,4 @@
-(sprint_testimonial)=
+(version_four_release)=
 # Dev Sprint: Getting the PyMC v4.0 Release Out
 
 :::{post} Jun 24, 2022

@@ -126,7 +126,7 @@ Connect with PyMC via:
 
 ### Support PyMC
 
-You can support the PyMC project by making a donation to the [PyMC on Open Collective](https://opencollective.com/pymc#category-CONTRIBUTE).
+- [Donate to the the PyMC project](https://numfocus.org/donate-to-pymc)
 
 ### References
 

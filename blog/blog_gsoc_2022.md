@@ -18,11 +18,16 @@ We are excited to introduce to the community our cohort of GSoC students working
 Fast Exact Gaussian Processes
 
 **Mentors**
-- [Chris Fonnesbeck]
-- [Bill Engels]
+- [Chris Fonnesbeck](https://github.com/fonnesbeck)
+- [Bill Engels](https://github.com/bwengals)
 ::::{grid}
 ::::{grid-item}
 :columns: 12 6 6 4
+
+![photo of Kunal Ghosh](../_static/gsoc_2022/kunal.png)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
 
 **Bio**
 > I am a fourth year PhD student in computer science and applied physics in Aalto University, Helsinki, Finland. My research involves developing novel machine learning solutions to materials science. I am broadly interested in generative modelling, materials science and deep learning.

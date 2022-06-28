@@ -107,8 +107,9 @@ The new version also brings Plot Conditional Adjusted Predictions, if you are in
 
 <br>
 
-## Summary [call to action]
-[*** Thomas: add a line here encouraging people to upgrade to v4.0 + link to v4 installation instructions.]
+## Summary
+
+Get started with v `4.0` by installing [PyMC via `conda`](https://www.pymc.io/blog/v4_announcement.html#installation). Read the full [PyMC v4.0 Release Announcement](https://www.pymc.io/blog/v4_announcement.html#installation) and [PyMC v4.0 Release Notes](https://github.com/pymc-devs/pymc/blob/main/RELEASE-NOTES.md).
 
 ### Connect with PyMC
 

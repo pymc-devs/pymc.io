@@ -17,6 +17,9 @@ We are excited to introduce to the community our cohort of GSoC students working
 
 Increase Support for Batched Multivariate Distributions
 
+**Mentors**
+- [Sayam Kumar](https://github.com/Sayam753)
+- [Ricardo Vieira](https://github.com/ricardoV94)
 ::::{grid}
 :::{grid-item} 
 :columns: 12 6 6 4

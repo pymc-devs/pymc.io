@@ -34,7 +34,7 @@ Fast Exact Gaussian Processes
 
 **Connecting**
 - Twitter: [@kunalghosh](https://twitter.com/kunalghosh)
-- LinkedIn: [kunalgh](https://www.linkedin.com/fi/kunalgh/)
+- LinkedIn: [kunalgh](https://www.linkedin.com/in/kunalgh/)
 - GitHub: [@kunalghosh](http://github.com/kunalghosh)
 :::
 ::::

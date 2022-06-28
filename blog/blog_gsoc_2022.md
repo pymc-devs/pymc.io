@@ -51,7 +51,7 @@ Learn more at [Kunal's GSOC blog](https://kunalghosh.github.io/tags/gsoc).
 
 1. __How did you get involved in open source software?__
 
-    I started quite early, initially as a linux user in the early 2000s while I was in high school. During my undergraduate years, I setup a free software user group in our university and also organised workshops about free software for scientific work. Subsequently, I participated in KDE's Season of KDE and then a GSoC for the OwnCloud project. But all through, I've just had a deep love and appreciation for free and open source software.
+    I started quite early, initially as a Linux user in the early 2000s while I was in high school. During my undergraduate years, I setup a free software user group in our university and also organised workshops about free software for scientific work. Subsequently, I participated in KDE's Season of KDE and then a GSoC for the OwnCloud project. But all through, I've just had a deep love and appreciation for free and open source software.
 
 1. __What are you expecting or hoping to get out of your GSoC experience?__
 

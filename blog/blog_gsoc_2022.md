@@ -11,6 +11,56 @@
 We are excited to introduce to the community our cohort of GSoC students working on PyMC, Aesara and ArViZ.
 :::
 
+## Kunal Ghosh
+
+**Project Name**
+
+Fast Exact Gaussian Processes
+
+**Mentors**
+- [Chris Fonnesbeck](https://github.com/fonnesbeck)
+- [Bill Engels](https://github.com/bwengals)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Kunal Ghosh](../_static/gsoc_2022/kunal.png)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> I am a fourth year PhD student in computer science and applied physics at Aalto University, Helsinki, Finland. My research involves developing novel machine learning solutions to challenges in computational materials science. I am broadly interested in generative modelling, materials science and deep learning. I also love teaching and have assisted in courses on Bayesian Data Analysis and Deep Learning at Aalto university.
+
+**Connecting**
+- Twitter: [@kunalghosh](https://twitter.com/kunalghosh)
+- LinkedIn: [kunalgh](https://www.linkedin.com/in/kunalgh/)
+- GitHub: [@kunalghosh](http://github.com/kunalghosh)
+:::
+::::
+
+Learn more at [Kunal's GSOC blog](https://kunalghosh.github.io/tags/gsoc).
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+  
+     During one of the cold and dark winter evenings in Helsinki I was chatting with some fellow PhD students about my future life plans. I wasn't sure what exactly I wanted to do, but having written a few large pieces of software for my research projects I appreciated the importance of writing good quality code. I knew that Osvaldo Martin (one of the core PyMC devs) was working on PyMC and after one of our group meetings (Osvaldo was doing a Post-doc with my PhD supervisor Aki) I asked if there was a possibility to work on PyMC since it would be a good opportunity for me to learn good software engineering practices and also contribute to open source (I was quite an avid KDE user back in the day). One thing lead to another and I applied to GSoC under PyMC and now I'm here :)
+
+1. __Why did you choose your specific project topic?__
+
+     I was looking for potential projects which I had some prior experience and background in. Since I have some prior experience with using Gaussian processes and have also implemented them from scratch before, fast exact Gaussian process was a natural choice! Reasonably familiar but with still some scope to learn.
+
+1. __How did you get involved in open source software?__
+
+    I started quite early, initially as a Linux user in the early 2000s while I was in high school. During my undergraduate years, I setup a free software user group in our university and also organised workshops about free software for scientific work. Subsequently, I participated in KDE's Season of KDE and then a GSoC for the OwnCloud project. But all through, I've just had a deep love and appreciation for free and open source software.
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+    I will implement fast exact Gaussian processes in PyMC and have the code ready to be committed to mainline, hopefully by the end of GSoC. But more importantly learn good software engineering practices and hopefully continue to be a long term contributor of PyMC.
+
+1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+    I love teaching and working on research problems. I would like to do a part-time post-doc and work as a researcher in the industry, prototyping new solutions to challenging problems in the industry. If there is any company out there reading this and wants to have a chat, don't hesitate to get in touch with me ;). Apart from that, I enrolled in GSoC purely to learn better software engineering practices, I am sure that would be useful regardless of what I end up doing :)
+
 ## Purna Chandra Mansingh
 
 **Project Name**

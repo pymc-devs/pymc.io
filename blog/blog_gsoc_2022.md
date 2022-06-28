@@ -61,6 +61,54 @@ Learn more at [Purna's GSOC blog](https://purna135.github.io/gsoc/gsoc-2022-with
 
     I want to pursue a career in software development and the GSoC experience will help me to gain the skills I need to design and implement large and highly optimized software.
 
-## GSOC Person #2
+## Larry Dong
 
+**Project Name**
 
+A PyMC Dirichlet Process Submodule via AePPL Enhancements
+
+**Mentors**
+- [Ricardo Vieira](https://github.com/ricardoV94)
+- [Brandon Willard](https://github.com/brandonwillard)
+
+::::{grid}
+:::{grid-item} 
+:columns: 12 6 6 4
+
+![photo of Larry Dong](../_static/gsoc_2022/larry.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+>I am a second year PhD student in biostatistics at the Dalla Lana School of Public Health at the University of Toronto in Toronto, Canada. My academic interests revolve around dynamic treatment regimes and Bayesian methods. I began my PhD during the pandemic which has allowed me to be immersed in open-source, particularly in the PyMC community. My first GSoC project entailed implementing a Dirichlet Process submodule for PyMC and I’m back for another GSoC to continue this project and to learn more about Aesara and AePPL.
+
+**Connecting**
+
+- Twitter: [@larryshamalama](https://twitter.com/larryshamalama)
+- LinkedIn: [larry-dong](https://www.linkedin.com/in/larry-dong/)
+- GitHub: [@larryshamalama](https://github.com/larryshamalama)
+:::
+::::
+
+Learn more at [Larry's GSOC blog](https://larrydong.com/gsoc )
+
+1. __What motivated you to apply for GSoC with PyMC?__
+
+I initially found out about the possibility to do GSoC with PyMC by browsing Twitter in March 2020. It was my second remote semester of my first year of PhD program and it was tiring me out; I knew that I needed a change of scenery from my online studies. Contributing to open-source was not an idea that occurred to me before entering my PhD yet it was a very appealing one. I knew that it is a nice opportunity to learn, especially when it comes to programming and contributing to an established codebase, and interact with members of a community. I wrote a more in-depth blogpost about my experience starting a PhD remotely and discovering open-source via GSoC: [https://larrydong.com/posts/2022-06-18-value-oss/](https://larrydong.com/posts/2022-06-18-value-oss/).
+
+1. __Why did you choose your specific project topic?__
+
+In summer of 2020, I attended an online [summer school on Dirichlet Processes](https://www.youtube.com/playlist?list=PLHaWeIntAtAIjrTCeQ5ZfNlG2HRvtGOu4) and I barely understood anything. However, they seemed interesting and I was somehow appealed by the method. As such, I decided to jump head first into implementing a functionality in PyMC for Dirichlet Processes given there was an opportunity.
+
+1. __How did you get involved in open source software?__
+
+I started small, like everyone, by fixing typos and updating trivial things. Even just creating pull request sometimes took me many attempts. It was during GSoC that I really started getting more involved in open-source.
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+In terms of the project, I would like to have a Dirichlet Process submodule available in PyMC experimental and have a solid foundation of Aesara and AePPL to be a longer term contributor. However, probably a more important goal of mine would be to continue foster the nice and inclusive community that first welcomed me when I was going through a hard time.
+
+1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+My exact career goals are still yet to be determined, but GSoC has showed me that there is a world where my graduate education in statistics and programming skills would be very valuable in the real world. I would like to find a job following my graduation (fingers crossed) that makes use of such skills, but, frankly, I don’t know what exact career I’m preparing myself for. I guess an inherent beauty of contributing open-source is that I can perhaps discover future career prospects as I work on and enjoy my GSoC project!

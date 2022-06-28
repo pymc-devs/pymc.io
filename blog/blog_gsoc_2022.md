@@ -21,7 +21,7 @@ Fast Exact Gaussian Processes
 - [Chris Fonnesbeck](https://github.com/fonnesbeck)
 - [Bill Engels](https://github.com/bwengals)
 ::::{grid}
-::::{grid-item}
+:::{grid-item}
 :columns: 12 6 6 4
 
 ![photo of Kunal Ghosh](../_static/gsoc_2022/kunal.png)

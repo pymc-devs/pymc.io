@@ -55,7 +55,7 @@ Learn more at [Kunal's GSOC blog](https://kunalghosh.github.io/tags/gsoc).
 
 1. __What are you expecting or hoping to get out of your GSoC experience?__
 
-    I would like to implement the fast exact Gaussian processes in PyMC and have the code ready to be committed to mainline. But more importantly learn good software engineering practices and hopefully continue to be a long term contributor of PyMC.
+    I will implement fast exact Gaussian processes in PyMC and have the code ready to be committed to mainline, hopefully by the end of GSoC. But more importantly learn good software engineering practices and hopefully continue to be a long term contributor of PyMC.
 
 1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
 

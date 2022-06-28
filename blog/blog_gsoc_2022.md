@@ -47,7 +47,7 @@ Learn more at [Kunal's GSOC blog](https://kunalghosh.github.io/tags/gsoc).
 
 1. __Why did you choose your specific project topic?__
 
-     I was looking for potential projects which I had some prior experience and background in. Since I have some prior experience with using Gaussian processes and have also implemented them from scratch before, fast exact Gaussian process was a natural choice ! Reasonably familiar but with still some scope to learn.
+     I was looking for potential projects which I had some prior experience and background in. Since I have some prior experience with using Gaussian processes and have also implemented them from scratch before, fast exact Gaussian process was a natural choice! Reasonably familiar but with still some scope to learn.
 
 1. __How did you get involved in open source software?__
 

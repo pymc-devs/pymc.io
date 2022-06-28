@@ -43,7 +43,7 @@ Learn more at [Kunal's GSOC blog](https://kunalghosh.github.io/tags/gsoc).
 
 1. __What motivated you to apply for GSoC with PyMC?__ 
   
-     During one of the cold and dark winter evenings in Helsinki I was chatting with some fellow PhD students about my future life plans. I wasn't sure what exactly I wanted to do, but having written a few large pieces of software for my research projects I appreciated the importance of writing good quality code. I knew that Osvaldo (one of the core PyMC devs) was working on PyMC and after one of our group meetings (Osvaldo was doing a Post-doc with my PhD supervisor Aki) I asked if there was a possibility to work on PyMC since it would be a good opportunity for me to learn good software engineering practices and also contribute to open source (I was quite an avid KDE user back in the day). One thing lead to another and I applied to GSoC under PyMC and now I'm here :)
+     During one of the cold and dark winter evenings in Helsinki I was chatting with some fellow PhD students about my future life plans. I wasn't sure what exactly I wanted to do, but having written a few large pieces of software for my research projects I appreciated the importance of writing good quality code. I knew that Osvaldo Martin (one of the core PyMC devs) was working on PyMC and after one of our group meetings (Osvaldo was doing a Post-doc with my PhD supervisor Aki) I asked if there was a possibility to work on PyMC since it would be a good opportunity for me to learn good software engineering practices and also contribute to open source (I was quite an avid KDE user back in the day). One thing lead to another and I applied to GSoC under PyMC and now I'm here :)
 
 1. __Why did you choose your specific project topic?__
 

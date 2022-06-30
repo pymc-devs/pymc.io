@@ -128,5 +128,5 @@ Connect with PyMC via:
 
 ### References
 
-- [PyMC v4.0 Release Announcement](https://www.pymc.io/blog/v4_announcement.html)
+- {ref}`v4_announcement`
 - [PyMC v4.0 Release Notes](https://github.com/pymc-devs/pymc/blob/main/RELEASE-NOTES.md)

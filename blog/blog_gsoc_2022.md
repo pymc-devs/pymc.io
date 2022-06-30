@@ -162,3 +162,57 @@ In terms of the project, I would like to have a Dirichlet Process submodule avai
 1. __What are your career goals? How do you see the GSoC program moving you towards them?__
 
 My exact career goals are still yet to be determined, but GSoC has showed me that there is a world where my graduate education in statistics and programming skills would be very valuable in the real world. I would like to find a job following my graduation (fingers crossed) that makes use of such skills, but, frankly, I don’t know what exact career I’m preparing myself for. I guess an inherent beauty of contributing open-source is that I can perhaps discover future career prospects as I work on and enjoy my GSoC project!
+
+## Danh Phan
+
+**Project Name**
+
+Multi-output Gaussian Processes in PyMC
+
+**Mentors**
+- [Chris Fonnesbeck](https://github.com/fonnesbeck)
+- [Bill Engels](https://github.com/bwengals)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Danh Phan](../_static/gsoc_2022/danh_phan.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> Hi, my name is Danh Phan, a PhD candidate at Monash University, Australia. My research focuses on Machine learning (Bayesian methods, choice models, tree-based, and deep neural networks) for intelligent transport systems. I have more than four years of experience working on different machine learning algorithms, and have published several papers in the machine learning field. Besides, I have worked as an instructor at [Monash Data Fluency](https://www.monash.edu/data-fluency/workshops), where I teach hand-one workshops on Python, Git, and High-Performance Computing to research students and staff at Monash University. I have also been worked with Bayesian methods in PyMC for nearly two years.
+
+**Connecting**
+- Twitter: [@kunalghosh](https://twitter.com/danhpt)
+- LinkedIn: [kunalgh](https://www.linkedin.com/in/danhpt)
+- GitHub: [@kunalghosh](https://github.com/danhphan)
+:::
+::::
+
+Learn more at [Danh Phan's blog](https://danhphan.github.io/blog).
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+  
+     My first experience working with Bayesian methods (Bayesian Networks, GLM) is learning from PyMC code examples and resources. The useful learning materials and excellent community support help me a lot in my journey to perform Bayesian analysis. With the great support from the PyMC dev team, I have recently contributed several pull requests (PRs) to PyMC and Aesara GitHub codebase. Moreover, I want to involve long-term with this community to learn and contribute along the way.
+
+2. __Why did you choose your specific project topic?__
+
+     I am interested in applying Gaussian Processes to analyse real-world datasets, which have temporal and spatial features. In my current research topic, I have been working on the Multi-outputs Gaussian Processes (MOGPs) for generating people’s travel activity time. Thus, I would love to contribute to the PyMC library by adding MOGPs feature to the PyMC’s GP module.
+
+3. __How did you get involved in open source software?__
+
+     One of my old friends told me that it is a good idea to contribute to open source, so I can contribute and learn along the way. As I had used PyMC for some time in my work and found it really valuable, I decided to contribute to the PyMC project. My first pull request on PyMC GitHub was creating a helper `pm.draw()` function to take draws for a given variable. It took quite a while for the [PR](https://github.com/pymc-devs/pymc/pull/5340) to be merged, but I learned useful things like writing docstrings and test cases.
+
+4. __What are you expecting or hoping to get out of your GSoC experience?__
+
+     My project aims to add support for multi-output Gaussian processes (GPs) in PyMC. The advantage of multi-output GPs is their capacity to simultaneously learn and infer many outputs which have the same source of uncertainty from inputs. This model provides a practical approach for various applications in different fields. Hence, the multi-output GPs feature would significantly extend the capabilities of PyMC GP module and benefit the PyMC community.  
+
+     I plan to incorporate a Linear Model of Coregionalization and a Hadamard Regression Model into PyMC GP module. This project is an excellent opportunity to sharpen my coding skills, including designing user APIs, writing classes, docstrings and tests, and notebook examples. Furthermore, I hope to have more good friends and learn more from my mentors and other PyMC devs. They are extremely supportive, and I feel lucky to be involved in this project.
+
+5.  __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+     I want to be an effective Data Scientist who can develop data-driven products to solve real-world problems and help businesses make efficient science-based decisions. I see that the Bayesian method is an intuitive and practical way to solve various issues, especially the ones that need to account for uncertainty. Indeed we also need other machine learning methods, and it will depend on specific use cases. 
+     
+     The GSoC project will allow me to learn more about Bayesian statistics, especially nonparametric models. This knowledge is valuable for developing various applications in different fields. In addition, I can improve my communication skills and the capability to work in a diverse and international team.

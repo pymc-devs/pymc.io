@@ -101,7 +101,7 @@ In this [PyMC and Aesara notebook](https://github.com/juanitorduz/pymc/blob/main
 
 ### Plot Conditional Adjusted Prediction
 
-The new version also brings Plot Conditional Adjusted Predictions, if you are interested in contributing we are still lacking an example of this feature in our gallery.  https://bambinos.github.io/bambi/main/examples.html
+The new version also brings Plot Conditional Adjusted Predictions, if you are interested in contributing we are still lacking an example of this feature in our [example gallery](https://bambinos.github.io/bambi/main/examples.html)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The new version also brings Plot Conditional Adjusted Predictions, if you are interested in contributing we are still lacking an example of this feature in our gallery. <a href="https://t.co/mXB8aXV6yN">https://t.co/mXB8aXV6yN</a> <a href="https://t.co/w9TmZnvYQd">https://t.co/w9TmZnvYQd</a> <a href="https://t.co/kOn5WQx0Zk">pic.twitter.com/kOn5WQx0Zk</a></p>&mdash; Osvaldo Martin (@aloctavodia) <a href="https://twitter.com/aloctavodia/status/1533875990992125955?ref_src=twsrc%5Etfw">June 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

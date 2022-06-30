@@ -203,7 +203,7 @@ Learn more at [Danh Phan's blog](https://danhphan.github.io/blog).
 
 3. __How did you get involved in open source software?__
 
-     One of my old friends told me that it is a good idea to contribute to open source, so I can contribute and learn along the way. As I had used PyMC for some time in my work and found it really valuable, I decided to contribute to the PyMC project. My first pull request on PyMC github was creating a helper pm.draw() function to take draws for a given variable. It took quite a while for the [PR](https://github.com/pymc-devs/pymc/pull/5340) to be merged, but I learned useful things like writing docstrings and test cases.
+     One of my old friends told me that it is a good idea to contribute to open source, so I can contribute and learn along the way. As I had used PyMC for some time in my work and found it really valuable, I decided to contribute to the PyMC project. My first pull request on PyMC GitHub was creating a helper `pm.draw()` function to take draws for a given variable. It took quite a while for the [PR](https://github.com/pymc-devs/pymc/pull/5340) to be merged, but I learned useful things like writing docstrings and test cases.
 
 4. __What are you expecting or hoping to get out of your GSoC experience?__
 

@@ -195,7 +195,7 @@ Learn more at [Danh Phan's blog](https://danhphan.github.io/blog).
 
 1. __What motivated you to apply for GSoC with PyMC?__ 
   
-     My first experience working with Bayesian methods (Bayesian Networks, GLM) is learning from PyMC code examples and resources. The useful learning materials and excellent community support help me a lot in my journey to perform Bayesian analysis. With the great support from the PyMC dev team, I have recently contributed several pull requests (PRs) to pymc and aesara github codebase. Moreover, I want to involve long-term with this community to learn and contribute along the way.
+     My first experience working with Bayesian methods (Bayesian Networks, GLM) is learning from PyMC code examples and resources. The useful learning materials and excellent community support help me a lot in my journey to perform Bayesian analysis. With the great support from the PyMC dev team, I have recently contributed several pull requests (PRs) to PyMC and Aesara GitHub codebase. Moreover, I want to involve long-term with this community to learn and contribute along the way.
 
 2. __Why did you choose your specific project topic?__
 

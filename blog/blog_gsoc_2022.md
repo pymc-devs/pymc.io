@@ -1,14 +1,14 @@
-(sprint_testimonial)=
+(gsoc_2022_presentations)=
 # Meet our 2022 PyMC Google Summer of Code Students
 
 :::{post} June 24, 2022
-:tags: gsoc
-:category: development
+:tags: gsoc, community, contributing
+:category: news, testimonial
 :author: Reshama Shaikh, GSOC 2022 Folks
 :image: 0
 :exclude:
 
-We are excited to introduce to the community our cohort of GSoC students working on PyMC, Aesara and ArViZ.
+We are excited to introduce to the community our cohort of GSoC students working on PyMC, Aesara and Bambi.
 :::
 
 ## Kunal Ghosh

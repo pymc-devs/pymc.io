@@ -261,4 +261,4 @@ I am a final year student at Thapar Institue of Engineering and Technology pursu
 
 1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
 
-     In future, i do plan to build a career in the field of data science and machine learning; working on this project with PyMC is helping me improve my skill set and contribute to open source projects which I wouldn’t be able to without the collaborative environment that GSoC provides.
+     In future, I do plan to build a career in the field of data science and machine learning; working on this project with PyMC is helping me improve my skill set and contribute to open source projects which I wouldn’t be able to without the collaborative environment that GSoC provides.

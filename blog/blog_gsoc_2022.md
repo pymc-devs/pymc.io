@@ -253,7 +253,7 @@ I am a final year student at Thapar Institue of Engineering and Technology pursu
 
 1. __How did you get involved in open source software?__
 
-    My first encounter to open-source software was in my first year of college. When I first heard about the Hacktober fest, sadly I wasn't skilled enough to contribute to any of the projects productively. With time as my skill improved, I got a chance to fix smaller beginner-friendly issues in PyMC itself. Later in the year, I got this opportunity to work on my first open-source project.
+    My first encounter to open-source software was in my first year of college. When I first heard about the Hacktoberfest, sadly I wasn't skilled enough to contribute to any of the projects productively. With time as my skill improved, I got a chance to fix smaller beginner-friendly issues in PyMC itself. Later in the year, I got this opportunity to work on my first open-source project.
 
 1. __What are you expecting or hoping to get out of your GSoC experience?__
 

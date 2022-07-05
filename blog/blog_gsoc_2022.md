@@ -1,14 +1,14 @@
-(sprint_testimonial)=
+(gsoc_2022_presentations)=
 # Meet our 2022 PyMC Google Summer of Code Students
 
 :::{post} June 24, 2022
-:tags: gsoc
-:category: development
+:tags: gsoc, community, contributing
+:category: news, testimonial
 :author: Reshama Shaikh, GSOC 2022 Folks
 :image: 0
 :exclude:
 
-We are excited to introduce to the community our cohort of GSoC students working on PyMC, Aesara and ArViZ.
+We are excited to introduce to the community our cohort of GSoC students working on PyMC, Aesara and Bambi.
 :::
 
 ## Kunal Ghosh
@@ -216,3 +216,49 @@ Learn more at [Danh Phan's blog](https://danhphan.github.io/blog).
      I want to be an effective Data Scientist who can develop data-driven products to solve real-world problems and help businesses make efficient science-based decisions. I see that the Bayesian method is an intuitive and practical way to solve various issues, especially the ones that need to account for uncertainty. Indeed we also need other machine learning methods, and it will depend on specific use cases. 
      
      The GSoC project will allow me to learn more about Bayesian statistics, especially nonparametric models. This knowledge is valuable for developing various applications in different fields. In addition, I can improve my communication skills and the capability to work in a diverse and international team.
+
+## Shashank Kirtania
+
+**Project Name**
+
+Creating Base Class for deployment of PyMC models
+
+**Mentors**
+- [Thomas Wiecki](https://twiecki.io)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+<img src="../_static/gsoc_2022/shashank_kirtania.png" width="200" height="225" />
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+I am a final year student at Thapar Institue of Engineering and Technology pursuing my major in computer engineering. I have been working in the domain of Data Science for a couple of years. I have worked with a few projects in the domain of computer vision and got a chance to work with a team working on Bayesian modelling earlier this year. I love to explore the field of data science and implement things I have learnt on various projects. 
+
+**Connecting**
+- LinkedIn: [Shashank Kirtania]( https://www.linkedin.com/in/shashank-kirtania-83835b129/)
+- GitHub: [@5hv5hvnk](http://github.com/5hv5hvnk)
+:::
+::::
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+  
+     Initially, while in my first year, I heard about the open-source community, I did not understand how it worked, but with time the idea of open-source appealed to me. Contributing to large code bases was a very tough task for me at the beginning, I believe GSoC provides the right collaborative environment to contribute to such organizations. 
+
+1. __Why did you choose your specific project topic?__
+
+   Working with the deployment pipeline is a significant project, earlier, getting a chance to work with a team working on Bayesian modelling using PyMC, I knew why we needed this project. I felt this would be an excellent opportunity for me to work on the deployment of Bayesian models and understand the models in a better manner itself.
+
+1. __How did you get involved in open source software?__
+
+    My first encounter to open-source software was in my first year of college. When I first heard about the Hacktoberfest, sadly I wasn't skilled enough to contribute to any of the projects productively. With time as my skill improved, I got a chance to fix smaller beginner-friendly issues in PyMC itself. Later in the year, I got this opportunity to work on my first open-source project.
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+     I expect to complete my project and gain more experience deploying Bayesian models using PyMC. I have been working on my part to learn more about Bayesian modelling, and I am trying to understand the real-world use cases of the same. Hopefully by the end of GSoC experience I will be able to contribute more to projects related to the same.
+
+1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+     In future, I do plan to build a career in the field of data science and machine learning; working on this project with PyMC is helping me improve my skill set and contribute to open source projects which I wouldn’t be able to without the collaborative environment that GSoC provides.

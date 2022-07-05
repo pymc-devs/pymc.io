@@ -147,19 +147,19 @@ Learn more at [Larry's GSOC blog](https://larrydong.com/gsoc )
 
 I initially found out about the possibility to do GSoC with PyMC by browsing Twitter in March 2020. It was my second remote semester of my first year of PhD program and it was tiring me out; I knew that I needed a change of scenery from my online studies. Contributing to open-source was not an idea that occurred to me before entering my PhD yet it was a very appealing one. I knew that it is a nice opportunity to learn, especially when it comes to programming and contributing to an established codebase, and interact with members of a community. I wrote a more in-depth blogpost about my experience starting a PhD remotely and discovering open-source via GSoC: [https://larrydong.com/posts/2022-06-18-value-oss/](https://larrydong.com/posts/2022-06-18-value-oss/).
 
-1. __Why did you choose your specific project topic?__
+2. __Why did you choose your specific project topic?__
 
 In summer of 2020, I attended an online [summer school on Dirichlet Processes](https://www.youtube.com/playlist?list=PLHaWeIntAtAIjrTCeQ5ZfNlG2HRvtGOu4) and I barely understood anything. However, they seemed interesting and I was somehow appealed by the method. As such, I decided to jump head first into implementing a functionality in PyMC for Dirichlet Processes given there was an opportunity.
 
-1. __How did you get involved in open source software?__
+3. __How did you get involved in open source software?__
 
 I started small, like everyone, by fixing typos and updating trivial things. Even just creating pull request sometimes took me many attempts. It was during GSoC that I really started getting more involved in open-source.
 
-1. __What are you expecting or hoping to get out of your GSoC experience?__
+4. __What are you expecting or hoping to get out of your GSoC experience?__
 
 In terms of the project, I would like to have a Dirichlet Process submodule available in PyMC experimental and have a solid foundation of Aesara and AePPL to be a longer term contributor. However, probably a more important goal of mine would be to continue foster the nice and inclusive community that first welcomed me when I was going through a hard time.
 
-1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+5. __What are your career goals? How do you see the GSoC program moving you towards them?__
 
 My exact career goals are still yet to be determined, but GSoC has showed me that there is a world where my graduate education in statistics and programming skills would be very valuable in the real world. I would like to find a job following my graduation (fingers crossed) that makes use of such skills, but, frankly, I don’t know what exact career I’m preparing myself for. I guess an inherent beauty of contributing open-source is that I can perhaps discover future career prospects as I work on and enjoy my GSoC project!
 
@@ -185,9 +185,9 @@ Multi-output Gaussian Processes in PyMC
 > Hi, my name is Danh Phan, a PhD candidate at Monash University, Australia. My research focuses on Machine learning (Bayesian methods, choice models, tree-based, and deep neural networks) for intelligent transport systems. I have more than four years of experience working on different machine learning algorithms, and have published several papers in the machine learning field. Besides, I have worked as an instructor at [Monash Data Fluency](https://www.monash.edu/data-fluency/workshops), where I teach hand-one workshops on Python, Git, and High-Performance Computing to research students and staff at Monash University. I have also been worked with Bayesian methods in PyMC for nearly two years.
 
 **Connecting**
-- Twitter: [@kunalghosh](https://twitter.com/danhpt)
-- LinkedIn: [kunalgh](https://www.linkedin.com/in/danhpt)
-- GitHub: [@kunalghosh](https://github.com/danhphan)
+- Twitter: [@danhpt](https://twitter.com/danhpt)
+- LinkedIn: [danhpt](https://www.linkedin.com/in/danhpt)
+- GitHub: [@danhphan](https://github.com/danhphan)
 :::
 ::::
 

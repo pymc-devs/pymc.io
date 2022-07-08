@@ -262,3 +262,50 @@ I am a final year student at Thapar Institue of Engineering and Technology pursu
 1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
 
      In future, I do plan to build a career in the field of data science and machine learning; working on this project with PyMC is helping me improve my skill set and contribute to open source projects which I wouldn’t be able to without the collaborative environment that GSoC provides.
+
+## Yann McLatchie
+
+**Project Name**
+
+Projection predictive model selection for PyMC.
+
+**Mentors**
+- [Osvaldo A Martin](https://github.com/aloctavodia)
+- [Tomás Capretto](https://github.com/tomicapretto)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Yann](../_static/gsoc_2022/yann.jpeg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> I am currently a Master's student in Machine Learning, Data Science, and Artificial Intelligence at Aalto University in Finland. My primary interests are in the field of Bayesian statistics, and more recently Bayesian methods of model selection. Alongside my studies, I work in the [Probabilistic Machine Learning research group](https://research.cs.aalto.fi/pml/) at Aalto under [Aki Vehtari](https://avehtari.github.io/)'s supervision. 
+
+**Connecting**
+- LinkedIn: [yannmclatchie](https://www.linkedin.com/in/yannmclatchie/)
+- GitHub: [@yannmclatchie](https://github.com/yannmclatchie)
+:::
+::::
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+
+Osvaldo Martin (one of my mentors and core PyMC developer) was at Aalto last year on a post-doc in the same research group as me, and we had previously discussed the need for projection predictive model selection to be implemented in Python given the success it has had in R, and its strong theoretical support. As such, we came up with the idea of incorporating it into a GSoC project and hey presto!
+
+1. __Why did you choose your specific project topic?__
+
+Over the past six months I have been researching projection predictive model selection as a research assistant. The opportunity to concretise my theoretical understanding into a Python package promises to deepen my practical understanding of the subject matter. I have also found the underlying theory hugely interesting, and embrace the opportunity to bring it to a wider community.
+
+1. __How did you get involved in open source software?__
+
+My first foray into open source software was an attempt to build a small Python package for stochastic simulation. This was initially daunting, but I found the learning and development process immensely rewarding. So much so that I followed it up with small pull requests to packages such as Bambi and eventually found myself interested in delving deeper into open source development.
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+First and foremost I hope to produce Kulprit, a Python package bringing projection predictive model selection to Bambi, and in doing so also bringing the methodology to a wider audience. I am confident that going through the process of developing a package from start to finish will teach me more about not only Python programming, but also documentation and communication of the core theory as well as working as part of an open source development team.
+
+1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+I have loved working on research questions and implementing complex ideas in code, and would like to continue doing so in a research career. The GSoC program gives me the opportunity to turn important research questions into software and communicate them to an audience of practitioners. 

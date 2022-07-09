@@ -309,3 +309,51 @@ First and foremost I hope to produce Kulprit, a Python package bringing projecti
 1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
 
 I have loved working on research questions and implementing complex ideas in code, and would like to continue doing so in a research career. The GSoC program gives me the opportunity to turn important research questions into software and communicate them to an audience of practitioners. 
+
+## Conor Hassan 
+
+**Project Name**
+
+Efficient inference for latent Gaussian models.
+
+**Mentors**
+- [Bill Engels](https://github.com/bwengals)
+- [Chris Fonnesbeck](https://github.com/fonnesbeck)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![Photo of Conor](../_static/gsoc_2022/conor.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> I am a PhD researcher at QUT, under the supervision of Kerrie Mengersen. My research focuses on federated learning (distributed estimation because of privacy constraints) of latent Gaussian and differentially private generative models. 
+
+**Connecting**
+- LinkedIn: [Conor Hassan](https://www.linkedin.com/in/conorhassan/)
+- GitHub: [@conorhassan](https://github.com/conorhassan)
+- Twitter: [@hassanconor](https://twitter.com/HassanConor)
+:::
+::::
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+
+I have always wanted to contribute to a probabilistic programming environment! I chose PyMC primarily for four reasons: the community is welcoming; the community is active; Python; and I thought the changes made in V4 were super impressive and a sign of the community's dedication.
+
+1. __Why did you choose your specific project topic?__
+
+As part of my research, I work on developing new inference methods (for latent Gaussian models). Because of our research direction, we focus on techniques, including variational inference and INLA-like ideas. I have always been curious about improving methods for these models in something like PyMC, and then [Dan Simpson's blog](https://dansblog.netlify.app/posts/2022-03-22-a-linear-mixed-effects-model/) popped up. Check it out!
+
+1. __How did you get involved in open source software?__
+
+This is my first time contributing to open source. Time to give back a little!
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+I hope to contribute backend support that improves the efficiency of fitting latent Gaussian models in PyMC. These are the class of models that INLA fits so fast! But the INLA package does many intelligent things in the back that are unrelated to the specific inference method. These methods are what we will try to get into PyMC. Personally, what I hope to get out of this is a place in this community and, hopefully, relationships that stay past GSoC and hopefully lead to continued contributions to PyMC in the future!
+
+1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+I love my research at the moment and am hoping to continue doing research in developing new Bayesian and machine learning inference methods or look at applying techniques such as these to complex problems. Either way, open-source libraries like PyMC will play a large part in what I want to do for work in the future!

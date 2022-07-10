@@ -314,7 +314,7 @@ I have loved working on research questions and implementing complex ideas in cod
 
 **Project Name**
 
-Efficient inference for latent Gaussian models.
+Efficient Inference for Latent Gaussian Models
 
 **Mentors**
 - [Bill Engels](https://github.com/bwengals)

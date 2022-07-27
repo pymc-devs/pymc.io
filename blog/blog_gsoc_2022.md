@@ -357,3 +357,51 @@ I hope to contribute backend support that improves the efficiency of fitting lat
 5. __What are your career goals? How do you see the GSoC program moving you towards them?__
 
 I love my research at the moment and am hoping to continue doing research in developing new Bayesian and machine learning inference methods or look at applying techniques such as these to complex problems. Either way, open-source libraries like PyMC will play a large part in what I want to do for work in the future!
+
+## Nicoleta Spînu 
+
+**Project Name**
+
+Modelling and Forecasting Time-Series Gene Expressions Data in Mechanistic Toxicology
+
+**Mentors**
+- [Ravin Kumar](https://github.com/canyon289 )
+- [Junpeng Lao](https://github.com/junpenglao )
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![Photo of Conor](../_static/gsoc_2022/nicoleta.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> A pharmacist by training with a PhD in computational toxicology interested in artificial intelligence and personalised medicine. 
+
+**Connecting**
+- LinkedIn: [Nicoleta Spînu](https://www.linkedin.com/in/nicoleta-spinu/)
+- GitHub: [@nicospinu](https://github.com/nicospinu)
+- Twitter: [@nicospinu](https://twitter.com/nicospinu)
+:::
+::::
+
+1. __What motivated you to apply for GSoC with PyMC?__ 
+
+There were three main reasons: the topic of time-series, the mentors and the supportive community of developers, and the opportunity to have personal contributions to expand the use and the applicability domain of the PyMC.
+
+2. __Why did you choose your specific project topic?__
+
+The topic of time series is quite neglected in the field of drug discovery, e.g., preclinical studies and clinical trials. Thus, the motivation was to learn more about time series analysis and state space models including the Kalman filter, but also, how implementation works and showcase how PyMC can be used to model temporal data.
+
+3. __How did you get involved in open source software?__
+
+My first commit was during my PhD and I wanted it to not remain the only one! :) GSoC seems to be the perfect way for me to get involved in open source software and grasp what it actually is and hopefully, continue as a contributor to PyMC.
+
+4. __What are you expecting or hoping to get out of your GSoC experience?__
+
+Improve and learn software engineering skills from implementations to testing, meet other scientists and developers interested in the topic of time-series, and ideally, solve at least one problem in chemical safety assessment using PyMC.
+
+5. __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+GSoC through PyMC will contribute to forming a solid foundation in probabilistic programming and modelling. These skills will also allow me to develop models that ultimately, will benefit the patients that is an aspiration of mine.

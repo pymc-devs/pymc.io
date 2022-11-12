@@ -50,7 +50,7 @@ We have also improved the [PyMC example gallery](https://docs.pymc.io/projects/e
 thinking of the notebooks as book chapters. Check it out!
 :::
 
-The blog uses the [sphinx-book-theme](https://sphinx-book-theme.readthedocs.io/en/latest/index.html)
+The blog uses the [pydata-sphinx-theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/)
 which is designed to write beautiful online books and is inspired in the Eduard Tufte CSS guide.
 
 Moreover, we use sphinx to generate the website. We flexibility in the layout with all the

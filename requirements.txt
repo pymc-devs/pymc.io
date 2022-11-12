@@ -1,5 +1,5 @@
 Sphinx
-pydata-sphinx-theme
+pydata-sphinx-theme<0.10.1
 sphinx-copybutton
 sphinx-design
 myst-nb

@@ -44,9 +44,6 @@ extensions = [
     "sphinxext.rediraffe",
 ]
 
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
-
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -61,8 +58,8 @@ exclude_patterns = [
 
 # -- Options for extensions
 
-jupyter_execute_notebooks = "auto"
-execution_excludepatterns = ["*.ipynb"]
+nb_execution_mode = "auto"
+nb_execution_excludepatterns = ["*.ipynb"]
 myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 
 intersphinx_mapping = {
@@ -138,38 +135,12 @@ ogp_custom_meta_tags = [
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pydata_sphinx_theme"
+html_theme = "pymc_sphinx_theme"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
 html_theme_options = {
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/pymc-devs/pymc",
-            "icon": "fab fa-github-square",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/pymc_devs",
-            "icon": "fab fa-twitter-square",
-        },
-        {
-            "name": "YouTube",
-            "url": "https://www.youtube.com/c/PyMCDevelopers",
-            "icon": "fab fa-youtube",
-        },
-        {
-            "name": "Discourse",
-            "url": "https://discourse.pymc.io",
-            "icon": "fab fa-discourse",
-        },
-    ],
-    "use_edit_page_button": True,
-    "navbar_end": ["search-field.html", "navbar-icon-links.html"],
-    "page_sidebar_items": ["page-toc", "edit-this-page", "donate"],
-    "search_bar_text": "Search...",
     "show_nav_level": 2,
 }
 html_context = {

@@ -1,5 +1,4 @@
 Sphinx
-pydata-sphinx-theme<0.10.1
 sphinx-copybutton
 sphinx-design
 myst-nb
@@ -9,3 +8,4 @@ sphinxext-opengraph
 sphinx-notfound-page
 jupyterlite-sphinx
 sphinxext-rediraffe
+git+https://github.com/pymc-devs/pymc-sphinx-theme

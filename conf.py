@@ -137,6 +137,7 @@ html_theme = "pymc_sphinx_theme"
 
 html_theme_options = {
     "show_nav_level": 2,
+    "navbar_start": ["navbar-logo"],
 }
 html_context = {
     "github_user": "pymc-devs",

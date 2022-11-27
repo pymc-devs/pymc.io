@@ -8,7 +8,8 @@
 :image: 0
 :exclude:
 
-The PyMC team would like to announce that we are forking the Aesara project.:::
+The PyMC team would like to announce that we are forking the Aesara project.
+:::
 
 This new project is called [PyTensor](https://github.com/pymc-devs/pytensor). PyTensor will allow for new features such as labeled arrays, as well as speed up development and streamline the PyMC codebase and user experience. PyTensor is a community focused project and contributions are welcome.
 
@@ -43,14 +44,7 @@ We are very excited about the future of PyMC and its ecosystem.
 ## Connect with PyMC
 
 Connect with PyMC via:
-- Website:  [pymc.io](https://www.pymc.io)
-- Discourse: [discourse.pymc.io](https://discourse.pymc.io)
-- YouTube: [PyMCDevelopers](https://www.youtube.com/c/PyMCDevelopers)
-- Star GH repo:  [pymc-devs/pymc](https://github.com/pymc-devs/pymc)
+- PyTensor repo:  [pymc-devs/pymc](https://github.com/pymc-devs/pytensor)
 - Join Meetup: [pymc-online-meetup](https://www.meetup.com/pymc-online-meetup/)
 - Twitter: [@pymc_devs](https://twitter.com/pymc_devs)
 - LinkedIn: [@pymc](https://www.linkedin.com/company/pymc/)
-
-## Support PyMC
-
-- [Donate to the the PyMC project](https://numfocus.org/donate-to-pymc)

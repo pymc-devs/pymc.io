@@ -6,7 +6,6 @@
 :category: news
 :author: PyMC developers
 :image: 0
-:exclude:
 
 The PyMC team would like to announce that we are forking the Aesara project.
 :::

@@ -16,23 +16,23 @@ Since the creation of Aesara, the PyMC and Aesara projects have been greatly int
 
 While different development models can be successful for different open source software projects, the model followed by Aesara has proven to be incompatible with the collaborative process norms of the PyMC development team as well as our desire to influence key design decisions of Aesara. We believe the ability to contribute and influence the graph-engine is critical for our ability to innovate and make PyMC the best version it can be. 
 
-Thus, after careful consideration and discussion, both among our developers and between the projects, we have decided that forking the Aesara project is the best choice for PyMC, its community and its developers.
+Thus, after careful consideration and discussion, both among our developers and between the projects, we have decided that forking the Aesara project is the best choice for PyMC, its community, and its developers.
 
 ## What does this mean for PyMC?
 
-For now, we still depend on Aesara. As we are working towards a 5.0 release that will depend on PyTensor instead of Aesara there will be a new dependency installed, but the package manager will handle this seamlessly. In case you are using Aesara directly, you will have to adapt some imports but the code will remain the same as the libraries are currently almost identical code-wise. 
+For now, we still depend on Aesara. As we are working towards a 5.0 release of PyMC that will depend on PyTensor instead of Aesara there will be a new dependency installed, but the package manager will handle this seamlessly. If you are using Aesara directly, you will have to adapt some imports, but the code will remain the same as the libraries are currently almost identical code-wise. 
 
 The long-term impact will be positive. There are many exciting changes we plan to make that will directly improve the user and developer experience of PyMC.
 
-One example is [**Xarray**](https://xarray.dev/)-like dimension support: `Xarray` adds many useful features to arrays. Most notably, named dimensions and coordinates. This is what allows `coords` and `dims` in PyMC to give names to your dimensions.  Currently, Aesara does not support this, nor are there plans to do so. But there are many benefits to having labeled tensors as well.
+One example is [**Xarray**](https://xarray.dev/)-like dimension support: `Xarray` adds many useful features to arrays. Most notably, named dimensions and coordinates. This is what allows `coords` and `dims` in PyMC to give names to your arrays.  Currently, Aesara does not support this, nor are there plans to do so. But there are many benefits to having labeled tensors as well.
 
-In addition, there are some optimizations that are mostly geared towards the computations PyMC is frequently running, so we expect great speed-ups from these additions.
+In addition, there are optimizations that are mostly geared towards the computations PyMC frequently perform, so we expect great speed-ups from these additions.
 
 ### Community
 
 The PyMC project is community-led, with a [governance structure](https://github.com/pymc-devs/pymc/blob/main/GOVERNANCE.md), code of conduct and other mechanisms in place to ensure a great experience for everyone involved. We strongly believe that a welcoming and inclusive environment is critical for the long-term survival of any open-source project.
 
-You can expect us to uphold these same standards to PyTensor to make it a project people are excited to contribute to.
+You can expect us to apply these same standards to PyTensor to make it a project people are excited to contribute to.
 
 ## Conclusion
 

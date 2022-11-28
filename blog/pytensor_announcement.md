@@ -43,7 +43,7 @@ We are very excited about the future of PyMC and its ecosystem.
 ## Connect with PyMC
 
 Connect with PyMC via:
-- PyTensor repo:  [pymc-devs/pymc](https://github.com/pymc-devs/pytensor)
+- PyTensor repo:  [pymc-devs/pytensor](https://github.com/pymc-devs/pytensor)
 - Join Meetup: [pymc-online-meetup](https://www.meetup.com/pymc-online-meetup/)
 - Twitter: [@pymc_devs](https://twitter.com/pymc_devs)
 - LinkedIn: [@pymc](https://www.linkedin.com/company/pymc/)

@@ -40,11 +40,21 @@ height: 300px
 ::::{grid} 1 2 2 3
 :gutter: 3
 
+:::{grid-item-card} PyMC is forking Aesara to PyTensor
+:link: pytensor_announcement
+:link-type: ref
+:class-header: bg-pymc-three
+
+Release announcement
+^^^
+PyTensor will allow for new features such as labeled arrays, as well as speed up development and streamline the PyMC codebase and user experience.
+:::
+
+
 :::{grid-item-card} PyMC 4.0 is officially released!
 :link: v4_announcement
 :link-type: ref
 :class-header: bg-pymc-three
-:columns: 12
 
 Release announcement
 ^^^

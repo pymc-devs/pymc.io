@@ -5,7 +5,7 @@
 - [Bambi](https://github.com/bambinos/bambi): BAyesian Model-Building Interface (BAMBI) in Python.
 - [calibr8](https://github.com/JuBiotech/calibr8): A toolbox for constructing detailed observation models to be used as likelihoods in PyMC.
 - [CausalPy](https://github.com/pymc-labs/CausalPy): A package focussing on causal inference in quasi-experimental settings.
-- [SunODE](https://github.com/aseyboldt/sunode): Fast ODE solver, much faster than the one that comes with PyMC.
+- [SunODE](https://github.com/pymc-devs/sunode): Fast ODE solver, much faster than the one that comes with PyMC.
 - [pymc-learn](https://github.com/pymc-learn/pymc-learn): Custom PyMC models built on top of pymc3_models/scikit-learn API
 
 ## Domain specific

@@ -11,6 +11,8 @@
 Chris Fonnesbeck, gave a talk on Bayesian Modeling at PyData London 2022. Here is a summary blog of the talk.
 :::
 
+![PyData London 2022](../_static/chris_pydatalondon2022.png)
+
 ## Introduction
 
 Bayesian statistical methods offer a powerful set of tools to tackle a wide variety of data science problems. In addition, the Bayesian approach generates results that are easy to interpret and automatically account for uncertainty in quantities that we wish to estimate and predict. Historically, computational challenges have been a barrier, particularly to new users, but there now exists a mature set of probabilistic programming tools that are both capable and easy to learn. We will use the newest release of PyMC (version 4) in this tutorial, but the concepts and approaches that will be taught are portable to any probabilistic programming framework.

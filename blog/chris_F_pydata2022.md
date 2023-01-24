@@ -8,7 +8,7 @@
 :image: 0
 :exclude:
 
-Chris Fonnesbeck, gave a talk on Bayesian Modeling at PyData London 2022. Here is a summary blog of the talk.
+Chris Fonnesbeck gave a talk on Bayesian Modeling at PyData London 2022. Here is a summary blog of the talk.
 :::
 
 ![PyData London 2022](../_static/chris_pydatalondon2022.png)
@@ -23,7 +23,7 @@ As this is an introductory tutorial, no direct experience with PyMC or Bayesian 
 
 As the goal of the tutorial is to get new users up and running with Bayesian methods, the content is light on theory and focus on the implementation of models, though some statistical background will be provided for context and clarity. Since PyMC is a high-level statistical package, it is easy to gloss over important details of the underlying algorihtms. Therefore, the tutorial begins by solving a simple model using only NumPy and SciPy functions before diving into PyMC. As a capstone to the tutorial, learners will be introduced to "The Bayesian Workflow" to reiterate the important steps in the process, along with useful tips and tricks.
 
-## About Speaker
+## About the Speaker
 
 Chris is the Principal Quantitative Analyst in Baseball Research & Development for the Philadelphia Phillies. He is interested in computational statistics, machine learning, Bayesian methods, and applied decision analysis. He hails from Vancouver, Canada and received his Ph.D. from the University of Georgia.
 
@@ -106,7 +106,7 @@ Chris is the Principal Quantitative Analyst in Baseball Research & Development f
 
 [9:14](https://www.youtube.com/watch?v=911d4A1U0BE&t=554s) Poisson distribution
 
-[9:32](https://www.youtube.com/watch?v=911d4A1U0BE&t=572s) nfer values for latent variables
+[9:32](https://www.youtube.com/watch?v=911d4A1U0BE&t=572s) Infer values for latent variables
 
 [9:47](https://www.youtube.com/watch?v=911d4A1U0BE&t=587s) Probabilistic programming abstracts the inference procedure
 
@@ -172,7 +172,7 @@ Chris is the Principal Quantitative Analyst in Baseball Research & Development f
 
 
 
-## Important Links
+## PyMC institutional partners
 [PyMC Labs](https://www.pymc-labs.io/)
 
 [Intuitive bayes course](https://www.intuitivebayes.com/introductorycourse)

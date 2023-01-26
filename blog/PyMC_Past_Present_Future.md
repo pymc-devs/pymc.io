@@ -110,7 +110,7 @@ The use of Theano allowed for constructing and compiling a graph to C. This enab
 
 Later on several other methods were added to PyMC, such as variational inference methods, largely thanks to the efforts of Taku Yoshioka and Max Kucherov.
 
-![Screenshot 2022-12-12 at 4.13.02 PM.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/Screenshot_2022-12-12_at_4.13.02_PM.png)
+![PyMC3 in the Wild](../_static/chris-pymcon-keynote/PyMC3_in_Wild.png)
 
 There was a significant increase in the number of users of Pymc 3.0 compared to Version 2. 
 

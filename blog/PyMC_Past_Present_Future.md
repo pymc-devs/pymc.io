@@ -1,12 +1,16 @@
-
+(PyMC_past_present_future)=
 # PyMC: Past, Present, and Future (PyMCon 2020)
 
 :::{post} November 1, 2020
 :tags: events, community, talks
-:category: TBD
-:author: TBD
+:category: news, testimonial
+:author: Chris Fonnesbeck, Rowan Schaefer
 :image: 0
 :exclude:
+
+:::
+
+Posted by:  ![Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
 
 - Table of Contents
     1. Background

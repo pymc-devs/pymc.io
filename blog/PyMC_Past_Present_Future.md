@@ -10,7 +10,7 @@
 
 :::
 
-Posted by:  ![Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
+Posted by:  [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
 
 - Table of Contents
     1. Background

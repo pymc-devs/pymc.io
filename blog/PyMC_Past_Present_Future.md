@@ -76,8 +76,6 @@ The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam
 
 Despite these challenges, WinBUGS and OpenBUGS provided invaluable experience in bayesian modeling for beginners, and paved the way for the development of PyMC as well as other tools that made it easier to implement Bayesian inference methods.
 
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
-
 ### ***2003-2005***
 
 In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal of being able to build bayesian models in Python. 
@@ -86,8 +84,6 @@ The first version was an object-oriented implementation of Markov chain Monte Ca
 
 PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [sourceforge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006**.**
 
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
-
 ### ***2006–2013***
 
 ![PyMC version 2](../_static/chris-pymcon-keynote/PyMCv2.png)
@@ -95,8 +91,6 @@ PyMC  1.0 was released in 2005, and was used by a small group of regular users a
 In 2006, Anand Patil and David Heward began expanding and refactoring a lot of the code for PyMC 2.0, which became a comprehensive probabilistic programming library that included a wide range of statistical distributions. 
 
 Version 2.0 was based on a set of Fortran functions that were compiled into Python using the [f2py package](https://numpy.org/doc/stable/f2py/), which allowed for improved performance. It also made use of the NumPy library, provided support for Python 3, implemented Gaussian processes, and provided convergence diagnostics.  After its release in October 2013, it attracted the interest of applied users in fields such as ecology and astronomy.
-
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
 
 ### ***2011-2015***
 
@@ -116,15 +110,11 @@ The use of Theano allowed for constructing and compiling a graph to C. This enab
 
 Later on several other methods were added to PyMC, such as variational inference methods, largely thanks to the efforts of Taku Yoshioka and Max Kucherov.
 
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
-
 ![Screenshot 2022-12-12 at 4.13.02 PM.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/Screenshot_2022-12-12_at_4.13.02_PM.png)
 
 There was a significant increase in the number of users of Pymc 3.0 compared to Version 2. 
 
 Some examples of notable users include Aaron McNeil, a marine biologist who used PyMC to model the spread of crown of thorns starfish on the Great Barrier Reef, and Kevin Systrom and Thomas Vladick, the founder of Instagram and a developer, respectively, who used PyMC to model the basic reproductive number (Rt) of COVID-19 in different states in the US. This allowed them to provide real-time information about the spread of the virus.
-
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
 
 ### **2016**
 
@@ -133,8 +123,6 @@ Some examples of notable users include Aaron McNeil, a marine biologist who used
 In 2016, [PyMC became a sponsored project under NumFocus](https://numfocus.org/uncategorized/numfocus-announces-new-fiscally-sponsored-project-pymc3), a nonprofit organization that provides sustainability and support to open-source projects. By joining NumFocus, PyMC was able to access educational programs and events, as well as additional resources, to help ensure its continued development and success. 
 
 This support has been instrumental in allowing PyMC to continue to grow and thrive in the Open Source space, as well as in expanding community and diversity efforts.
-
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
 
 ### **2017-2020**
 
@@ -146,11 +134,7 @@ This presented a challenge for PyMC, which relied heavily on Theano. The PyMC te
 
 In 2020, while working on the symbolic PyMC project, Brandon Willard had the idea to link Theano to [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) as a computational back end. This would allow Theano to take advantage of JAX's autograd and linear algebra acceleration capabilities without the constraints of a deep learning framework. Willard successfully developed a JAX linker for Theano and used it to create the Theano-pymc library, to be used as a back-end for PyMC.
 
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
-
 The first [PyMCon](https://pymc-devs.github.io/pymcon/speakers) took place in October 2020. Chris Fonnesbeck closes out the talk by thanking everyone who worked to make the conference a reality, including Executive Directors Thomas Wiecki and Ravin Kumar. You can view the presentations here, or view the full talks on [the PyMCon playlist on Youtube](https://www.youtube.com/watch?v=UznM_-_760Y&list=PLD1x-BW9UdeHN2vwR6kIApJATd2jZzeya).
-
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
 
 ## Present Day
 
@@ -165,8 +149,6 @@ Today, when you build a model in PyMC, the interface is designed to be intuitive
 ![Model in PyMC](../_static/chris-pymcon-keynote/PyMC_model_sample_code.png)
 
 You can simply run the `[pm.sample](https://www.pymc.io/projects/docs/en/stable/api/generated/pymc.sample.html)` function to fit your model, which automates many of the decisions involved in the process. This allows you to generate MCMC results with just one line of code, without having to worry about the technical details of the algorithm. Thomas Wiecki, one of the founding developers, refers to this as the "automatic inference button".
-
-![stRuJH-vertical-black-line-illustration-png.png](PyMC%20Past,%20Present,%20and%20Future%20(PyMCon%202020)%206f417921f92d463e895251459ef1d487/stRuJH-vertical-black-line-illustration-png.png)
 
 ## What’s Next?
 

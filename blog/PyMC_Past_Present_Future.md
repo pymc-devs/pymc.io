@@ -19,7 +19,7 @@ Posted by:  [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)
         - PyMC 1.0
         - PyMC 2.0
         - PyMC 3.0
-        - Post-3.0 < ? >
+        - Post-3.0
     3. Applications
     4. Present Day
     5. Contributing
@@ -46,25 +46,7 @@ By abstracting away much of the underlying machinery that goes into random numbe
 
 # Summary Timeline
 
-Suggestion:  It would be nice to do a summary timeline image.  Here are some templates here:  [https://slidesgo.com/theme/timeline-infographics](https://slidesgo.com/theme/timeline-infographics)
-
-My favorites: slides 2, 3, 4, 15, 20, 21, 25, 26, 31, 
-
-1997:  WinBUGS
-
-xxxx:  OpenBUGS
-
-2005:  PyMC 1.0
-
-2006:  PyMC 2.0
-
-xxxx
-
-xxxx:
-
-2022: PyMC 4.0
-
-2022: PyMC 5.0
+![Summary Timeline](../_static/chris-pymcon-keynote/Timeline.png)
 
 ## Development Timeline
 
@@ -106,7 +88,7 @@ The next generation of bayesian inference methods aimed to solve these problems�
 
 The No-U-Turn-Sampler (NUTS algorithm), [developed by Matt Hoffman and Andrew Gelman in 2011](https://arxiv.org/abs/1111.4246), used information about the gradient of the log posterior-density to identify regions of higher probability to help it converge quickly on large problems. This was much faster than traditional sampling methods.
 
-John Salvatier developed the mcex ****package to experiment with gradient-based MCMC samples, and the following year he was invited by the team to re-engineer PyMC. Rather than relying on Fortran, he did this using the Theano package — a deep learning library initially developed for implementing neural network models.
+John Salvatier developed the mcex package to experiment with gradient-based MCMC samples, and the following year he was invited by the team to re-engineer PyMC. Rather than relying on Fortran, he did this using the Theano package — a deep learning library initially developed for implementing neural network models.
 
 ![Theano](../_static/chris-pymcon-keynote/Theano.png)
 

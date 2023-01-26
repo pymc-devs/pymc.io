@@ -86,7 +86,7 @@ In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal
 
 The first version was an object-oriented implementation of Markov chain Monte Carlo (MCMC), based on the numeric package, and heavily influenced by Chris’s prior experiences with Java.
 
-PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [sourceforge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006**.**
+PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [sourceforge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006.
 
 ### ***2006–2013***
 
@@ -152,7 +152,7 @@ Today, when you build a model in PyMC, the interface is designed to be intuitive
 
 ![Model in PyMC](../_static/chris-pymcon-keynote/PyMC_model_sample_code.png)
 
-You can simply run the `[pm.sample](https://www.pymc.io/projects/docs/en/stable/api/generated/pymc.sample.html)` function to fit your model, which automates many of the decisions involved in the process. This allows you to generate MCMC results with just one line of code, without having to worry about the technical details of the algorithm. Thomas Wiecki, one of the founding developers, refers to this as the "automatic inference button".
+You can simply run the [pm.sample](https://www.pymc.io/projects/docs/en/stable/api/generated/pymc.sample.html) function to fit your model, which automates many of the decisions involved in the process. This allows you to generate MCMC results with just one line of code, without having to worry about the technical details of the algorithm. Thomas Wiecki, one of the founding developers, refers to this as the "automatic inference button".
 
 ## What’s Next?
 

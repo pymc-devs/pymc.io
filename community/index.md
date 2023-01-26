@@ -18,7 +18,7 @@ PyMC talks have been given at a number of conferences, including [PyCon](https:/
 
 ## Swags
 
-To purchase PyMC official swags feel free to check out the [Merch Shop](https://numfocus.myspreadshop.com/pymc+official+logo?idea=61f03c1df33f941d0307b965)
+To purchase PyMC official swags feel free to check out the [NumFOCUS Shop](https://numfocus.myspreadshop.com/pymc+official+logo?idea=61f03c1df33f941d0307b965)
 
 ## Social Media
 

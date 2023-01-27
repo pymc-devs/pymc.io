@@ -36,7 +36,7 @@ In the talk, he discussed the broader context of probabilistic programming in th
 
 [PyMC](https://www.pymc.io/welcome.html) is a powerful and widely used probabilistic programming framework that allows users to implement state-of-the-art Bayesian inference methods in Python. The project was started by Chris Fonnesbeck in 2003 as a graduate student at the University of Georgia, and has since grown to have over 300 contributors.
 
-### **What’s a probabilistic programming language*?**
+### **What’s a probabilistic programming language?**
 
 A probabilistic programming language is a language that employs [stochastic](https://en.wikipedia.org/wiki/Stochastic) [primitives](https://en.wikipedia.org/wiki/Primitive_data_type). Just as we have integers and strings and floating point numbers in most languages, a probabilistic programming language will have **random variables** or **probability distributions.**
 

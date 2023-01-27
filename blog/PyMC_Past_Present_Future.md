@@ -36,7 +36,7 @@ In the talk, he discussed the broader context of probabilistic programming in th
 
 [PyMC](https://www.pymc.io/welcome.html) is a powerful and widely used probabilistic programming framework that allows users to implement state-of-the-art Bayesian inference methods in Python. The project was started by Chris Fonnesbeck in 2003 as a graduate student at the University of Georgia, and has since grown to have over 300 contributors.
 
-### **What’s a probabilistic programming language*?***
+### **What’s a probabilistic programming language*?**
 
 A probabilistic programming language is a language that employs [stochastic](https://en.wikipedia.org/wiki/Stochastic) [primitives](https://en.wikipedia.org/wiki/Primitive_data_type). Just as we have integers and strings and floating point numbers in most languages, a probabilistic programming language will have **random variables** or **probability distributions.**
 
@@ -50,7 +50,7 @@ By abstracting away much of the underlying machinery that goes into random numbe
 
 ## Development Timeline
 
-### ***Early 2000s***
+### **Early 2000s**
 
 ![Early 2000s](../_static/chris-pymcon-keynote/Early_2000s.png)
 
@@ -62,7 +62,7 @@ The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam
 
 Despite these challenges, WinBUGS and OpenBUGS provided invaluable experience in bayesian modeling for beginners, and paved the way for the development of PyMC as well as other tools that made it easier to implement Bayesian inference methods.
 
-### ***2003-2005***
+### **2003-2005**
 
 In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal of being able to build bayesian models in Python. 
 
@@ -70,7 +70,7 @@ The first version was an object-oriented implementation of Markov chain Monte Ca
 
 PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [sourceforge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006.
 
-### ***2006–2013***
+### **2006–2013**
 
 ![PyMC version 2](../_static/chris-pymcon-keynote/PyMCv2.png)
 
@@ -78,7 +78,7 @@ In 2006, Anand Patil and David Heward began expanding and refactoring a lot of t
 
 Version 2.0 was based on a set of Fortran functions that were compiled into Python using the [f2py package](https://numpy.org/doc/stable/f2py/), which allowed for improved performance. It also made use of the NumPy library, provided support for Python 3, implemented Gaussian processes, and provided convergence diagnostics.  After its release in October 2013, it attracted the interest of applied users in fields such as ecology and astronomy.
 
-### ***2011-2015***
+### **2011-2015**
 
 The Metropolis-Hastings and Gibbs samplers, two algorithms used to draw samples from a probability distribution, performed slowly for large or complex models.  
 

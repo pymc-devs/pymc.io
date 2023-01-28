@@ -11,7 +11,11 @@ Discourse is the best place to interact with the PyMC community and its team
 
 ## Conferences
 
-The PyMC community organizes [PyMCon](https://pymcon.com/), whose last edition was in 2020. Follow [Discourse](https://discourse.pymc.io/), [Twitter](https://twitter.com/pymc_devs), or [LinkedIn](https://www.linkedin.com/company/pymc/) to be updated about the next edition! The [PyMCon 2020 videos](https://www.youtube.com/c/PyMCDevelopers/videos) are available for viewing.
+The PyMC community organizes [PyMCon](https://pymcon.com/), a recurrimg webseries which is currently ongoing! 
+
+Follow [**Discourse**](https://discourse.pymc.io/c/events/pymcon-web-series/23), [Twitter](https://twitter.com/pymc_devs), or [LinkedIn](https://www.linkedin.com/company/pymc/) to be notified about all the events!
+
+Videos from the previous PyMCon edition in 2020 are [available on YouTube](https://www.youtube.com/c/PyMCDevelopers/videos).
 
 PyMC talks have been given at a number of conferences, including [PyCon](https://us.pycon.org/),
 [PyData](https://pydata.org/events/), and [ODSC](https://odsc.com/) events. There is a [PyMC playlist](https://www.youtube.com/playlist?list=PL1Ma_1DBbE82OVW8Fz_6Ts1oOeyOAiovy) of talks available.

@@ -4,7 +4,7 @@
 :::{post} November 1, 2020
 :tags: events, community, talks
 :category: news, testimonial
-:author: Chris Fonnesbeck, Rowan Schaefer
+:author: Sangam SwadiK, Rowan Schaefer
 :image: 0
 :exclude:
 

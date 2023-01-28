@@ -8,6 +8,7 @@
 :image: 0
 :exclude:
 
+Summary of Chris Fonnesbeck's PyMCon 2020 keynote.
 :::
 
 Posted by:  [Sangam Swadi K](https://www.linkedin.com/in/sangam-swadi-k/)

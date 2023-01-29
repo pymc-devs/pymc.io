@@ -34,7 +34,7 @@ In the talk, he discussed the broader context of probabilistic programming in th
 
 ### **What is PyMC?**
 
-[PyMC](https://www.pymc.io/welcome.html) is a powerful and widely used probabilistic programming framework that allows users to implement state-of-the-art Bayesian inference methods in Python. The project was started by Chris Fonnesbeck in 2003 as a graduate student at the University of Georgia, and has since grown to have over 300 contributors.
+[PyMC](https://www.pymc.io/welcome.html) is a powerful and widely used probabilistic programming framework that allows users to implement state-of-the-art Bayesian inference methods in Python. The project was started by Chris Fonnesbeck in 2003 as a graduate student at the University of Georgia, and has since grown to almost 400 contributors.
 
 ### **What’s a probabilistic programming language?**
 

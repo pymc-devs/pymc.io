@@ -122,7 +122,7 @@ In 2020, while working on the symbolic PyMC project, Brandon Willard had the ide
 
 The first [PyMCon](https://pymc-devs.github.io/pymcon/speakers) took place in October 2020. Chris Fonnesbeck closes out the talk by thanking everyone who worked to make the conference a reality, including Executive Directors Thomas Wiecki and Ravin Kumar. You can view the presentations here, or view the full talks on [the PyMCon playlist on Youtube](https://www.youtube.com/watch?v=UznM_-_760Y&list=PLD1x-BW9UdeHN2vwR6kIApJATd2jZzeya).
 
-## Present Day
+## 2020
 
 ![Golden Age](../_static/chris-pymcon-keynote/Present_day_golden_age.png)
 

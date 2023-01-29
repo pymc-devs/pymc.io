@@ -135,6 +135,20 @@ Today, when you build a model in PyMC, the interface is designed to be intuitive
 ![Model in PyMC](../_static/chris-pymcon-keynote/PyMC_model_sample_code.png)
 
 You can simply run the [pm.sample](https://www.pymc.io/projects/docs/en/stable/api/generated/pymc.sample.html) function to fit your model, which automates many of the decisions involved in the process. This allows you to generate MCMC results with just one line of code, without having to worry about the technical details of the algorithm. Thomas Wiecki, one of the founding developers, refers to this as the "automatic inference button".
+Chris's presentation was in October 2020.  Below find updates to the PyMC library since that keynote. 
+
+## 2022 (June)
+
+[PyMC v4.0 was released](https://www.pymc.io/blog/v4_announcement.html) in June 2020, which incorporated these major changes:  
+- PyMC3 was renamed PyMC
+- PyMC backend now used Theano; this new backend was renamed Aesara
+- JAX backend for faster sampling
+- Dynamic shape support
+- New website design:  [www.pymc.io/](https://www.pymc.io/.)
+
+## 2023 (November)
+PyMC v5.0 was released: [PyMC forked Aesara to PyTensor](https://www.pymc.io/blog.html)
+
 
 ## What’s Next?
 

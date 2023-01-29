@@ -76,7 +76,7 @@ PyMC  1.0 was released in 2005, and was used by a small group of regular users a
 
 In 2006, Anand Patil and David Heward began expanding and refactoring a lot of the code for PyMC 2.0, which became a comprehensive probabilistic programming library that included a wide range of statistical distributions. 
 
-Version 2.0 was based on a set of Fortran functions that were compiled into Python using the [f2py package](https://numpy.org/doc/stable/f2py/), which allowed for improved performance. It also made use of the NumPy library, provided support for Python 3, implemented Gaussian processes, and provided convergence diagnostics.  After its release in October 2013, it attracted the interest of applied users in fields such as ecology and astronomy.
+Version 2.0 was based on a set of Fortran functions that were compiled into Python using {ref}`F2PY <numpy:f2py>`, which allowed for improved performance. It also made use of the NumPy library, provided support for Python 3, implemented Gaussian processes, and provided convergence diagnostics.  After its release in October 2013, it attracted the interest of applied users in fields such as ecology and astronomy.
 
 ### **2011-2015**
 

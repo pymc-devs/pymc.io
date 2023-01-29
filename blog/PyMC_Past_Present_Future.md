@@ -152,7 +152,7 @@ PyMC v5.0 was released: [PyMC forked Aesara to PyTensor](https://www.pymc.io/blo
 
 ## What’s Next?
 
-Want to get started with bayesian analysis? 
+Want to get started with Bayesian analysis? 
 
 There’s never a better time than now to begin contributing to PyMC! Check the {ref}`PyMC Devs calendar <calendar>` or [PyMC Meetup group](https://www.meetup.com/pymc-online-meetup/events/) and watch for our office hours, or get started with our [contributing page.](https://www.pymc.io/projects/docs/en/latest/contributing/index.html)
 

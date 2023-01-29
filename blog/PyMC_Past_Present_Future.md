@@ -58,7 +58,7 @@ In the year 2000, Chris Fonnesbeck was a graduate student at the University of G
 
 [WinBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/), released in 1997, was the first software to provide an alternative to manually coding samplers for Bayesian models. However, it had a number of limitations: it was only supported on Windows without a virtual machine, it was closed source, and it could be phenomenally hard to debug.
 
-The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), but per its developer Andrew Thomas, it was “open source only in a read-only sense”. In addition, it was coded in [component Pascal](https://en.wikipedia.org/wiki/Component_Pascal), required a proprietary windows-only IDE to build, and the source code was not in plain text. 
+The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), but per its developer Andrew Thomas, it was “open source only in a read-only sense”. In addition, it was coded in [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal), required a proprietary windows-only IDE to build, and the source code was not in plain text. 
 
 Despite these challenges, WinBUGS and OpenBUGS provided invaluable experience in bayesian modeling for beginners, and paved the way for the development of PyMC as well as other tools that made it easier to implement Bayesian inference methods.
 
@@ -68,7 +68,7 @@ In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal
 
 The first version was an object-oriented implementation of Markov chain Monte Carlo (MCMC), based on the numeric package, and heavily influenced by Chris’s prior experiences with Java.
 
-PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [sourceforge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006.
+PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [SourceForge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006.
 
 ### 2006–2013
 
@@ -80,7 +80,7 @@ Version 2.0 was based on a set of Fortran functions that were compiled into Pyth
 
 ### 2011-2015
 
-The Metropolis-Hastings and Gibbs samplers, two algorithms used to draw samples from a probability distribution, performed slowly for large or complex models.  
+The Metropolis-Hastings and Gibbs samplers, two algorithms used to draw samples from an unnormalized probability model, performed slowly for large or complex models.  
 
 The next generation of bayesian inference methods aimed to solve these problems — namely, a gradient-based MCMC or hybrid Monte Carlo. 
 
@@ -94,11 +94,11 @@ John Salvatier developed the mcex package to experiment with gradient-based MCM
 
 The use of Theano allowed for constructing and compiling a graph to C. This enabled optimization, use on GPUs, and automatic differentiation. 
 
-Later on several other methods were added to PyMC, such as variational inference methods, largely thanks to the efforts of Taku Yoshioka and Max Kucherov.
+Later on several other methods were added to PyMC, such as variational inference methods, largely thanks to the efforts of Taku Yoshioka and Max Kochurov.
 
 ![PyMC3 in the Wild](../_static/chris-pymcon-keynote/PyMC3_in_Wild.png)
 
-There was a significant increase in the number of users of Pymc 3.0 compared to Version 2. 
+There was a significant increase in the number of users of PyMC 3.0 compared to Version 2. 
 
 Some examples of notable users include Aaron McNeil, a marine biologist who used PyMC to model the spread of crown of thorns starfish on the Great Barrier Reef, and Kevin Systrom and Thomas Vladick, the founder of Instagram and a developer, respectively, who used PyMC to model the basic reproductive number (Rt) of COVID-19 in different states in the US. This allowed them to provide real-time information about the spread of the virus.
 
@@ -108,17 +108,17 @@ Some examples of notable users include Aaron McNeil, a marine biologist who used
 
 In 2016, [PyMC became a sponsored project under NumFocus](https://numfocus.org/uncategorized/numfocus-announces-new-fiscally-sponsored-project-pymc3), a nonprofit organization that provides sustainability and support to open-source projects. By joining NumFocus, PyMC was able to access educational programs and events, as well as additional resources, to help ensure its continued development and success. 
 
-This support has been instrumental in allowing PyMC to continue to grow and thrive in the Open Source space, as well as in expanding community and diversity efforts.
+This support has been instrumental in allowing PyMC to continue to grow and thrive in the open source space, as well as in expanding community and diversity efforts.
 
 ### 2017-2020
 
-In October 2017, the team behind Theano, a deep learning framework, decided to discontinue the project due to the availability of other well-supported frameworks. 
+In October 2017, the Mila team at the University of Montreal responsible for the Theano framework, used by PyMC as its computational backend, decided to discontinue the project due to the availability of other well-supported frameworks. 
 
 This presented a challenge for PyMC, which relied heavily on Theano. The PyMC team spent over a year evaluating other computational backends, including MXNet, TensorFlow, and PyTorch, before deciding to try TensorFlow.  TensorFlow had been supportive of PyMC and was developing TensorFlow Probability, which included components that would be useful for PyMC. However, the rapid changes to TensorFlow presented many challenges.
 
 ![Theano with JAX](../_static/chris-pymcon-keynote/Theano_with_Jax.png)
 
-In 2020, while working on the symbolic PyMC project, Brandon Willard had the idea to link Theano to [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) as a computational back end. This would allow Theano to take advantage of JAX's autograd and linear algebra acceleration capabilities without the constraints of a deep learning framework. Willard successfully developed a JAX linker for Theano and used it to create the Theano-pymc library, to be used as a back-end for PyMC.
+In 2020, while working on the symbolic PyMC project, Brandon Willard had the idea to link Theano to [JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) as a computational back end. This would allow Theano to take advantage of JAX's autograd and linear algebra acceleration capabilities without the constraints of a deep learning framework. Willard successfully developed a JAX linker for Theano and used it to create the Theano-PyMC library (later renamed to Aesara), to be used as a back-end for PyMC.
 
 The first [PyMCon](https://pymc-devs.github.io/pymcon/speakers) took place in October 2020. Chris Fonnesbeck closes out the talk by thanking everyone who worked to make the conference a reality, including Executive Directors Thomas Wiecki and Ravin Kumar. You can view the presentations here, or view the full talks on [the PyMCon playlist on Youtube](https://www.youtube.com/watch?v=UznM_-_760Y&list=PLD1x-BW9UdeHN2vwR6kIApJATd2jZzeya).
 

@@ -1,5 +1,5 @@
 (PyMC_past_present_future)=
-# PyMC: Past, Present, and Future (PyMCon 2020)
+# PyMC: Past, Present, and Future
 
 :::{post} January 25, 2023
 :tags: events, community, talks

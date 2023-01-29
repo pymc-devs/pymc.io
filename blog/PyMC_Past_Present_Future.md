@@ -11,19 +11,6 @@
 Summary of Chris Fonnesbeck's PyMCon 2020 keynote.
 :::
 
-
-- Table of Contents
-    1. Background
-    2. PyMC Development Timeline
-        - Early 2000s
-        - PyMC 1.0
-        - PyMC 2.0
-        - PyMC 3.0
-        - Post-3.0
-    3. Applications
-    4. Present Day
-    5. Contributing
-
 At the [2020 PyMCon conference](https://pymc-devs.github.io/pymcon/about), Chris Fonnesbeck discussed the history and future of PyMC in his talk ["PyMC: Past, Present, and Future"](https://www.youtube.com/watch?v=RXODDVK7B-g&list=PLRD4U7ajWjSORb7M-VjtnvRUrfG6jXqOP&index=4). 
 
 In the talk, he discussed the broader context of probabilistic programming in the early 2000s, outlined the challenges and successes of early development, and provided insights into the future direction of the project. This blog provides a summary of the talk, which can be [viewed in full on YouTube](https://www.youtube.com/watch?v=RXODDVK7B-g&list=PLRD4U7ajWjSORb7M-VjtnvRUrfG6jXqOP&index=4), and a timeline of PyMC’s history up to 2020.
@@ -44,11 +31,9 @@ Why? These stochastic primitives are used as building blocks to build bayesian m
 
 By abstracting away much of the underlying machinery that goes into random number sampling and other forms of inference, probabilistic programming makes bayesian inference more accessible to those who are not software developers or statisticians.
 
-# Summary Timeline
+## Development Timeline
 
 ![Summary Timeline](../_static/chris-pymcon-keynote/Timeline.png)
-
-## Development Timeline
 
 ### Early 2000s
 
@@ -96,9 +81,9 @@ The use of Theano allowed for constructing and compiling a graph to C. This enab
 
 Later on several other methods were added to PyMC, such as variational inference methods, largely thanks to the efforts of Taku Yoshioka and Max Kochurov.
 
-![PyMC3 in the Wild](../_static/chris-pymcon-keynote/PyMC3_in_Wild.png)
+There was a significant increase in the number of users of PyMC 3.0 compared to Version 2 and widely used in many applications.
 
-There was a significant increase in the number of users of PyMC 3.0 compared to Version 2. 
+![PyMC3 in the Wild](../_static/chris-pymcon-keynote/PyMC3_in_Wild.png)
 
 Some examples of notable users include Aaron McNeil, a marine biologist who used PyMC to model the spread of crown of thorns starfish on the Great Barrier Reef, and Kevin Systrom and Thomas Vladick, the founder of Instagram and a developer, respectively, who used PyMC to model the basic reproductive number (Rt) of COVID-19 in different states in the US. This allowed them to provide real-time information about the spread of the virus.
 

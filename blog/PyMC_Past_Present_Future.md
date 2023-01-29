@@ -18,8 +18,6 @@ At the [2020 PyMCon conference](https://pymc-devs.github.io/pymcon/about), Chris
 <br>
 In the talk, he discussed the broader context of probabilistic programming in the early 2000s, outlined the challenges and successes of early development, and provided insights into the future direction of the project. 
 
-This blog provides a summary of the talk, which can be [viewed in full on YouTube](https://youtu.be/RXODDVK7B-g), and a timeline of PyMC’s history up to 2020.
-
 ## Background
 
 ![Background](../_static/chris-pymcon-keynote/Background.png)

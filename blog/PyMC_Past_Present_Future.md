@@ -36,7 +36,7 @@ By abstracting away much of the underlying machinery that goes into random numbe
 
 ## Development Timeline
 
-![Summary Timeline](../_static/chris-pymcon-keynote/Timeline.png)
+![Summary Timeline](../_static/chris-pymcon-keynote/PyMC_Timeline.png)
 
 ### Early 2000s
 

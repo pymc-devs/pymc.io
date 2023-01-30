@@ -94,7 +94,7 @@ Some examples of notable users include Aaron McNeil, a marine biologist who used
 
 ![NumFocus_LRG.png](../_static/chris-pymcon-keynote/NumFocus_LRG.png)
 
-In 2016, [PyMC became a sponsored project under NumFocus](https://numfocus.org/uncategorized/numfocus-announces-new-fiscally-sponsored-project-pymc3), a nonprofit organization that provides sustainability and support to open-source projects. By joining NumFocus, PyMC was able to access educational programs and events, as well as additional resources, to help ensure its continued development and success. 
+In 2016, [PyMC became a sponsored project under NumFOCUS](https://numfocus.org/uncategorized/numfocus-announces-new-fiscally-sponsored-project-pymc3), a nonprofit organization that provides sustainability and support to open-source projects. By joining NumFOCUS, PyMC was able to access educational programs and events, as well as additional resources, to help ensure its continued development and success. 
 
 This support has been instrumental in allowing PyMC to continue to grow and thrive in the open source space, as well as in expanding community and diversity efforts.
 

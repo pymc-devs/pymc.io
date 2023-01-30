@@ -30,7 +30,7 @@ In the talk, he discussed the broader context of probabilistic programming in th
 
 A probabilistic programming language is a language that employs [stochastic](https://en.wikipedia.org/wiki/Stochastic) [primitives](https://en.wikipedia.org/wiki/Primitive_data_type). Just as we have integers and strings and floating point numbers in most languages, a probabilistic programming language will have **random variables** or **probability distributions.**
 
-Why? These stochastic primitives are used as building blocks to build bayesian models. They give us the ability to specify probability models at a very high level. 
+Why? These stochastic primitives are used as building blocks to build Bayesian models. They give us the ability to specify probability models at a very high level. 
 
 By abstracting away much of the underlying machinery that goes into random number sampling and other forms of inference, probabilistic programming makes Bayesian inference more accessible to those who are not software developers or statisticians.
 

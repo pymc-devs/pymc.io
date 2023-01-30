@@ -46,7 +46,7 @@ In the year 2000, Chris Fonnesbeck was a graduate student at the University of G
 
 [WinBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/), released in 1997, was the first software to provide an alternative to manually coding samplers for Bayesian models. However, it had a number of limitations: it was only supported on Windows without a virtual machine, it was closed source, and it could be phenomenally hard to debug.
 
-The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), but per its developer Andrew Thomas, it was “open source only in a read-only sense”. In addition, it was coded in [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal), required a proprietary windows-only IDE to build, and the source code was not in plain text. 
+The project eventually became open-source via [OpenBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/openbugs/), but per its developer Andrew Thomas, it was “open source only in a read-only sense”. In addition, it was coded in [Component Pascal](https://en.wikipedia.org/wiki/Component_Pascal), required a proprietary windows-only IDE (integrated development environment) to build, and the source code was not in plain text. 
 
 Despite these challenges, WinBUGS and OpenBUGS provided invaluable experience in bayesian modeling for beginners, and paved the way for the development of PyMC as well as other tools that made it easier to implement Bayesian inference methods.
 

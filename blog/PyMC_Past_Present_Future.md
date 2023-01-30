@@ -56,7 +56,7 @@ In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal
 
 The first version was an object-oriented implementation of Markov chain Monte Carlo (MCMC), based on the numeric package, and heavily influenced by Chris’s prior experiences with Java.
 
-PyMC  1.0 was released in 2005, and was used by a small group of regular users associated with the University of Georgia. It ended up on [SourceForge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This lead to biologists Anand Patil and David Heward joining the project in 2006.
+PyMC 1.0 was released in 2005, and it was used by a small group of regular users associated with the University of Georgia. It ended up on [SourceForge](https://sourceforge.net/projects/pymc/), where others in the community began contributing. This led to biologists Anand Patil and David Heward joining the project in 2006.
 
 ### 2006–2013
 

@@ -42,7 +42,7 @@ By abstracting away much of the underlying machinery that goes into random numbe
 
 ![Early 2000s](../_static/chris-pymcon-keynote/Early_2000s.png)
 
-In the year 2000, Chris Fonnesbeck was a graduate student at the University of Georgia studying Biology. With statistical experience in SAS, he started experimenting with Bayesian models using WinBUGS and OpenBUGS.
+In the year 2000, Chris Fonnesbeck was a graduate student at the University of Georgia studying biology. With statistical experience in SAS, he started experimenting with Bayesian models using WinBUGS and OpenBUGS.
 
 [WinBUGS](https://www.mrc-bsu.cam.ac.uk/software/bugs/the-bugs-project-winbugs/), released in 1997, was the first software to provide an alternative to manually coding samplers for Bayesian models. However, it had a number of limitations: it was only supported on Windows without a virtual machine, it was closed source, and it could be phenomenally hard to debug.
 

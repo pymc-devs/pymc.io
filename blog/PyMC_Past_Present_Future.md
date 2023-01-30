@@ -52,7 +52,7 @@ Despite these challenges, WinBUGS and OpenBUGS provided invaluable experience in
 
 ### 2003-2005
 
-In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal of being able to build bayesian models in Python. 
+In 2003, Chris Fonnesbeck began writing the first version of PyMC, with the goal of being able to build Bayesian models in Python. 
 
 The first version was an object-oriented implementation of Markov chain Monte Carlo (MCMC), based on the numeric package, and heavily influenced by Chris’s prior experiences with Java.
 

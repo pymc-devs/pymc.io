@@ -116,7 +116,7 @@ The first [PyMCon](https://pymc-devs.github.io/pymcon/speakers) took place in Oc
 
 How far have we come from the early 2000s?
 
-As Chris Fonnesbeck says, we are currently in the “golden age of probabilistic programming” — there are  now many options to implement bayesian models on different platforms.
+As Chris Fonnesbeck says, we are currently in the “golden age of probabilistic programming” — there are  now many options to implement Bayesian models on different platforms.
 
 Today, when you build a model in PyMC, the interface is designed to be intuitive and easy to use. PyMC aims to make it as easy to code your model as it is to write it down on a whiteboard:
 

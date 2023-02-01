@@ -27,8 +27,8 @@ As the goal of the tutorial is to get new users up and running with Bayesian met
 
 Chris is the Principal Quantitative Analyst in Baseball Research & Development for the Philadelphia Phillies. He is interested in computational statistics, machine learning, Bayesian methods, and applied decision analysis. He hails from Vancouver, Canada and received his Ph.D. from the University of Georgia.
 
-- GitHub: https://github.com/fonnesbeck
-- LinkedIn: https://www.linkedin.com/in/christopher-fonnesbeck-374a492a
+- GitHub: [@fonnesbeck](https://github.com/fonnesbeck)
+- LinkedIn: [@christopher-fonnesbeck](https://www.linkedin.com/in/christopher-fonnesbeck-374a492a)
 
 
 ## Video

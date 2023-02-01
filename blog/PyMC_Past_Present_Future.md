@@ -153,7 +153,7 @@ PyMC in action! 💥 Check out the following pages in our [example gallery](htt
 - [PyMC: Core Notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html#core-notebooks)
 - [PyMC Case studies](https://www.pymc.io/projects/examples/en/latest/gallery.html#case-studies)
 - [Gaussian Processes](https://www.pymc.io/projects/examples/en/latest/gallery.html#gaussian-processes)
-- [Variationa Inferencel](https://www.pymc.io/projects/examples/en/latest/gallery.html#variational-inference)
+- [Variational Inference](https://www.pymc.io/projects/examples/en/latest/gallery.html#variational-inference)
 - [Causal Inference](https://www.pymc.io/projects/examples/en/latest/gallery.html#causal-inference)
 
 ## Connect with PyMC

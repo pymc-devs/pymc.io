@@ -70,7 +70,7 @@ Version 2.0 was based on a set of Fortran functions that were compiled into Pyth
 
 The Metropolis-Hastings and Gibbs samplers, two algorithms used to draw samples from an unnormalized probability model, performed slowly for large or complex models.  
 
-The next generation of Bayesian inference methods aimed to solve these problems — namely, a gradient-based MCMC or hybrid Monte Carlo. 
+The next generation of Bayesian inference methods aimed to solve these problems — namely, a gradient-based MCMC or Hamiltonian Monte Carlo (HMC). 
 
 ![Gradient Based MCMC](../_static/chris-pymcon-keynote/2011_2015_Gradient_based_MCMC.png)
 

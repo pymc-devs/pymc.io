@@ -37,44 +37,6 @@ Chris is the Principal Quantitative Analyst in Baseball Research & Development f
 <iframe width="560" height="315" src="https://www.youtube.com/embed/911d4A1U0BE?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
-## Outline
-
-- The basics of Bayes
-
-- Bayesian intuition
-
-- What is a probabilistic model?
-
-- Solving a simple model without specialized software
-
-- Building models in PyMC
-
-- Picking prior distributions
-
-- The data-generating model
-
-- Transformed variables
-
-- Estimating models with Markov chain Monte Carlo
-
-- How can we estimate a model with sampling?
-
-- The Hamiltonian Monte Carlo algorithm
-
-- MCMC in PyMC
-
-- What to do when things go wrong
-
-- Model checking 
-
-- Summarizing your model with plots and tables
-
-- Did our inference algorithm work as expected?
-
-- Is our model generating reasonable and believable results?
-
-- The Bayesian workflow.
-
 ## Timestamps
 [00:00](https://www.youtube.com/watch?v=911d4A1U0BE&t=0s) Welcome!
 

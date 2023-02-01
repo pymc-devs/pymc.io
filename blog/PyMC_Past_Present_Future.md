@@ -129,7 +129,7 @@ Chris's presentation was in October 2020.  Below find updates to the PyMC librar
 
 [PyMC v4.0 was released](https://www.pymc.io/blog/v4_announcement.html) in June 2020, which incorporated these major changes:  
 - PyMC3 was renamed PyMC
-- PyMC backend now used Theano; this new backend was renamed Aesara
+- PyMC backend now used Aesara, a fork of Theano
 - JAX backend for faster sampling
 - Dynamic shape support
 - New website design:  [www.pymc.io/](https://www.pymc.io/.)

@@ -34,9 +34,9 @@ Why? These stochastic primitives are used as building blocks to build Bayesian m
 
 By abstracting away much of the underlying machinery that goes into random number sampling and other forms of inference, probabilistic programming makes Bayesian inference more accessible to those who are not software developers or statisticians.
 
-## Development Timeline
+<!-- ## Development Timeline
 
-![Summary Timeline](../_static/chris-pymcon-keynote/Timeline.png)
+![Summary Timeline](../_static/chris-pymcon-keynote/Timeline.png) -->
 
 ### Early 2000s
 

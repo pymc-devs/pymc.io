@@ -134,8 +134,10 @@ Chris's presentation was in October 2020.  Below find updates to the PyMC librar
 - Dynamic shape support
 - New website design:  [www.pymc.io/](https://www.pymc.io/.)
 
-## 2023 (November)
-PyMC v5.0 was released: [PyMC forked Aesara to PyTensor](https://www.pymc.io/blog.html)
+## 2022 (December)
+- PyMC v5.0 was released. In this new major release, we switched our graph computation backend from Aesara to [PyTensor](https://github.com/pymc-devs/pytensor).
+- Checkout the announcement on the new project [Pytensor](https://www.pymc.io/blog/pytensor_announcement.html)
+- Release notes for [PyMC v5.0](https://github.com/pymc-devs/pymc/releases/tag/v5.0.0)
 
 
 ## What’s Next?

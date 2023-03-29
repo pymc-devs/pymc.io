@@ -156,19 +156,19 @@ html_title = "PyMC project website"
 
 html_sidebars = {
     "blog/tag": [
-        "tagcloud.html",
+        "ablog/tagcloud.html",
         "sidebar-nav-bs.html",
     ],
     "blog/category": [
-        "categories.html",
+        "ablog/categories.html",
         "sidebar-nav-bs.html",
     ],
     "blog/archive": [
-        "archives.html",
+        "ablog/archives.html",
         "sidebar-nav-bs.html",
     ],
     "blog/*": [
-        "postcard.html",
+        "ablog/postcard.html",
         "sidebar-nav-bs.html",
     ],
     "blog": ["sidebar-nav-bs.html"],

@@ -125,6 +125,8 @@ ogp_site_url = "https://www.pymc.io"
 ogp_image = "https://www.pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
+jupyterlite_bind_ipynb_suffix = False
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

@@ -65,7 +65,7 @@ myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 intersphinx_mapping = {
     "aesara": ("https://aesara.readthedocs.io/en/latest/", None),
     "arviz": ("https://python.arviz.org/en/latest/", None),
-    "bambi": ("https://bambinos.github.io/bambi/main", None),
+    "bambi": ("https://bambinos.github.io/bambi", None),
     "mpl": ("https://matplotlib.org/stable/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
     "pymc": ("https://www.pymc.io/projects/docs/en/stable/", None),

@@ -1,4 +1,4 @@
-Sphinx==4.5.0
+Sphinx
 sphinx-copybutton
 sphinx-design
 myst-nb
@@ -8,4 +8,4 @@ sphinxext-opengraph
 sphinx-notfound-page
 jupyterlite-sphinx
 sphinxext-rediraffe
-git+https://github.com/pymc-devs/pymc-sphinx-theme
+git+https://github.com/pymc-devs/pymc-sphinx-theme@pst_013_compatibility

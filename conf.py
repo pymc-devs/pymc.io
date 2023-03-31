@@ -65,7 +65,7 @@ myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 intersphinx_mapping = {
     "aesara": ("https://aesara.readthedocs.io/en/latest/", None),
     "arviz": ("https://python.arviz.org/en/latest/", None),
-    "bambi": ("https://bambinos.github.io/bambi/main", None),
+    "bambi": ("https://bambinos.github.io/bambi", None),
     "mpl": ("https://matplotlib.org/stable/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
     "pymc": ("https://www.pymc.io/projects/docs/en/stable/", None),
@@ -125,6 +125,8 @@ ogp_site_url = "https://www.pymc.io"
 ogp_image = "https://www.pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
 
+jupyterlite_bind_ipynb_suffix = False
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -156,19 +158,19 @@ html_title = "PyMC project website"
 
 html_sidebars = {
     "blog/tag": [
-        "tagcloud.html",
+        "ablog/tagcloud.html",
         "sidebar-nav-bs.html",
     ],
     "blog/category": [
-        "categories.html",
+        "ablog/categories.html",
         "sidebar-nav-bs.html",
     ],
     "blog/archive": [
-        "archives.html",
+        "ablog/archives.html",
         "sidebar-nav-bs.html",
     ],
     "blog/*": [
-        "postcard.html",
+        "ablog/postcard.html",
         "sidebar-nav-bs.html",
     ],
     "blog": ["sidebar-nav-bs.html"],

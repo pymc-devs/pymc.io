@@ -7,5 +7,6 @@ sphinx-codeautolink
 sphinxext-opengraph
 sphinx-notfound-page
 jupyterlite-sphinx
+jupyterlite-pyodide-kernel
 sphinxext-rediraffe
-git+https://github.com/pymc-devs/pymc-sphinx-theme
+pymc-sphinx-theme==0.13

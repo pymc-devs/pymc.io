@@ -1,7 +1,7 @@
 (how_to_ask_on_discourse)=
 # Asking Questions on the PyMC Discourse
 
-This document provides some advice for those asking questions on the [PyMC Discourse site](https://discourse.pymc.io/), the main channel for communication among the PyMC community.  If you have questions regarding modeling, PyMC/Aesara/arviz usage, or Bayesian modeling in general, please create a new post and someone is likely help you out.
+This document provides some advice for those asking questions on the [PyMC Discourse site](https://discourse.pymc.io/), the main channel for communication among the PyMC community.  If you have questions regarding modeling, PyMC/PyTensor/ArviZ usage, or Bayesian modeling in general, please create a new post and someone is likely help you out.
 
 The items in this guide are designed to help maximize the chances that you good answers quickly.
 
@@ -75,7 +75,7 @@ Highlight what you believe to be the critical aspects of your question.  Finally
 Please include information about what versions of the relevant packages you have installed and how they were installed, including:
 
 - PyMC version
-- Aesara version
+- PyTensor version
 - Python version
 - System, etc. (e.g., linux, Mac, Windows, jupyter, docker, Google Colab)
 - How you installed PyMC (e.g., pip, conda, mamba)

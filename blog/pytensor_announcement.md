@@ -1,5 +1,5 @@
 (pytensor_announcement)=
-# PyMC is Forking Aesara to PyTensor
+# PyMC forked Aesara to PyTensor
 
 :::{post} Nov 28, 2022
 :tags: announcement
@@ -7,7 +7,7 @@
 :author: PyMC developers
 :image: 0
 
-The PyMC team would like to announce that we are forking the Aesara project.
+The PyMC team would like to announce that we have forked the Aesara project.
 :::
 
 This new project is called [PyTensor](https://github.com/pymc-devs/pytensor). PyTensor will allow for new features such as labeled arrays, as well as speed up development and streamline the PyMC codebase and user experience. PyTensor is a community focused project and contributions are welcome.

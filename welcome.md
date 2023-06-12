@@ -121,6 +121,14 @@ PyMC Labs offers professional consulting services for PyMC.
 
 Mistplay is the world's leading Loyalty Program for mobile gamers.
 :::
+:::{grid-item-card} ODSC
+:link: https://odsc.com/california/?utm_source=pymc&utm_medium=referral
+
+<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/odsc/odsc_blue.png?raw=true"/>
+
+The future of AI gathers here.
+:::
+
 ::::
 :::::
 

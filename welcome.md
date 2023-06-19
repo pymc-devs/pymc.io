@@ -117,7 +117,7 @@ PyMC Labs offers professional consulting services for PyMC.
 :::{grid-item-card} Mistplay
 :link: https://www.mistplay.com/
 
-<img src="https://github.com/pymc-devs/pymcon_web_series_website/blob/main/static/images/sponsors_logos/mistplay2_white.png?raw=true"/>
+<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/mistplay2_white.png?raw=true"/>
 
 Mistplay is the world's leading Loyalty Program for mobile gamers.
 :::

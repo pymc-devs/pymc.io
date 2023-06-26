@@ -1,5 +1,15 @@
 (gsoc_2023_presentations)=
-# Introducing the 2023 PyMC Google Summer of Code Students
+# Meet our 2023 PyMC Interns
+
+:::{post} June 26, 2023
+:tags: gsoc, community, contributing
+:category: news, testimonial
+:author: Reshama Shaikh, 2023 PyMC Interns
+:image: 0
+:exclude:
+
+We are excited to introduce to the community our cohort of 2023 Interns working on PyMC, Aesara and Bambi.
+:::
 
 
 ## Daniel Saunders

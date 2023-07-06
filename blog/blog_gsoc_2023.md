@@ -61,8 +61,9 @@ Find out more at [Daniel's GSOC blog](https://daniel-saunders-phil.github.io/ima
 
 1. __How did you get involved in open source software?__
 
-     I participated in a PyMC sprint in July 2022, organized with Data Umbrella. I remember Reshama Shaikh, Ravin Kumar, Rowan Schaefer, and Oriol Abril Pla being really nice and super helpful. They taught me how git works and how to tidy up doc strings.
-     The world of open source was definitely overwhelming at first but I enjoyed being in a completely foreign environment. I just lurked on github for the next few months before applying to GSoC.
+     I participated in a [PyMC sprint in July 2022](https://blog.dataumbrella.org/data-umbrella-pymc-2022-report), organized with Data Umbrella. I remember Reshama Shaikh, Ravin Kumar, Rowan Schaefer, and Oriol Abril Pla being really nice and super helpful. They taught me how git works and how to tidy up doc strings. 
+     
+     The world of open source was definitely overwhelming at first but I enjoyed being in a completely foreign environment. I just lurked on GitHub for the next few months before applying to GSoC.
 
 1. __What are you expecting or hoping to get out of your GSoC experience?__
 

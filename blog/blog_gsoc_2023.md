@@ -18,6 +18,16 @@ We are excited to introduce to the community our cohort of 2023 Interns working 
 
 Expand support for spatial models in PyMC
 
+**Project Description**
+
+>This project will improve PyMCs support for modeling spatial processes.  There are many possible algorithms one may choose to work on, such as Gaussian process based methods for point processes like [Nearest Neighbor GPs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5927603/) or the Vecchia approximation, and models that are types of Gaussian Markov Random Fields, like CAR, ICAR and BYM models.  Implementions of these can be found in the R package [CARBayes](https://cran.r-project.org/web/packages/CARBayes/vignettes/CARBayes.pdf) and [INLA](https://www.r-inla.org/).  Past work in PyMC has shown promising results and this project would build on that. 
+
+**Info**
+* Hours: 350
+* Expected outcome: An implementation of one or more of the methods listed above, along with one or more notebook examples that can be added to the PyMC docs demonstrating these techniques.  
+* Skills required: Python, statistics, GPs
+* Difficulty: Medium
+
 **Mentors**
 - [Chris Fonnesbeck](https://github.com/fonnesbeck)
 - [Bill Engels](https://github.com/bwengals)
@@ -69,6 +79,18 @@ Find out more at [Daniel's GSOC blog](https://daniel-saunders-phil.github.io/ima
 
 Support Automatic Derivation of Arbitrary Censoring logp
 
+**Project Description**
+
+>PyMC can automatically derive the logp of certain censoring processes such as left and/or right censoring, and rounding. This project would extend the ability to arbitrary forms of censoring of which left/right and rounding are just special cases. This would include interval censoring and binning.
+
+>This project will require learning how to parse [PyTensor](https://pytensor.readthedocs.io/en/latest/) graphs, which is the backend used by PyMC. See https://www.pymc.io/projects/docs/en/v5.0.2/learn/core_notebooks/pymc_pytensor.html for more details. An understanding of probability theory is helpful but not a requirement (you can learn as you go)
+
+**Info**
+* Hours: 350
+* Expected outcome: PyMC logprob submodule will understand arbitrary censoring encoding models.
+* Skills required: Python, statistics
+* Difficulty: High
+
 **Mentors**
 - [Larry Dong](https://github.com/larryshamalama)
 - [Ricardo Vieira](https://github.com/ricardoV94)
@@ -117,3 +139,65 @@ Find out more at [Shreyas's GSOC blog](https://shreyas3156.github.io/gsoc-with-p
 
      I aspire to become a proficient Data Scientist in the sectors pertaining to sciences, such as meteorology, astronomy or healthcare. The GSoC program with PyMC and especially a project as engaging would provide me with a strong foundation for statistical modeling and machine learning. I had already got to learn a great deal during the application phase of GSoC and the variety of opportunities in open-source projects would keep my curiosity piqued.
 
+## Gabriel Stechschulte
+
+**Project Name**
+
+Better tools to interpret complex Bambi regression models
+
+**Project Description**
+
+>Bambi allows building Generalized Linear Models for Location, Scale, and Shape. The interpretation of parameter estimates can be challenging, especially when the model contains several predictors of different nature, possibly transformed, and model parameters are modified with link functions. To simplify the understanding, researchers often prefer to concentrate on simpler and easily interpretable quantities and visualizations. However, calculating these quantities and their standard errors is both time-consuming and non-trivial.  [Bambi](https://bambinos.github.io/bambi/) currently has some [visualization features](https://github.com/bambinos/bambi/pull/517)  currently has some visualization features to aid in comprehending model predictions, and this plan aims to enhance these features. A useful reference for our goals is the R library [marginaleffects](https://vincentarelbundock.github.io/marginaleffects/index.html).
+
+**Info**
+* Expected outcome: An implementation of one or more plotting functions to aid in the interpretation of Bambi's models
+* Skills required: Python, Matplotlib, familiarity with generalized linear models, 
+* Difficulty: Medium
+
+**Mentors**
+- [Tomás Capretto](https://github.com/tomicapretto)
+- [Osvaldo Martin](https://github.com/aloctavodia)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Gabriel Stechschulte](../_static/gsoc_2023/gabriel.png)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+>I have a MSc. in Data Science and work as a Systems Engineer in the supply chain department of an elevator manufacturing / production company. I develop hierarchical regression models to analyze costs and profitability of our different product lines and configurations as well as perform optimizations to reduce material waste and cost.
+
+
+**Connecting** 
+- Twitter: [@__gsteck__](https://twitter.com/__gsteck__)
+- GitHub: [@GStechschulte](https://github.com/GStechschulte)
+:::
+::::
+
+Find out more at [Gabriel's GSOC blog](https://gstechschulte.github.io/cached-blog/).
+
+1. __What motivated you to apply for GSoC with PyMC?__
+
+     A personal objective of mine for 2023  was to begin contributing to open source probabilistic programming libraries to: (1) deepen my knowledge and skill sets within Bayesian statistics and software development, and (2) to “give back” to the PPL open source community after having used the software for the previous 1-2  years, and (3) to meet like minded people within the probabilistic programming field. 
+
+1. __Why did you choose your specific project topic?__
+
+     Although the model building portion of the Bayesian workflow has become easier, the interpretation of these models has not.  Interpretation of generalized linear models are cumbersome even for the modeler; add on top the need of explainability to management and other non-technical stakeholders. Thus, I see my project topic as a way to *automate* certain aspects of model interpretability and as a way to present complex models to a non-technical audience *more effectively*. 
+
+1. __How did you get involved in open source software?__
+
+     I follow most of the PyMC, Bambi, Aesara, and Blackjax core devs on Twitter and GitHub. Seeing how supportive they (and the communities) are towards beginner developers wanting to contribute showed I should not be afraid. My first merged PR was documentation related in Blackjax haha. 
+
+1. __What are you expecting or hoping to get out of your GSoC experience?__
+
+     I am expecting to: 
+     - Improve software engineering knowledge and skill sets such as writing tests, robust code (error handling and shape handling), and object oriented programming.
+     - Dive  into the Bambi and xarray libraries in greater depth.
+     - Meet, communicate, and learn from  the other devs of the Bambi library.
+     - To merge all three of my project deliverables on time.
+
+1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+
+     One of my career goals is to work at a company where we not only utilize open source probabilistic programming (and related) libraries, but are allocated a certain percentage of resources (time and money) to further develop and improve *those* libraries. 

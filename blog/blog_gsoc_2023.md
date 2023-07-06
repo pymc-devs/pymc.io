@@ -172,7 +172,7 @@ Better tools to interpret complex Bambi regression models
 
 
 **Connecting** 
-- Twitter: [@\__gsteck\__](https://twitter.com/__gsteck__)
+- Twitter: [@\_\_gsteck\_\_](https://twitter.com/__gsteck__)
 - GitHub: [@GStechschulte](https://github.com/GStechschulte)
 :::
 ::::

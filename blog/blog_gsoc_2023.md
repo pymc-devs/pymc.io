@@ -1,4 +1,4 @@
-(gsoc_2023_presentations)=
+(interns_2023_presentations)=
 # Meet our 2023 PyMC Interns
 
 :::{post} June 26, 2023
@@ -23,10 +23,8 @@ Expand support for spatial models in PyMC
 >This project will improve PyMCs support for modeling spatial processes.  There are many possible algorithms one may choose to work on, such as Gaussian process based methods for point processes like [Nearest Neighbor GPs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5927603/) or the Vecchia approximation, and models that are types of Gaussian Markov Random Fields, like CAR, ICAR and BYM models.  Implementions of these can be found in the R package [CARBayes](https://cran.r-project.org/web/packages/CARBayes/vignettes/CARBayes.pdf) and [INLA](https://www.r-inla.org/).  Past work in PyMC has shown promising results and this project would build on that. 
 
 **Info**
-* Hours: 350
 * Expected outcome: An implementation of one or more of the methods listed above, along with one or more notebook examples that can be added to the PyMC docs demonstrating these techniques.  
-* Skills required: Python, statistics, GPs
-* Difficulty: Medium
+* Internship tag: GSoC
 
 **Mentors**
 - [Chris Fonnesbeck](https://github.com/fonnesbeck)
@@ -35,7 +33,7 @@ Expand support for spatial models in PyMC
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Daniel Saunders](../_static/gsoc_2023/daniel-saunders.png)
+![photo of Daniel Saunders](../_static/2023_interns/daniel-saunders.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
@@ -49,9 +47,9 @@ Expand support for spatial models in PyMC
 :::
 ::::
 
-Find out more at [Daniel's GSOC blog](https://daniel-saunders-phil.github.io/imagination_machine/).
+Find out more at [Daniel's GSoC blog](https://daniel-saunders-phil.github.io/imagination_machine/).
 
-1. __What motivated you to apply for GSoC with PyMC?__ 
+1. __What motivated you to apply for the intership with PyMC?__ 
   
      A few years ago, I started reading Richard McElreath’s marvelous book Statistical Rethinking and fell in love with probabilistic programming. My prior coding experience was in Python so PyMC was a natural choice of probabilistic programming language to pick up. Since then, I’ve really grown to love the package and wanted to learn how to contribute to it in a serious way.
 
@@ -65,11 +63,11 @@ Find out more at [Daniel's GSOC blog](https://daniel-saunders-phil.github.io/ima
      
      The world of open source was definitely overwhelming at first but I enjoyed being in a completely foreign environment. I just lurked on GitHub for the next few months before applying to GSoC.
 
-1. __What are you expecting or hoping to get out of your GSoC experience?__
+1. __What are you expecting or hoping to get out of your internship experience?__
 
      I want to grow my skills and my community. Working on large, collaborative software projects is a completely different challenge so I would like to get a feel for how they work. Similarly, my project is really going to push my knowledge of probabilistic programming forward. Getting to know who works in this space and what projects excite them is the other thing I’m really looking forward to.
 
-1.  __What are your career goals? How do you see the GSoC program moving you towards them?__
+1.  __What are your career goals? How do you see the internship program moving you towards them?__
 
     I’d like to work in probabilistic programming, either in academia or the private sector. My prior experience has been heavily academic so I’m eager to step just a bit outside that world and get connected with people who work on the private sector side. GSoC will diversify my experience in a way I hope opens new doors.
 
@@ -87,10 +85,9 @@ Support Automatic Derivation of Arbitrary Censoring logp
 >This project will require learning how to parse [PyTensor](https://pytensor.readthedocs.io/en/latest/) graphs, which is the backend used by PyMC. See https://www.pymc.io/projects/docs/en/v5.0.2/learn/core_notebooks/pymc_pytensor.html for more details. An understanding of probability theory is helpful but not a requirement (you can learn as you go)
 
 **Info**
-* Hours: 350
+
 * Expected outcome: PyMC logprob submodule will understand arbitrary censoring encoding models.
-* Skills required: Python, statistics
-* Difficulty: High
+* Internship tag: PyMC research
 
 **Mentors**
 - [Larry Dong](https://github.com/larryshamalama)
@@ -99,7 +96,7 @@ Support Automatic Derivation of Arbitrary Censoring logp
 :::{grid-item} 
 :columns: 12 6 6 4
 
-![photo of Shreyas Singh](../_static/gsoc_2023/shreyas-singh.png)
+![photo of Shreyas Singh](../_static/2023_interns/shreyas-singh.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
@@ -115,9 +112,9 @@ Support Automatic Derivation of Arbitrary Censoring logp
 :::
 ::::
 
-Find out more at [Shreyas's GSOC blog](https://shreyas3156.github.io/gsoc-with-pymc).
+Find out more at [Shreyas's internship blog](https://shreyas3156.github.io/gsoc-with-pymc).
 
-1. __What motivated you to apply for GSoC with PyMC?__
+1. __What motivated you to apply for the intership with PyMC?__
 
      My undergraduate major was Engineering Physics, but it was while doing a minor in Mathematics that I realized my affinity for statistics and computational math. Although I had prior development experience in Java at my job, I wanted to pursue probabilistic programming with more rigor. 
 
@@ -132,13 +129,13 @@ Find out more at [Shreyas's GSOC blog](https://shreyas3156.github.io/gsoc-with-p
 
      Despite having prior experience in software development and data analytics, it was only recently that I got introduced to the world of open source. A few friends suggested contributing to open-source software as the learning curve is sharp but rewarding. I have been amazed by the diversity of contributions and the willingness of developers from all backgrounds to work together towards a common goal and share their knowledge with those who wish to learn.
 
-1. __What are you expecting or hoping to get out of your GSoC experience?__
+1. __What are you expecting or hoping to get out of your internship experience?__
 
      I hope to add the log-probability inference for as many cases of arbitrary censoring as possible, taking in some special edge cases into consideration as well. The end goal would also be to port these likelihoods into Bambi and proper documentation for the entire logprob submodule. Overall, I expect to learn a lot from my mentors and other members of the organization, and become a regular contributor to PyMC along with learning the best practices in open source.
 
-1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+1. __What are your career goals? How do you see the internship program moving you towards them?__
 
-     I aspire to become a proficient Data Scientist in the sectors pertaining to sciences, such as meteorology, astronomy or healthcare. The GSoC program with PyMC and especially a project as engaging would provide me with a strong foundation for statistical modeling and machine learning. I had already got to learn a great deal during the application phase of GSoC and the variety of opportunities in open-source projects would keep my curiosity piqued.
+     I aspire to become a proficient Data Scientist in the sectors pertaining to sciences, such as meteorology, astronomy or healthcare. The internship program with PyMC and especially a project as engaging would provide me with a strong foundation for statistical modeling and machine learning. I had already got to learn a great deal during the application phase of GSoC and the variety of opportunities in open-source projects would keep my curiosity piqued.
 
 ## Gabriel Stechschulte
 
@@ -152,8 +149,8 @@ Better tools to interpret complex Bambi regression models
 
 **Info**
 * Expected outcome: An implementation of one or more plotting functions to aid in the interpretation of Bambi's models
-* Skills required: Python, Matplotlib, familiarity with generalized linear models, 
-* Difficulty: Medium
+* Internship tag: GSoC
+
 
 **Mentors**
 - [Tomás Capretto](https://github.com/tomicapretto)
@@ -162,7 +159,7 @@ Better tools to interpret complex Bambi regression models
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Gabriel Stechschulte](../_static/gsoc_2023/gabriel.png)
+![photo of Gabriel Stechschulte](../_static/2023_interns/gabriel.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
@@ -177,9 +174,9 @@ Better tools to interpret complex Bambi regression models
 :::
 ::::
 
-Find out more at [Gabriel's GSOC blog](https://gstechschulte.github.io/cached-blog/).
+Find out more at [Gabriel's GSoC blog](https://gstechschulte.github.io/cached-blog/).
 
-1. __What motivated you to apply for GSoC with PyMC?__
+1. __What motivated you to apply for the internship with PyMC?__
 
      A personal objective of mine for 2023  was to begin contributing to open source probabilistic programming libraries to: (1) deepen my knowledge and skill sets within Bayesian statistics and software development, and (2) to “give back” to the PPL open source community after having used the software for the previous 1-2  years, and (3) to meet like minded people within the probabilistic programming field. 
 
@@ -191,7 +188,7 @@ Find out more at [Gabriel's GSOC blog](https://gstechschulte.github.io/cached-bl
 
      I follow most of the PyMC, Bambi, Aesara, and Blackjax core devs on Twitter and GitHub. Seeing how supportive they (and the communities) are towards beginner developers wanting to contribute showed I should not be afraid. My first merged PR was documentation related in Blackjax haha. 
 
-1. __What are you expecting or hoping to get out of your GSoC experience?__
+1. __What are you expecting or hoping to get out of your internship experience?__
 
      I am expecting to: 
      - Improve software engineering knowledge and skill sets such as writing tests, robust code (error handling and shape handling), and object oriented programming.
@@ -199,6 +196,6 @@ Find out more at [Gabriel's GSOC blog](https://gstechschulte.github.io/cached-bl
      - Meet, communicate, and learn from  the other devs of the Bambi library.
      - To merge all three of my project deliverables on time.
 
-1. __What are your career goals? How do you see the GSoC program moving you towards them?__
+1. __What are your career goals? How do you see the internship program moving you towards them?__
 
      One of my career goals is to work at a company where we not only utilize open source probabilistic programming (and related) libraries, but are allocated a certain percentage of resources (time and money) to further develop and improve *those* libraries. 

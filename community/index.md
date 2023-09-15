@@ -11,7 +11,7 @@ Discourse is the best place to interact with the PyMC community and its team
 
 ## Conferences
 
-The PyMC community organizes [PyMCon](https://pymcon.com/), a recurrimg webseries which is currently ongoing! 
+The PyMC community organizes [PyMCon](https://pymcon.com/), a recurring webseries which is currently ongoing! 
 
 Follow [**Discourse**](https://discourse.pymc.io/c/events/pymcon-web-series/23), [Twitter](https://twitter.com/pymc_devs), or [LinkedIn](https://www.linkedin.com/company/pymc/) to be notified about all the events!
 

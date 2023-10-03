@@ -131,7 +131,7 @@ The future of AI gathers here.
 :::{grid-item-card} Adia Lab
 :link: https://www.adialab.ae/
 
-<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/adia-lab/adia-lab.jpg?raw=true"/>
+<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/adia-lab/adia-lab-transparent.png?raw=true"/>
 
 Dedicated to basic and applied research in data and computational sciences.
 :::

@@ -9,4 +9,4 @@ sphinx-notfound-page
 jupyterlite-sphinx
 jupyterlite-pyodide-kernel
 sphinxext-rediraffe
-pymc-sphinx-theme==0.13
+pymc-sphinx-theme==0.14

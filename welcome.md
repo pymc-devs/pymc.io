@@ -19,18 +19,10 @@ Here is what sets it apart:
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
 
-
-## Interactive Demo
-```{retrolite} pymc_example.ipynb
----
-width: 100%
-height: 300px
-```
-
 ## Get started
 * [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
 * [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
-* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/howto/api_quickstart.html)
+* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)
 * [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
 * [Discourse help forum](https://discourse.pymc.io)
 

@@ -42,6 +42,7 @@ extensions = [
     "notfound.extension",
     "jupyterlite_sphinx",
     "sphinxext.rediraffe",
+    "sphinx_sitemap",
 ]
 
 # List of patterns, relative to source directory, that match files and
@@ -134,6 +135,9 @@ jupyterlite_bind_ipynb_suffix = False
 # a list of builtin themes.
 #
 html_theme = "pymc_sphinx_theme"
+html_baseurl = "https://www.pymc.io/"
+sitemap_url_scheme = "{link}"
+html_extra_path = ["robots.txt", "sitemapindex.xml"]
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

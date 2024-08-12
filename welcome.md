@@ -25,6 +25,14 @@ This example demonstrates how to perform Bayesian inference for a linear regress
 
 Plant growth can be influenced by multiple factors, and understanding these relationships is crucial for optimizing agricultural practices.
 
+Independent Variables:
+- Sunlight Hours: Number of hours the plant is exposed to sunlight daily.
+- Water Amount: Daily water amount given to the plant (in milliliters).
+- Soil Nitrogen Content: Percentage of nitrogen content in the soil.
+
+Dependent Variable:
+- Plant Growth (y): Measured as the increase in plant height (in centimeters) over a certain period.
+
 ```python
 import pymc as pm
 
@@ -32,16 +40,6 @@ import pymc as pm
 seed = 42
 x_dist = pm.Normal.dist(shape=(100, 3))
 x_data = pm.draw(x_dist, random_seed=seed)
-
-# Independent Variables:
-# Sunlight Hours: Number of hours the plant is exposed to sunlight daily.
-# Water Amount: Daily water amount given to the plant (in milliliters).
-# Soil Nitrogen Content: Percentage of nitrogen content in the soil.
-
-
-# Dependent Variable:
-# Plant Growth (y): Measured as the increase in plant height (in centimeters) over a certain period.
-
 
 # Define coordinate values for all dimensions of the data
 coords={

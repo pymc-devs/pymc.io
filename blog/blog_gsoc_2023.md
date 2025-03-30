@@ -33,7 +33,7 @@ Expand support for spatial models in PyMC
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Daniel Saunders](../_static/gsoc_2023/daniel-saunders.png)
+![photo of Daniel Saunders](../_static/2023_interns/daniel-saunders.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
@@ -96,7 +96,7 @@ Support Automatic Derivation of Arbitrary Censoring logp
 :::{grid-item} 
 :columns: 12 6 6 4
 
-![photo of Shreyas Singh](../_static/gsoc_2023/shreyas-singh.png)
+![photo of Shreyas Singh](../_static/2023_interns/shreyas-singh.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
@@ -159,7 +159,7 @@ Better tools to interpret complex Bambi regression models
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Gabriel Stechschulte](../_static/gsoc_2023/gabriel.png)
+![photo of Gabriel Stechschulte](../_static/2023_interns/gabriel.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8

@@ -83,6 +83,14 @@ Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=g
 - GSoC 2023 project proposal [by Shreyas Singh](https://discourse.pymc.io/t/gsoc-project-2023/11735/7)
 - GSoC 2023 project proposal [by Daniel Saunders](https://discourse.pymc.io/t/gsoc-project-2023-spatial-modeling/11760)
 
+::::{div} sd-fs-5
+:::{tip}
+Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=gsoc) with project proposals:
+- GSoC 2023 project proposal [by Shreyas Singh](https://discourse.pymc.io/t/gsoc-project-2023/11735/7)
+- GSoC 2023 project proposal [by Daniel Saunders](https://discourse.pymc.io/t/gsoc-project-2023-spatial-modeling/11760)
+:::
+::::
+
 .. TIP:: 
 Read about our past interns:
 - [Meet our 2023 PyMC Interns](https://www.pymc.io/blog/blog_gsoc_2023.html)

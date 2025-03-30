@@ -78,10 +78,6 @@ We have [these PyMC GSoC 2025 projects](https://github.com/pymc-devs/pymc/wiki/G
 1. [Implement New Statespace Models](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#implement-new-statespace-models)
 1. You may propose another idea.
 
-.. TIP:: 
-Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=gsoc) with project proposals:
-- GSoC 2023 project proposal [by Shreyas Singh](https://discourse.pymc.io/t/gsoc-project-2023/11735/7)
-- GSoC 2023 project proposal [by Daniel Saunders](https://discourse.pymc.io/t/gsoc-project-2023-spatial-modeling/11760)
 
 ::::{div} sd-fs-5
 :::{tip}
@@ -91,10 +87,14 @@ Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=g
 :::
 ::::
 
-.. TIP:: 
+
+::::{div} sd-fs-5
+:::{tip}
 Read about our past interns:
 - [Meet our 2023 PyMC Interns](https://www.pymc.io/blog/blog_gsoc_2023.html)
 - [Meet our 2022 PyMC Google Summer of Code Students](https://www.pymc.io/blog/blog_gsoc_2022.html)
+:::
+::::
 
 ## [GSoC 2025 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
@@ -118,11 +118,12 @@ These are key 2025 dates:
 
 ### Contribute to PyMC
 
-    :::{figure-md} Video resources for contributing to PyMC
+::::{div} sd-d-flex-row sd-align-major-center
+:::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
+:color: primary
+:outline:
+:class: btn-lg
 
-    ![contribute_to_pymc](../_static/gsoc_2025/contribute-to-pymc.png)
-
-    [PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
-    :::
-
-
+[PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
+:::
+::::

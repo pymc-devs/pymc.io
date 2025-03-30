@@ -11,53 +11,27 @@
 PyMC is participating in 2025 Google Summer of Code (GSoC).
 :::
 
-.. list-table::
-   :width: 100%
-   :class: borderless
-
-   * - .. image:: ../_static/PyMC.jpg
-          :width: 100%
-         
-     - .. image:: ../_static/gsoc_2025/GSoC_banner.png
-          :width: 100%
-
-|pic1| any text |pic2|
-
-.. |pic1| image:: ../_static/PyMC.jpg
-   :width: 45%
-
-.. |pic2| image:: ../_static/gsoc_2025/GSoC_banner.png
-   :width: 45%
-
-.. subfigure:: AA|BC
-   :layout-sm: A|B|C
-   :subcaptions: above
-   :name: myfigure
-   :class-grid: outline
-
-   .. image:: ../_static/gsoc_2025/GSoC_banner.png
-      :alt: Image A
-
-   .. image:: ../_static/gsoc_2025/numfocus.png
-      :alt: Image B
-
-   .. image:: ../_static/PyMC.jpg
-      :alt: PyMC.jpg
-
-    Figure Caption
-
-
 ::::{grid} 1 2 2 2
 
-:::{grid-item-card} Current style
+:::{grid-item-card}  
+:img-background: ../_static/GSoC_banner.png
+:link: https://summerofcode.withgoogle.com/
+:alt: gsoc logo
+:::
+
+:::{grid-item-card} 
+:img-background: ../_static/gsoc_2025/numfocus.png
+:link: https://numfocus.org/programs/google-summer-code
+:::
+::::
+
+::::{grid} 1 1 1 1
+
+:::{grid-item-card} 
 :img-background: ../_static/gsoc_2025/numfocus.png
 :link: https://www.pymc.io/projects/examples/en/2022.01.0/generalized_linear_models/GLM-model-selection.html
 :::
 
-:::{grid-item-card} Old style
-:img-background: ../_static/PyMC.jpg
-:link: https://www.pymc.io/projects/docs/en/v3/pymc-examples/examples/generalized_linear_models/GLM-model-selection.html
-:::
 ::::
 
 
@@ -114,16 +88,6 @@ Read about our past interns:
 ::::{div} sd-d-flex-row sd-align-major-center
 :::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
 :color: primary
-:outline:
-:class: btn-lg
-
-PyMC Contributing resources
-:::
-::::
-
-::::{div} sd-d-flex-row sd-align-major-center
-:::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
-:color: primary
 :ref-type: ref
 :class: sd-fs-5
 
@@ -147,6 +111,17 @@ These are key 2025 dates:
 ## Resources
 
 ### Google Summer of Code (GSoC) Experience: Panel Discussion
+
+Google Summer of Code (GSOC) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors. In this panel discussion, we speak with several GSOC alumni of the PyMC project to learn of their experiences including the application process, mentorship experience and post-GSOC open source participation.
+
+#### About the Panelists
+
+**[Tirth Patel](https://www.linkedin.com/in/tirthasheshpatel/)** is a maintainer of SciPy and a contributor to a few other open-source projects like NumPy, PyMC, and scikit-learn. He participated in Google Summer of Code with PyMC in 2020 and with SciPy in 2021. He works primarily with Python and C, and he also codes with C++ and Julia. He is currently a graduate computer science student at Arizona State University.
+
+**[Larry Dong](https://www.linkedin.com/in/larry-dong/)** is a PhD student in biostatistics at the Dalla Lana School of Public Health at the University of Toronto in Toronto, Canada. He began his PhD during the pandemic which has allowed him to be immersed in open-source, particularly in the PyMC community. His first GSoC project entailed implementing a Dirichlet Process submodule for PyMC and he returned for another GSoC to continue this project and to learn more about Aesara and AePPL.
+
+**[Oriol Abril Pla](https://www.linkedin.com/in/oriol-abril-pla-1b9123180/)** has a background in engineering physics and astrophysics and currently works as a computational statistician. He is a core contributor and council member of ArviZ and PyMC projects. Oriol dedicates a lot of his time to community management and documentation because he believes they are as important as the code. He has helped organize and mentored in multiple Data Umbrella sprints. He has also mentored many new ArviZ and PyMC team members whose backgrounds ranged from computational scientist to technical writer.
+
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YE-TYJmvbfg" title="PyMC GSOC panel discussion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>

@@ -61,11 +61,13 @@ We have [these PyMC GSoC 2025 projects](https://github.com/pymc-devs/pymc/wiki/G
 1. [Implement New Statespace Models](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#implement-new-statespace-models)
 1. You may propose another idea.
 
-.. TIP:: Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=gsoc) with project proposals:
+.. TIP:: 
+Here are examples of [GSoC Discourse posts](https://discourse.pymc.io/search?q=gsoc) with project proposals:
 - GSoC 2023 project proposal [by Shreyas Singh](https://discourse.pymc.io/t/gsoc-project-2023/11735/7)
 - GSoC 2023 project proposal [by Daniel Saunders](https://discourse.pymc.io/t/gsoc-project-2023-spatial-modeling/11760)
 
-.. TIP:: Read about our past interns:
+.. TIP:: 
+Read about our past interns:
 - [Meet our 2023 PyMC Interns](https://www.pymc.io/blog/blog_gsoc_2023.html)
 - [Meet our 2022 PyMC Google Summer of Code Students](https://www.pymc.io/blog/blog_gsoc_2022.html)
 

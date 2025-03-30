@@ -96,6 +96,18 @@ Read about our past interns:
 :::
 ::::
 
+### Contribute to PyMC
+
+::::{div} sd-d-flex-row sd-align-major-center
+:::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
+:color: primary
+:outline:
+:class: btn-lg
+
+PyMC Contributing resources
+:::
+::::
+
 ## [GSoC 2025 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
 These are key 2025 dates:  
@@ -108,6 +120,7 @@ These are key 2025 dates:
 - **May 8 - June 1**: Community Bonding Period | GSoC contributors get to know mentors, read documentation, get up to speed to begin working on their projects
 - **June 2**: Coding officially begins!
 
+
 ## Resources
 
 ### Google Summer of Code (GSoC) Experience: Panel Discussion
@@ -116,14 +129,3 @@ These are key 2025 dates:
 </iframe>
 </p>
 
-### Contribute to PyMC
-
-::::{div} sd-d-flex-row sd-align-major-center
-:::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
-:color: primary
-:outline:
-:class: btn-lg
-
-[PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
-:::
-::::

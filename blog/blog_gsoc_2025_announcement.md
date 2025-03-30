@@ -47,6 +47,20 @@ PyMC is participating in 2025 Google Summer of Code (GSoC).
     Figure Caption
 
 
+::::{grid} 1 2 2 2
+
+:::{grid-item-card} Current style
+:img-background: ../_static/gsoc_2025/numfocus.png
+:link: https://www.pymc.io/projects/examples/en/2022.01.0/generalized_linear_models/GLM-model-selection.html
+:::
+
+:::{grid-item-card} Old style
+:img-background: ../_static/PyMC.jpg
+:link: https://www.pymc.io/projects/docs/en/v3/pymc-examples/examples/generalized_linear_models/GLM-model-selection.html
+:::
+::::
+
+
 ## Intro
 
 We are excited to share that the PyMC project is once again participating in [Google Summer of Code (GSoC)](https://opensource.googleblog.com/2025/02/meet-mentoring-organizations-of-gsoc.html) under the [NumFOCUS umbrella](https://github.com/numfocus/gsoc/blob/master/2025/ideas-list.md).
@@ -60,7 +74,6 @@ New contributors should first read the [contributing guide](https://www.pymc.io/
 To be considered as a GSoC student, you should make a PR to PyMC / PyTensor. It can be something small, like a doc fix or simple bug fix. Some [beginner friendly issues](https://github.com/pymc-devs/pymc/labels/beginner%20friendly) have been tagged.
 
 If you are a student interested in participating, please contact us [on our PyMC Discourse site](https://discourse.pymc.io/).
-
 
 ## Project Ideas
 
@@ -96,13 +109,23 @@ Read about our past interns:
 :::
 ::::
 
-### Contribute to PyMC
+## Contribute to PyMC
 
 ::::{div} sd-d-flex-row sd-align-major-center
 :::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
 :color: primary
 :outline:
 :class: btn-lg
+
+PyMC Contributing resources
+:::
+::::
+
+::::{div} sd-d-flex-row sd-align-major-center
+:::{button-link} https://www.dataumbrella.org/open-source/contributing-to-pymc
+:color: primary
+:ref-type: ref
+:class: sd-fs-5
 
 PyMC Contributing resources
 :::

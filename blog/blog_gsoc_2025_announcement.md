@@ -91,10 +91,10 @@ These are key 2025 dates:
 
 ### Contribute to PyMC
 
-:::{figure-md} Video resources for contributing to PyMC
+    :::{figure-md} Video resources for contributing to PyMC
 
-   ![contribute_to_pymc](../_static/gsoc_2025/contribute-to-pymc.png)
+    ![contribute_to_pymc](../_static/gsoc_2025/contribute-to-pymc.png)
 
     [PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
- 
-:::
+    :::
+

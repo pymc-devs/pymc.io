@@ -5,11 +5,6 @@ sphinx:
   # Path to your Sphinx configuration file.
   configuration: docs/conf.py
 
-version: 2
-mkdocs:
-  # Path to your MkDocs configuration file.
-  configuration: mkdocs.yml
-
 build:
   os: ubuntu-22.04
   tools:

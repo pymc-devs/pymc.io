@@ -11,6 +11,16 @@
 PyMC is participating in 2025 Google Summer of Code (GSoC).
 :::
 
+.. list-table::
+   :width: 100%
+   :class: borderless
+
+   * - .. image:: PyMC.jpg
+          :width: 100%
+         
+     - .. image:: [gsoc_banner](../_static/gsoc_2025/GSoC_banner.png)
+          :width: 100%
+
 ## Intro
 
 We are excited to share that the PyMC project is once again participating in [Google Summer of Code (GSoC)](https://opensource.googleblog.com/2025/02/meet-mentoring-organizations-of-gsoc.html) under the [NumFOCUS umbrella](https://github.com/numfocus/gsoc/blob/master/2025/ideas-list.md).

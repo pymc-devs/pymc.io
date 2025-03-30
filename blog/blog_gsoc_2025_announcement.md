@@ -15,7 +15,7 @@ PyMC is participating in 2025 Google Summer of Code (GSoC).
    :width: 100%
    :class: borderless
 
-   * - .. image:: PyMC.jpg
+   * - .. image:: ../_static/PyMC.jpg
           :width: 100%
          
      - .. image:: ../_static/gsoc_2025/GSoC_banner.png
@@ -23,11 +23,28 @@ PyMC is participating in 2025 Google Summer of Code (GSoC).
 
 |pic1| any text |pic2|
 
-.. |pic1| image:: PyMC.jpg
+.. |pic1| image:: ../_static/PyMC.jpg
    :width: 45%
 
 .. |pic2| image:: ../_static/gsoc_2025/GSoC_banner.png
    :width: 45%
+
+.. subfigure:: AA|BC
+   :layout-sm: A|B|C
+   :subcaptions: above
+   :name: myfigure
+   :class-grid: outline
+
+   .. image:: ../_static/gsoc_2025/GSoC_banner.png
+      :alt: Image A
+
+   .. image:: ../_static/gsoc_2025/numfocus.png
+      :alt: Image B
+
+   .. image:: ../_static/PyMC.jpg
+      :alt: PyMC.jpg
+
+    Figure Caption
 
 
 ## Intro
@@ -99,4 +116,5 @@ These are key 2025 dates:
 
     [PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
     :::
+
 

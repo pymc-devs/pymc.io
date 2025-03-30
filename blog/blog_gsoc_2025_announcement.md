@@ -112,7 +112,7 @@ These are key 2025 dates:
 
 ### Google Summer of Code (GSoC) Experience: Panel Discussion
 
-Google Summer of Code (GSOC) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors. In this panel discussion, we speak with several GSOC alumni of the PyMC project to learn of their experiences including the application process, mentorship experience and post-GSOC open source participation.
+Google Summer of Code (GSoC) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors. In this panel discussion, we speak with several GSoC alumni of the PyMC project to learn of their experiences including the application process, mentorship experience and post-GSoC open source participation.
 
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YE-TYJmvbfg" title="PyMC GSOC panel discussion video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
@@ -130,7 +130,7 @@ Google Summer of Code (GSOC) is a global, online program focused on bringing new
 :::{grid-item}
 :columns: 12 6 6 8
 
-[Tirth Patel](https://www.linkedin.com/in/tirthasheshpatel/)
+[Tirth Patel](https://www.linkedin.com/in/tirthasheshpatel/) GSoC 2020 & 2021
 > Tirth is a maintainer of SciPy and a contributor to a few other open-source projects like NumPy, PyMC, and scikit-learn. He participated in Google Summer of Code with PyMC in 2020 and with SciPy in 2021. He works primarily with Python and C, and he also codes with C++ and Julia. He is currently a graduate computer science student at Arizona State University.
 :::
 
@@ -142,7 +142,7 @@ Google Summer of Code (GSOC) is a global, online program focused on bringing new
 :::{grid-item}
 :columns: 12 6 6 8
 
-[Larry Dong](https://www.linkedin.com/in/larry-dong/)
+[Larry Dong](https://www.linkedin.com/in/larry-dong/) GSoC 2021 & 2022
 > Larry is a PhD student in biostatistics at the Dalla Lana School of Public Health at the University of Toronto in Toronto, Canada. He began his PhD during the pandemic which has allowed him to be immersed in open-source, particularly in the PyMC community. His first GSoC project entailed implementing a Dirichlet Process submodule for PyMC and he returned for another GSoC to continue this project and to learn more about Aesara and AePPL.
 :::
 
@@ -154,7 +154,7 @@ Google Summer of Code (GSOC) is a global, online program focused on bringing new
 :::{grid-item}
 :columns: 12 6 6 8
 
-[Oriol Abril Pla](https://www.linkedin.com/in/oriol-abril-pla-1b9123180/)
+[Oriol Abril Pla](https://www.linkedin.com/in/oriol-abril-pla-1b9123180/) GSoC 2019
 > Oriol has a background in engineering physics and astrophysics and currently works as a computational statistician. He is a core contributor and council member of ArviZ and PyMC projects. Oriol dedicates a lot of his time to community management and documentation because he believes they are as important as the code. He has helped organize and mentored in multiple Data Umbrella sprints. He has also mentored many new ArviZ and PyMC team members whose backgrounds ranged from computational scientist to technical writer.
 :::
 

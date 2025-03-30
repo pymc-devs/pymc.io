@@ -18,14 +18,23 @@ PyMC is participating in 2025 Google Summer of Code (GSoC).
    * - .. image:: PyMC.jpg
           :width: 100%
          
-     - .. image:: [gsoc_banner](../_static/gsoc_2025/GSoC_banner.png)
+     - .. image:: ../_static/gsoc_2025/GSoC_banner.png
           :width: 100%
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: PyMC.jpg
+   :width: 45%
+
+.. |pic2| image:: ../_static/gsoc_2025/GSoC_banner.png
+   :width: 45%
+
 
 ## Intro
 
 We are excited to share that the PyMC project is once again participating in [Google Summer of Code (GSoC)](https://opensource.googleblog.com/2025/02/meet-mentoring-organizations-of-gsoc.html) under the [NumFOCUS umbrella](https://github.com/numfocus/gsoc/blob/master/2025/ideas-list.md).
 
-# Getting started
+## Getting started
 
 :::{attention}
 New contributors should first read the [contributing guide](https://www.pymc.io/projects/docs/en/latest/contributing/index.html) and learn the basics of [PyTensor](https://github.com/pymc-devs/pytensor). Also they should read through some of the [examples](https://docs.pymc.io/projects/examples/en/latest/) in the [PyMC docs](https://docs.pymc.io). 
@@ -36,7 +45,7 @@ To be considered as a GSoC student, you should make a PR to PyMC / PyTensor. It 
 If you are a student interested in participating, please contact us [on our PyMC Discourse site](https://discourse.pymc.io/).
 
 
-# Project Ideas
+## Project Ideas
 
 Below is a list of possible topics for your GSoC project, **we are also open to other topics**, contact us on [Discourse](https://discourse.pymc.io/).
 Keep in mind that these are only ideas and that some of them can't be completely solved in a single GSoC project.
@@ -72,8 +81,6 @@ These are key 2025 dates:
 - **May 8 - June 1**: Community Bonding Period | GSoC contributors get to know mentors, read documentation, get up to speed to begin working on their projects
 - **June 2**: Coding officially begins!
 
-## Related Projects
-
 ## Resources
 
 ### Google Summer of Code (GSoC) Experience: Panel Discussion
@@ -84,10 +91,10 @@ These are key 2025 dates:
 
 ### Contribute to PyMC
 
-   :::{figure-md} Video resources for contributing to PyMC
+:::{figure-md} Video resources for contributing to PyMC
 
    ![contribute_to_pymc](../_static/gsoc_2025/contribute-to-pymc.png)
 
-    [PyMC Contributing resources](https://gitpod.io/workspaces)
+    [PyMC Contributing resources](https://www.dataumbrella.org/open-source/contributing-to-pymc)
  
-    :::
+:::

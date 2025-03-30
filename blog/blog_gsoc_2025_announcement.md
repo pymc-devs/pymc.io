@@ -127,4 +127,41 @@ Google Summer of Code (GSOC) is a global, online program focused on bringing new
 
 **[Oriol Abril Pla](https://www.linkedin.com/in/oriol-abril-pla-1b9123180/)** has a background in engineering physics and astrophysics and currently works as a computational statistician. He is a core contributor and council member of ArviZ and PyMC projects. Oriol dedicates a lot of his time to community management and documentation because he believes they are as important as the code. He has helped organize and mentored in multiple Data Umbrella sprints. He has also mentored many new ArviZ and PyMC team members whose backgrounds ranged from computational scientist to technical writer.
 
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
 
+![photo of Tirth Patel](../_static/2023_interns/daniel-saunders.png)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> Tirth is a maintainer of SciPy and a contributor to a few other open-source projects like NumPy, PyMC, and scikit-learn. He participated in Google Summer of Code with PyMC in 2020 and with SciPy in 2021. He works primarily with Python and C, and he also codes with C++ and Julia. He is currently a graduate computer science student at Arizona State University.
+:::
+
+:::{grid-item}
+:columns: 12 6 6 4
+
+![Larry Dong](../_static/gsoc_2022/larry.jpg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> Larry is a PhD student in biostatistics at the Dalla Lana School of Public Health at the University of Toronto in Toronto, Canada. He began his PhD during the pandemic which has allowed him to be immersed in open-source, particularly in the PyMC community. His first GSoC project entailed implementing a Dirichlet Process submodule for PyMC and he returned for another GSoC to continue this project and to learn more about Aesara and AePPL.
+:::
+
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Oriol Abril Pla](../_static/gsoc_2025/oriol_abril_pla.jpeg)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+**Bio**
+> Oriol has a background in engineering physics and astrophysics and currently works as a computational statistician. He is a core contributor and council member of ArviZ and PyMC projects. Oriol dedicates a lot of his time to community management and documentation because he believes they are as important as the code. He has helped organize and mentored in multiple Data Umbrella sprints. He has also mentored many new ArviZ and PyMC team members whose backgrounds ranged from computational scientist to technical writer.
+:::
+
+::::

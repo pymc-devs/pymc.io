@@ -67,10 +67,10 @@ We have [these PyMC GSoC 2025 projects](https://github.com/pymc-devs/pymc/wiki/G
 
 Additionally, there are two other open source projects in the Bayesian space which are also participating in GSoC and you may be interested in checking them out:  
 
-1. [ArViZ](https://github.com/arviz-devs/arviz/wiki/GsoC-2025-projects) ArviZ is a project dedicated to promoting and building tools for exploratory analysis of Bayesian models. It currently has a Python and a Julia interface. All projects listed below are for the Python interface.
+1. [ArViZ](https://github.com/arviz-devs/arviz/wiki/GsoC-2025-projects): ArviZ is a project dedicated to promoting and building tools for exploratory analysis of Bayesian models. It currently has a Python and a Julia interface. All projects listed below are for the Python interface.
    - [Feature parity](https://github.com/arviz-devs/arviz/wiki/GsoC-2025-projects#Feature-Parity)
    - [Prior elicitation](https://github.com/arviz-devs/arviz/wiki/GsoC-2025-projects#prior-elicitation)
-1. [Stan](https://github.com/stan-dev/stan/wiki/GSOC-2025-Proposed-Projects)
+1. [Stan](https://github.com/stan-dev/stan/wiki/GSOC-2025-Proposed-Projects): Stan enables sophisticated statistical modeling using Bayesian inference, allowing for more accurate and interpretable results in complex data scenarios.
    - [loo package](https://github.com/stan-dev/stan/wiki/GSOC-2025-Proposed-Projects#loo-package)
    - [bayesplot package](https://github.com/stan-dev/stan/wiki/GSOC-2025-Proposed-Projects#bayesplot-package)
 

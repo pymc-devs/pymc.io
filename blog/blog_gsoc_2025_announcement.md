@@ -103,6 +103,16 @@ PyMC Contributing resources
 :::
 ::::
 
+
+::::{grid} 1 1 1 1
+
+:::{grid-item-card} 
+:img-background: ../_static/gsoc_2025/contribute-to-pymc.png
+:link: https://www.pymc.io
+:::
+
+::::
+
 ## [GSoC 2025 Timeline](https://developers.google.com/open-source/gsoc/timeline)
 
 These are key 2025 dates:  

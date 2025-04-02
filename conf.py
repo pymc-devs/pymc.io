@@ -19,7 +19,7 @@ from pathlib import Path
 # -- Project information -----------------------------------------------------
 
 project = "PyMC project website"
-copyright = "2022, PyMC Team"
+copyright = "2025, PyMC Team"
 author = "PyMC Team"
 version = ""
 release = ""

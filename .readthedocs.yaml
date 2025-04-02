@@ -1,6 +1,9 @@
 # Read the Docs configuration file
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 version: 2
+sphinx:
+  # Path to your Sphinx configuration file.
+  configuration: conf.py
 
 build:
   os: ubuntu-22.04
@@ -10,3 +13,4 @@ build:
 python:
   install:
     - requirements: requirements.txt
+

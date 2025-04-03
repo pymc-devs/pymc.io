@@ -66,8 +66,8 @@ We have [these PyMC GSoC 2025 projects](https://github.com/pymc-devs/pymc/wiki/G
 1. [Integrated Nested Laplace Approximation](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#integrated-nested-laplace-approximations-inla)
 1. [Streaming Inference](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#streaming-inference)
 1. [Guide Programs for VI](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#guide-programs-for-variational-inference)
-1. [Linear Algebra Rewrites](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#guide-programs-for-variational-inference)
-1. [Automatic Marginalization](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#guide-programs-for-variational-inference)
+1. [Linear Algebra Rewrites](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#linear-algebra-rewrites)
+1. [Automatic Marginalization](https://github.com/pymc-devs/pymc/wiki/GSoC-2025-projects#extend-automatic-marginalization-functionality)
 
 Additionally, there are two other open source projects in the Bayesian space which are also participating in GSoC and you may be interested in checking them out:  
 

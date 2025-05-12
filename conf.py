@@ -40,7 +40,6 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_codeautolink",
     "notfound.extension",
-    "jupyterlite_sphinx",
     "sphinxext.rediraffe",
     "sphinx_sitemap",
 ]
@@ -145,6 +144,7 @@ html_extra_path = ["robots.txt", "sitemapindex.xml"]
 html_theme_options = {
     "show_nav_level": 2,
     "navbar_start": ["navbar-logo"],
+    "search_bar_text": "Search within the PyMC blog...",
 }
 html_context = {
     "github_user": "pymc-devs",

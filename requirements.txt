@@ -6,8 +6,6 @@ ablog
 sphinx-codeautolink
 sphinxext-opengraph
 sphinx-notfound-page
-jupyterlite-sphinx
-jupyterlite-pyodide-kernel
 sphinxext-rediraffe
-pymc-sphinx-theme==0.14
+pymc-sphinx-theme>=0.16
 sphinx-sitemap

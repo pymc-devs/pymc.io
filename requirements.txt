@@ -7,5 +7,5 @@ sphinx-codeautolink
 sphinxext-opengraph
 sphinx-notfound-page
 sphinxext-rediraffe
-git+https://github.com/pymc-devs/pymc-sphinx-theme@test_016
+pymc-sphinx-theme>=0.16
 sphinx-sitemap

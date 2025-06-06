@@ -20,7 +20,7 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 
 **Project Description**
 
->TA key component of Bayesian inference is integrating over prior distributions to obtain posteriors. In practice however, these distributions are often high-dimensional, resulting in a significant computational cost associated with integration, which remains a key challenge in Bayesian ML. Under certain assumptions, it is possible to efficiently compute posteriors for Latent Gaussian Models (LGMs), which represent a broad class of statistical models in Bayesian statistics. This is known as the method of Integrated Nested Laplace Approximations (INLA), and this project aims to implement a working basis for INLA in the PyMC library.
+>A key component of Bayesian inference is integrating over prior distributions to obtain posteriors. In practice however, these distributions are often high-dimensional, resulting in a significant computational cost associated with integration, which remains a key challenge in Bayesian ML. Under certain assumptions, it is possible to efficiently compute posteriors for Latent Gaussian Models (LGMs), which represent a broad class of statistical models in Bayesian statistics. This is known as the method of Integrated Nested Laplace Approximations (INLA), and this project aims to implement a working basis for INLA in the PyMC library.
 
 **Mentors**
 - [Rob Zinkov](https://github.com/zaxtax)
@@ -36,7 +36,7 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 :columns: 12 6 6 8
 
 **Bio**
-> I am a 4th year undergraduate BEng (Bachelor of Aerospace Engineering) (Honours) student at Monash University in Australia. My research interests can be summed up as “how can we embed priors/known information into AI/ML models?” and “how can we provide guarantees about their output?”. Bayesian ML is a promising direction to address these questions and is a key interest of mine.
+>I am a 4th year undergraduate BEng (Bachelor of Aerospace Engineering) (Honours) student at Monash University in Australia. My research interests can be summed up as “how can we embed priors/known information into AI/ML models?” and “how can we provide guarantees about their output?”. Bayesian ML is a promising direction to address these questions and is a key interest of mine.
 
 **Connecting**
 - LinkedIn: [@michal-novomestsky](https://linkedin.com/in/michal-novomestsky)
@@ -45,7 +45,7 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 ::::
 
 
-1. __What motivated you to apply for the intership with PyMC?__ 
+1. __What motivated you to apply for the internship with PyMC?__ 
   
      As mentioned in my bio, I am interested in pursuing research focused on developing more principled and structured AI models, as well as understanding the internal behaviour of existing architectures. Bayesian statistics provides potential inroads to address both these challenges. As such, I felt that this would be an excellent opportunity to better understand the field as well as network with experts.
 

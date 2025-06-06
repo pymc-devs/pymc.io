@@ -22,10 +22,6 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 
 >TA key component of Bayesian inference is integrating over prior distributions to obtain posteriors. In practice however, these distributions are often high-dimensional, resulting in a significant computational cost associated with integration, which remains a key challenge in Bayesian ML. Under certain assumptions, it is possible to efficiently compute posteriors for Latent Gaussian Models (LGMs), which represent a broad class of statistical models in Bayesian statistics. This is known as the method of Integrated Nested Laplace Approximations (INLA), and this project aims to implement a working basis for INLA in the PyMC library.
 
-**Info**
-* Expected outcome: An implementation of one or more of the methods listed above, along with one or more notebook examples that can be added to the PyMC docs demonstrating these techniques.  
-* Internship tag: GSoC
-
 **Mentors**
 - [Rob Zinkov](https://github.com/zaxtax)
 - [Colt Allen](https://github.com/ColtAllen)

@@ -70,3 +70,17 @@ Implementing Integrated Nested Laplace Approximations (INLA)
      I am hoping to pursue a career in research, in particular focusing on developing more robust and interpretable AI, and GSoC is an excellent opportunity to be able to network with experts across both industry and academia, which I hope will open doors for me to continue to pursue this passion.
 
 
+
+
+## References
+
+- [2025 GSoC NumFOCUS projects](https://summerofcode.withgoogle.com/programs/2025/organizations/numfocus)
+- [2025 PyMC GSoC applications blog](https://www.pymc.io/blog/blog_gsoc_2025_announcement.html)
+- [2024 GSoC NumFOCUS projects](https://summerofcode.withgoogle.com/programs/2024/organizations/numfocus)
+- [2019 NumFOCUS GSoC announcement](https://numfocus.org/blog/meet-our-2019-gsoc-students-part-2)
+
+### GSoC Interns Announcements
+- [2022 GSoC PyMC blog](https://www.pymc.io/blog/blog_gsoc_2022.html)
+- [2023 GSoC PyMC blog](https://www.pymc.io/blog/blog_gsoc_2023.html)
+- 2024 GSoC PyMC blog: none
+

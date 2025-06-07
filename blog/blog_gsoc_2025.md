@@ -30,7 +30,7 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Michael Novomestsky](../_static/gsoc_2025/michal.png)
+![photo of Michal Novomestsky](../_static/gsoc_2025/michal.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8

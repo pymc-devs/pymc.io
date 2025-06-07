@@ -30,15 +30,16 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 :::{grid-item}
 :columns: 12 6 6 4
 
-![photo of Michael Novomestsky](../_static/gsoc_2025/michael-novomestsky.jpeg)
+![photo of Michael Novomestsky](../_static/gsoc_2025/michal-v2.png)
 :::
 :::{grid-item}
 :columns: 12 6 6 8
 
 **Bio**
->I am a 4th year undergraduate BEng (Bachelor of Aerospace Engineering) (Honours) student at Monash University in Australia. My research interests can be summed up as “how can we embed priors/known information into AI/ML models?” and “how can we provide guarantees about their output?”. Bayesian ML is a promising direction to address these questions and is a key interest of mine.
+>I am a 4th year undergraduate student at Monash University in Australia, studying Aerospace Engineering (Honours). Although I come from a physics/engineering background in fluids, I have since shifted toward ML/AI as I have found some of the research directions in this space very exciting. My research interests can be summed up as “how can we embed priors/known information into AI/ML models?” and “how can we get them to reason and provide guarantees about their output?”. Bayesian ML is a promising direction to address these questions and is a key interest of mine.
 
 **Connecting**
+- Website: [michal-novomestsky.github.io/](https://michal-novomestsky.github.io/)
 - LinkedIn: [@michal-novomestsky](https://linkedin.com/in/michal-novomestsky)
 - GitHub: [@Michal-Novomestsky](https://github.com/Michal-Novomestsky)
 :::

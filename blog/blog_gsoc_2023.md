@@ -49,7 +49,7 @@ Expand support for spatial models in PyMC
 
 Find out more at [Daniel's GSoC blog](https://daniel-saunders-phil.github.io/imagination_machine/).
 
-1. __What motivated you to apply for the intership with PyMC?__ 
+1. __What motivated you to apply for the internship with PyMC?__ 
   
      A few years ago, I started reading Richard McElreath’s marvelous book Statistical Rethinking and fell in love with probabilistic programming. My prior coding experience was in Python so PyMC was a natural choice of probabilistic programming language to pick up. Since then, I’ve really grown to love the package and wanted to learn how to contribute to it in a serious way.
 

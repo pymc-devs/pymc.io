@@ -226,6 +226,14 @@ NumFOCUS is our non-profit umbrella organization.
 PyMC Labs offers professional consulting services for PyMC.
 :::
 
+:::{grid-item-card} Open Wound Research
+:link: https://www.openwoundresearch.com/
+
+<img src="_static/sponsors_logo/OWR.svg"/>
+
+A novel wound-care research organization committed to advancing actionable wound care research.
+:::
+
 ::::
 :::::
 

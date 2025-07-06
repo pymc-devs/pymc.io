@@ -17,7 +17,7 @@ Here is what sets it apart:
 * **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
 * **Fast**: Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through C, Numba or JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
-* **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+* **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [X](https://x.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
 
 ## Example from Linear Regression
 
@@ -283,7 +283,8 @@ about/testimonials
 :caption: External links
 
 Discourse <https://discourse.pymc.io>
-Twitter <https://twitter.com/pymc_devs>
+X <https://x.com/pymc_devs>
+Mastodon <https://bayes.club/@pymc>
 YouTube <https://www.youtube.com/c/PyMCDevelopers>
 LinkedIn <https://www.linkedin.com/company/pymc/>
 Meetup <https://www.meetup.com/pymc-online-meetup/>

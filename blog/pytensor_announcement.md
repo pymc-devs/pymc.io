@@ -45,5 +45,6 @@ We are very excited about the future of PyMC and its ecosystem.
 Connect with PyMC via:
 - PyTensor repo:  [pymc-devs/pytensor](https://github.com/pymc-devs/pytensor)
 - Join Meetup: [pymc-online-meetup](https://www.meetup.com/pymc-online-meetup/)
-- Twitter: [@pymc_devs](https://twitter.com/pymc_devs)
+- X: [@pymc_devs](https://x.com/pymc_devs)
+- Mastodon: [@pymc](https://bayes.club/@pymc) 
 - LinkedIn: [@pymc](https://www.linkedin.com/company/pymc/)

@@ -14,9 +14,17 @@ Chris Fonnesbeck presented fundamentals, tips and best practices for using PyMC.
 ![Starting with PyMC](../_static/blog-images/pymc-chris-slides-screenshot.png)
 
 ## About 
+
 This one-hour presentation introduces new and existing users to version 5 of PyMC, a powerful Python, open source library for probabilistic programming and Bayesian statistical modeling. Learn the fundamentals of PyMC, best practices for installation and setup, and gain hands-on experience building their first Bayesian model.
 
+## Video
+
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jrU0UBr2z3k?start=230" title="Getting Started with PyMC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
 ## References
+
 - Slides: [Getting Started with PyMC](https://zenodo.org/records/16875480)
 - Video: [Intro to Probabilistic Programming](https://youtu.be/Qu6-_AnRCs8)
 - [PyMC video playlist](https://www.youtube.com/playlist?list=PLBKcU7Ik-ir99uTvN0315hIVLuyj4Q1Gt)
@@ -31,20 +39,6 @@ This one-hour presentation introduces new and existing users to version 5 of PyM
 - [ArviZ](https://www.arviz.org/en/latest)
 - [NumPyro](https://num.pyro.ai/en/stable)
 - [uv](https://docs.astral.sh/uv/getting-started/installation)
-
-## About the speaker: Chris Fonnesbeck
-
-Chris Fonnesbeck is a Principal Quantitative Analyst at PyMC Labs and an Adjoint Associate Professor at the Vanderbilt University Medical Center, with 20 years of experience as a data scientist in academia, industry, and government, including 7 years in pro baseball research with the Philadelphia Phillies, New York Yankees, and Milwaukee Brewers. He is interested in computational statistics, machine learning, Bayesian methods, and applied decision analysis. He hails from Vancouver, Canada and received his Ph.D. from the University of Georgia.​​
-
-- LinkedIn: [@christopher-fonnesbeck](https://www.linkedin.com/in/christopher-fonnesbeck-374a492a)
-- GitHub: [@fonnesbeck](https://github.com/fonnesbeck/)
-- Bluesky: [@fonnesbeck](https://bsky.app/profile/fonnesbeck.bsky.social)
-
-## Video
-
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jrU0UBr2z3k?start=230" title="Getting Started with PyMC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
 
 ## Timestamps
 
@@ -237,7 +231,7 @@ Yeah. So these are Markdown based slides. I when I was on a Mac, I'm on Linux th
 **Reshama**  
 OK, the next question is, do you have any of you a PyMC still using older versions of NumPy 1.25? And yet there may be optimizations in the later versions. 
 
-**Chris**
+**Chris**  
 We've we've just transitioned over to version two of NumPy. So we're pretty good at pinning the dependencies to kind of the minimally viable version of things, particularly things like NumPy. So we've recently transitioned over to version two. I believe some of the later versions of the previous of NumPy 1 still work. But you do have to make sure that you keep those up to date. And again, if you're using Conda, everything will update nicely. So I wouldn't monkey with it if it's working. And again, work in an independent Conda environment if you have to. You know, if something else is depending on an earlier version of of of of NumPy, do it in a separate environment. OK, so that reminds me maybe by the way, my name is Rachel. I'm also on the PyMC team and maybe we should ask Perna to do a LinkedIn post to let people know that it is compatible with NumPy 2.0 now. Should we do that? Sure, we're done. OK, all right. The next question is and hopefully you can get to the right place in the slides is why the context manager? What's the advantage? Do you remember which slide that was that? Well, it was any of the slides with the model and that was invented way back at version one of PYMC back when I was a postdoc. And this was just a way of easily specifying models so that you don't have to explicitly add parameters to a model. So there's no add statement. They're automatically added. So so it's just a way of using a declarative interface and making it really easy to specify models. OK, thank you. There's go through. 
 
 There's a bunch of questions is how can I evaluate whether my model has too many variables or parameters, especially when their inclusion is driven by business or stakeholder requirements? Let's see, the question was about whether you have too many parameters in your model. Yes. Yeah, so that that's kind of a model selection question. And it was sort of beyond the scope of this talk. But there are ArviZ has model comparison functions that are really useful that use actually leave one out cross validation or an approximation to that. So the easiest way is to fit models of the various size and use the one that has the highest leave one out cross validation value. So in the same way that you would choose between models in machine learning, right? You would use some optimization criterion or some cost function. In this case, leave one out cross validation or AIC and and use the appropriate criterion to choose between models of different size. 
@@ -255,3 +249,10 @@ Thank you so much, Chris. And we'll be in touch. The video should be posted with
 Thanks, Reshama. 
 
 
+## About the speaker: Chris Fonnesbeck
+
+Chris Fonnesbeck is a Principal Quantitative Analyst at PyMC Labs and an Adjoint Associate Professor at the Vanderbilt University Medical Center, with 20 years of experience as a data scientist in academia, industry, and government, including 7 years in pro baseball research with the Philadelphia Phillies, New York Yankees, and Milwaukee Brewers. He is interested in computational statistics, machine learning, Bayesian methods, and applied decision analysis. He hails from Vancouver, Canada and received his Ph.D. from the University of Georgia.​​
+
+- LinkedIn: [@christopher-fonnesbeck](https://www.linkedin.com/in/christopher-fonnesbeck-374a492a)
+- GitHub: [@fonnesbeck](https://github.com/fonnesbeck/)
+- Bluesky: [@fonnesbeck](https://bsky.app/profile/fonnesbeck.bsky.social)

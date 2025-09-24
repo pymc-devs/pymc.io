@@ -74,7 +74,7 @@ This one-hour presentation introduces new and existing users to version 5 of PyM
 - [50:25](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3025s) Community & learning resources (+ PyMC example notebooks)  
 - [54:05](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3245s) Future direction of PyMC  
 - [56:30](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3390s) Community & Process  
-- [57:40](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3460s) Q: what program did you use to create the slides? ([https://sli.dev](https://sli.dev)  
+- [57:40](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3460s) Q: what program did you use to create the slides? [https://sli.dev](https://sli.dev)  
 - [58:50](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3530s) Q: is PyMC using NumPy v2.0? (Answer: yes)  
 - [01:00:13](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3613s) Q: why use the context manager?  
 - [01:01:02](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=3662s) Q: How can I evaluate whether my model has too many parameters?  
@@ -155,7 +155,7 @@ The only difference here is that we use this observed argument where the data is
 
 ### [26:09](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=1569s) Data handling pitfalls (NumPy, pandas, polars, dataframes; missing data)  
 
-Some of the common pitfalls. **Avoid using pandas.** I know we like to use pandas and these days, polars to manipulate our data, but you really want to be working with NumPy arrays and matrices here. Everything gets converted into tensors, into with the computational backend, PyTensor, not on data frames. So extract the NumPy variables using the values attribute on pandas. It's useful to use data wrappers for data that will change. So we make it possible to specify data as bonafide objects in the model graph. And what that allows us to do is to swap out, let's say, fitting data or training data with testing data or prediction data without completely rewriting our model or having to do anything special with it. So we recommend using PM data objects where you can handle missing data. We want to use where functions. So PyMc has access to all of PyTensor's math library. Math functions inside of PM data relatively easily that way. 
+Some of the common pitfalls. **Avoid using pandas.** I know we like to use pandas and these days, polars to manipulate our data, but you really want to be working with NumPy arrays and matrices here. Everything gets converted into tensors, into.. with the computational backend, PyTensor, not on data frames. So extract the NumPy variables using the values attribute on pandas. It's useful to use data wrappers for data that will change. So we make it possible to specify data as bonafide objects in the model graph. And what that allows us to do is to swap out, let's say, fitting data or training data with testing data or prediction data without completely rewriting our model or having to do anything special with it. So we recommend using PM data objects where you can handle missing data. We want to use where functions. So PyMc has access to all of PyTensor's math library. Math functions inside of PM data relatively easily that way. 
 
 ### [27:47](https://www.youtube.com/watch?v=jrU0UBr2z3k&t=1667s) ArviZ: diagnostics and visualization  
 

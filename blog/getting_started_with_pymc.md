@@ -11,6 +11,8 @@
 Chris Fonnesbeck presented fundamentals, tips and best practices for using PyMC. 
 :::
 
+## [Slides](https://zenodo.org/records/16875480)
+
 ![Starting with PyMC](../_static/blog-images/pymc-chris-slides-screenshot.png)
 
 ## About 

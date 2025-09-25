@@ -11,7 +11,7 @@
 Chris Fonnesbeck gave a talk on Bayesian Modeling at PyData London 2022. Here is a summary blog of the talk.
 :::
 
-![PyData London 2022](../_static/chris_pydatalondon2022.png)
+![PyData London 2022](../_static/blog-images/chris_pydatalondon2022.png)
 
 ## Introduction
 

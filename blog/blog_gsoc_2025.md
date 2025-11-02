@@ -66,8 +66,57 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 
      I am hoping to pursue a career in research, in particular focusing on developing more robust and interpretable AI, and GSoC is an excellent opportunity to be able to network with experts across both industry and academia, which I hope will open doors for me to continue to pursue this passion.
 
+## Andrea Catelli
+
+**Project Name**
+
+State-Space Models: Dynamic Factor Models
+
+**Project Description**
+
+> This project extends PyMC’s state-space module by implementing Bayesian Dynamic Factor Models (DFMs), similar to those available in statsmodels. DFMs capture co-movements in multiple time series using a few latent factors. Built on PyMC and PyTensor, the implementation includes an example notebook to demonstrate the use of the new model. This enhancement broadens PyMC’s capabilities for students, practitioners, and researchers to model complex time-series data probabilistically.
+> 
+
+**Mentors**
+- [Jesse Grabowski](https://github.com/jessegrabowski)
+::::{grid}
+:::{grid-item}
+:columns: 12 6 6 4
+
+![photo of Andrea Catelli](../_static/gsoc_2025/andrea.png)
+:::
+:::{grid-item}
+:columns: 12 6 6 8
+
+>I am in the final semester of my Master’s degree in Quantitative Finance at Politecnico di Milano, where I also completed a Bachelor’s in Mathematical Engineering. I am deeply interested in using mathematics to model complex systems, with a particular fascination for financial markets, where economics, politics, technology, and human behavior intersect to shape highly dynamic environments. My work focuses on probability, statistics, and machine learning as tools to better understand and model this complexity.
+
+**Connecting**
+- LinkedIn: [@Andrea-Catelli](https://www.linkedin.com/in/andrea-catelli1234)
+- GitHub: [@Andrea-Catelli](https://github.com/andreacate)
+:::
+::::
 
 
+1. __What motivated you to apply for the internship with PyMC?__
+   
+     I was motivated by the opportunity to contribute to a large open-source project like PyMC, which plays a key role in the Bayesian statistics community. I also saw it as a chance to engage with experienced developers and researchers, and to gain hands-on experience with probabilistic programming tools that I had not formally studied during my academic career.
+
+1. __Why did you choose your specific project topic?__
+
+     I chose to work on time series modeling, in particular Dynamic Factor Models because it aligns closely with my research interests in quantitative finance. Financial and economic data are inherently high-dimensional and dynamic, and I was excited by the possibility of extending PyMC’s capabilities to better capture such complex structures. This project was a great opportunity to connect my background with hands-on experience in Bayesian time series modeling.
+   
+1. __How did you get involved in open source software?__
+
+     During university, I was fascinated by the idea that such powerful tools are freely available to everyone and continuously improved by communities. When I heard about Google Summer of Code from another Italian student, I saw it as a great opportunity to contribute to open source for the first time.
+
+1. __What are you expecting or hoping to get out of your internship experience?__
+
+     I am eager to learn how to collaborate effectively within a large open-source project, understand best practices for contributing through GitHub, and work as part of a development community. I also hope to deepen my understanding of Bayesian statistics, not only in theory but also through hands-on implementation in real-world modeling tasks.
+
+1.  __What are your career goals? How do you see the internship program moving you towards them?__
+
+     I hope this internship will help me strengthen my technical skills and connect with interesting people from around the world. My long-term goal is to apply mathematics to understand and simulate complex systems, such as financial markets, and this experience is a valuable step in that direction.
+   
 
 ## References
 
@@ -80,4 +129,5 @@ Implementing Integrated Nested Laplace Approximations (INLA)
 - [2022 GSoC PyMC blog](https://www.pymc.io/blog/blog_gsoc_2022.html)
 - [2023 GSoC PyMC blog](https://www.pymc.io/blog/blog_gsoc_2023.html)
 - 2024 GSoC PyMC blog: none
+
 

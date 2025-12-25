@@ -1,23 +1,210 @@
 ---
+html_theme.sidebar_secondary.remove:
 sd_hide_title: true
 ---
 
+<!-- CSS overrides on the homepage only -->
+<style>
+.bd-main .bd-content .bd-article-container {
+  max-width: 85rem; /* Make homepage a little wider instead of 60em */
+}
+/* Extra top/bottom padding to the sections */
+article.bd-article section section {
+  padding: 3rem 0 7rem;
+}
+article.bd-article section section section {
+  padding: 0;
+}
+
+/* Override all h1 headers except for the hidden ones */
+h1:not(.sd-d-none) {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+/* Override all h3 headers that are not in hero */
+h2:not(#hero h2) {
+  border-bottom: 2px solid #e6e7e5;
+  padding-bottom: .5rem;
+}
+/* Remove breadcrumbs element */
+.bd-header-article {
+  visibility: hidden;
+  height: 0pt;
+}
+</style>
+
 # Home
 
-<center><img src="https://raw.githubusercontent.com/pymc-devs/brand/main/pymc/pymc_logos/PyMC_banner.svg" width="75%"/></center>
+<div id="hero">
+<div id="hero-left">
+  <h2 style="font-size: 58px; font-weight: bold; margin: 2rem auto 0;">Probabilistic modeling at your fingertips</h2>
 
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using Markov chain Monte Carlo (MCMC) methods.
+<div class="homepage-button-container">
+  <div class="homepage-button-container-row">
+      <a href="https://www.pymc.io/projects/docs/en/stable/learn/core_notebooks/pymc_overview.html" class="homepage-button primary-button">Get Started</a>
+      <a href="https://www.pymc.io/project/examples/en/latest/gallery.html" class="homepage-button secondary-button">See Examples</a>
+  </div>
+  <div class="homepage-button-container-row">
+      <a href="https://www.pymc.io/project/docs/en/stable/api.html" class="homepage-button-link">See API Reference →</a>
+  </div>
+</div>
+</div>
+</div> 
 
-## Features
-PyMC strives to make Bayesian modeling as simple and painless as possible, allowing users to focus on their problem rather than the methods.
 
-Here is what sets it apart:
+<div style="display: flex; max-width: 55rem; margin: auto;">
+<h3 style="font-size: 36px; font-weight: normal; text-align: center;">
+PyMC is a probabilistic programming library for Python that allows users to build Bayesian models with a simple API. It features multiple inference algorithms, forward sampling, and model updates or interventions.
+</h3>
+</div>
 
-* **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
-* **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
-* **Fast**: Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through C, Numba or JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
-* **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
-* **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+
+## Built for insight
+
+:::::{grid} 1 2 3 3
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`data_exploration`
+:::
+:::{grid-item}
+:class: key-features-name
+
+Modern
+:::
+:::{grid-item}
+:class: key-features-body
+
+Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
+:::
+::::
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`how_to_reg`
+:::
+:::{grid-item}
+:class: key-features-name
+
+User-friendly
+:::
+:::{grid-item}
+:class: key-features-body
+
+Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
+:::
+::::
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`speed`
+:::
+:::{grid-item}
+:class: key-features-name
+
+Fast
+:::
+:::{grid-item}
+:class: key-features-body
+
+ Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through C, Numba or JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
+:::
+::::
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`battery_saver`
+:::
+:::{grid-item}
+:class: key-features-name
+
+Batteries included
+:::
+:::{grid-item}
+:class: key-features-body
+
+Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as [Bambi](https://bambinos.github.io/bambi/) for high-level mixed-effect models.
+:::
+::::
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`alt_route`
+:::
+:::{grid-item}
+:class: key-features-name
+
+Hackable
+:::
+:::{grid-item}
+:class: key-features-body
+
+Allows updates and interventions to both data and model; supporting predictions, forecasts, counterfactuals, or analysis of user interventions on model inputs.
+:::
+::::
+
+::::{grid} 1
+:::{grid-item}
+:class: key-features-icon
+
+{material-twotone}`diversity_3`
+:::
+:::{grid-item}
+:class: key-features-name
+
+Community focused
+:::
+:::{grid-item}
+:class: key-features-body
+
+Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+:::
+::::
+
+:::::
+
+
+## Ecosystem
+
+### General purpose
+
+<div style="max-width: 60rem;">
+
+- [Bambi](https://github.com/bambinos/bambi): BAyesian Model-Building Interface (BAMBI) in Python.
+- [PyMC-BART](https://www.pymc.io/projects/bart/en/latest/): Bayesian Additive Regression Trees for Probabilistic programming with PyMC
+- [PyMC-Extras](https://github.com/pymc-devs/pymc-extras): A collection of PyMC extra features such as cutting-edge methodologies, highly specialized statistical distributions, or complex models appear.
+- [calibr8](https://github.com/JuBiotech/calibr8): A toolbox for constructing detailed observation models to be used as likelihoods in PyMC.
+- [CausalPy](https://github.com/pymc-labs/CausalPy): A package focussing on causal inference in quasi-experimental settings.
+- [SunODE](https://github.com/pymc-devs/sunode): Fast ODE solver, much faster than the one that comes with PyMC.
+- [pymc-learn](https://github.com/pymc-learn/pymc-learn): Custom PyMC models built on top of pymc3_models/scikit-learn API
+- [BART-Survival](https://github.com/CDCgov/BART-Survival): BART-Survival is a Python package that supports discrete-time Survival analyses using the non-parametric machine learning algorithm, Bayesian Additive Regression Trees (BART).
+
+</div>
+
+### Domain specific
+
+<div style="max-width: 60rem;">
+
+- [PyMC-Marketing](https://www.pymc-marketing.io/en/stable/): Marketing analytic tools like Marketing Mix Modeling (MMM) or Customer Lifetime Value (CLV)
+- [Exoplanet](https://github.com/dfm/exoplanet): a toolkit for modeling of transit and/or radial velocity observations of exoplanets and other astronomical time series.
+- [beat](https://github.com/hvasbath/beat): Bayesian Earthquake Analysis Tool.
+
+</div>
+
+More about the {doc}`about/ecosystem`
+
 
 ## Example from Linear Regression
 
@@ -138,72 +325,6 @@ The new data, under the above scenario would look like:
 | plant growth[1]   | 29.809 | 0.508 | 28.832 | 30.717 |
 | plant growth[2]   | -0.131 | 0.507 | -1.121 | 0.791 |
 
-## Get started
-* [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
-* [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
-* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)
-* [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
-* [Discourse help forum](https://discourse.pymc.io)
-
-## Announcements
-
-:::::{container} full-width
-::::{grid} 1 2 2 3
-:gutter: 3
-
-:::{grid-item-card} PyMC forked Aesara to PyTensor
-:link: pytensor_announcement
-:link-type: ref
-:class-header: bg-pymc-three
-
-Release announcement
-^^^
-PyTensor will allow for new features such as labeled arrays, as well as speed up development and streamline the PyMC codebase and user experience.
-:::
-
-
-:::{grid-item-card} PyMC 4.0 is officially released!
-:link: v4_announcement
-:link-type: ref
-:class-header: bg-pymc-three
-
-Release announcement
-^^^
-PyMC 4.0 is a major rewrite of the library with many great new features while keeping the same modeling API of PyMC3.
-:::
-
-:::{grid-item-card} PyMC - Office Hours
-:link: https://discourse.pymc.io/tag/office-hours
-:class-header: bg-pymc-one
-
-Event
-^^^
-The PyMC team has recently started hosting office hours regularly.
-Subscribe on Discourse to be notified of the next event!
-:::
-
-:::{grid-item-card} Probabilistic Programming in PyMC
-:link: https://austinrochford.com/posts/intro-prob-prog-pymc.html
-:class-header: bg-pymc-two
-
-Talk
-^^^
-Austin Rochford gave the coolest talk on Probabilistic Programming in PyMC 4.0
-:::
-
-:::{grid-item-card} Sprint testimonials
-:link: sprint_testimonial
-:link-type: ref
-:class-header: bg-pymc-one
-
-Blog post
-^^^
-Read about the recent PyMC-Data Umbrella sprint in this interview with
-Sandra Meneses, one of the participants who submitted a PR
-:::
-
-::::
-:::::
 
 ## Sponsors
 :::::{container} full-width
@@ -221,7 +342,7 @@ NumFOCUS is our non-profit umbrella organization.
 :::{grid-item-card} PyMC Labs
 :link: https://pymc-labs.io
 
-<img src="https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/pymc-devs/brand/refs/heads/main/sponsors/sponsor_logos/pymc_labs.png"/>
 
 PyMC Labs offers professional consulting services for PyMC.
 :::
@@ -237,55 +358,14 @@ A novel wound-care research organization committed to advancing actionable wound
 ::::
 :::::
 
-## Past Sponsors
+More about PyMC's {doc}`about/sponsors`
 
-*Many thanks to all our former sponsors who supported PyMC development.*
-
-:::::{container} full-width
-::::{grid} 1 2 2 3
-:gutter: 2
-
-:::{grid-item-card} Mistplay (2022-2023)
-:link: https://www.mistplay.com/
-
-<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/mistplay2_white.png?raw=true"/>
-
-Mistplay is the world's leading Loyalty Program for mobile gamers.
-:::
-:::{grid-item-card} ODSC (2022-2023)
-:link: https://odsc.com/california/?utm_source=pymc&utm_medium=referral
-
-<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/odsc/odsc_blue.png?raw=true"/>
-
-The future of AI gathers here.
-:::
-:::{grid-item-card} Adia Lab (2023-2024)
-:link: https://www.adialab.ae/
-
-<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/adia-lab/adia-lab-transparent.png?raw=true"/>
-
-Dedicated to basic and applied research in data and computational sciences.
-:::
-
-::::
-:::::
 
 :::{toctree}
 :hidden:
 
 about/ecosystem
 about/history
+about/sponsors
 about/testimonials
-:::
-
-:::{toctree}
-:hidden:
-:caption: External links
-
-Discourse <https://discourse.pymc.io>
-Twitter <https://twitter.com/pymc_devs>
-YouTube <https://www.youtube.com/c/PyMCDevelopers>
-LinkedIn <https://www.linkedin.com/company/pymc/>
-Meetup <https://www.meetup.com/pymc-online-meetup/>
-GitHub <https://www.github.com/pymc-devs/pymc>
 :::

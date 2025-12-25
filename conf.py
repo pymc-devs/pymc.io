@@ -71,7 +71,7 @@ intersphinx_mapping = {
     "pymc": ("https://www.pymc.io/projects/docs/en/stable/", None),
     "pytensor": ("https://pytensor.readthedocs.io/en/latest/", None),
     "nb": ("https://www.pymc.io/projects/examples/en/latest/", None),
-    "pmx": ("https://www.pymc.io/projects/experimental/en/latest/", None),
+    "pmx": ("https://www.pymc.io/projects/extras/en/latest/", None),
     "scipy": ("https://docs.scipy.org/doc/scipy/", None),
     "xarray": ("https://docs.xarray.dev/en/stable/", None),
 }
@@ -162,6 +162,7 @@ html_css_files = ["custom.css"]
 html_title = "PyMC project website"
 
 html_sidebars = {
+    "welcome": [],
     "blog/tag": [
         "ablog/tagcloud.html",
         "sidebar-nav-bs.html",

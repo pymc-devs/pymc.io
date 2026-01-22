@@ -6,7 +6,7 @@ sd_hide_title: true
 
 <center><img src="https://raw.githubusercontent.com/pymc-devs/brand/main/pymc/pymc_logos/PyMC_banner.svg" width="75%"/></center>
 
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using Markov chain Monte Carlo (MCMC) methods.
+{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using state of the art algorithms such as Markov chain Monte Carlo (MCMC) methods and variational inference.
 
 ## Features
 PyMC strives to make Bayesian modeling as simple and painless as possible, allowing users to focus on their problem rather than the methods.
@@ -18,6 +18,15 @@ Here is what sets it apart:
 * **Fast**: Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through C, Numba or JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
+
+## Get started
+* [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
+* [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
+* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)
+* [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
+* [Discourse help forum](https://discourse.pymc.io)
+
+
 
 ## Example from Linear Regression
 
@@ -138,13 +147,34 @@ The new data, under the above scenario would look like:
 | plant growth[1]   | 29.809 | 0.508 | 28.832 | 30.717 |
 | plant growth[2]   | -0.131 | 0.507 | -1.121 | 0.791 |
 
-## Get started
-* [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
-* [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
-* [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)
-* [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
-* [Discourse help forum](https://discourse.pymc.io)
 
+
+## Cite PyMC
+
+If you use PyMC in your research, please cite the following paper:
+
+- [![DOI](https://img.shields.io/badge/DOI-10.7717%2Fpeerj--cs.1516-blue.svg)](https://doi.org/10.7717/peerj-cs.1516) *PyMC: A Modern and Comprehensive Probabilistic Programming Framework in Python*, Abril-Pla O, Andreani V, Carroll C, Dong L, Fonnesbeck CJ, Kochurov M, Kumar R, Lao J, Luhmann CC, Martin OA, Osthege M, Vieira R, Wiecki T, Zinkov R. (2023)
+
+  - **BibTeX version**
+
+    ```bibtex
+    @article{pymc2023,
+      title = {{PyMC}: A Modern and Comprehensive Probabilistic Programming Framework in {P}ython},
+      author = {Oriol Abril-Pla and Virgile Andreani and Colin Carroll and Larry Dong and Christopher J. Fonnesbeck and Maxim Kochurov and Ravin Kumar and Junpeng Lao and Christian C. Luhmann and Osvaldo A. Martin and Michael Osthege and Ricardo Vieira and Thomas Wiecki and Robert Zinkov },
+      journal = {{PeerJ} Computer Science},
+      volume = {9},
+      number = {e1516},
+      doi = {10.7717/peerj-cs.1516},
+      year = {2023}
+    }
+    ```
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4603970.svg)](https://doi.org/10.5281/zenodo.4603970) A DOI for all versions.  
+
+DOIs for specific versions are shown on [Zenodo](https://zenodo.org) and under [Releases](https://github.com/pymc-devs/pymc/releases).
+
+
+<!-- 
 ## Announcements
 
 :::::{container} full-width
@@ -203,7 +233,7 @@ Sandra Meneses, one of the participants who submitted a PR
 :::
 
 ::::
-:::::
+::::: -->
 
 ## Sponsors
 :::::{container} full-width

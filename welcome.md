@@ -6,7 +6,7 @@ sd_hide_title: true
 
 <center><img src="https://raw.githubusercontent.com/pymc-devs/brand/main/pymc/pymc_logos/PyMC_banner.svg" width="75%"/></center>
 
-{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them solve them using state of the art algorithms such as Markov chain Monte Carlo (MCMC) methods and variational inference.
+{doc}`PyMC <pymc:index>` is a probabilistic programming library for Python that allows users to build Bayesian models with a simple Python API and fit them using state of the art algorithms such as Markov chain Monte Carlo (MCMC) methods and variational inference.
 
 ## Features
 PyMC strives to make Bayesian modeling as simple and painless as possible, allowing users to focus on their problem rather than the methods.

@@ -120,11 +120,11 @@ Initial evaluation results:
 {'p': -1.56, 'y': -inf}
 ```
 
-Any ideas about what might the causing this?
+Any ideas about what might be causing this?
 
-PyMC version: 4.0.0\
-Aesara version: 2.3.7\
-Python version: 3.10.2\
+PyMC version: 5.27.0\
+PyTensor version: 2.36.0\
+Python version: 3.12.2\
 Operating system: linux\
 How you installed PyMC: conda
 

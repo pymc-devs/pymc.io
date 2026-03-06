@@ -47,5 +47,9 @@ Major changes from previous versions:
 While the addition of Aesara added a level of complexity to the development of PyMC, fundamentally altering how the underlying computation is performed, the dev team worked hard to maintain the elegant simplicity of the original PyMC model specification syntax.
 
 ## Version 4
-TODO: explanation on v4 development from history side, then link to {ref}`v4_announcement` for
-the explanation about the actual new features and improvements
+
+PyMC 4.0 was officially released in June 2022 as a major rewrite and rebranding of “PyMC3” into simply “PyMC”. This release modernized the library while preserving most of the user‑facing API, so that many existing PyMC3 models continued to work with minimal changes. Under the hood, PyMC moved from Theano‑PyMC to Aesara as its primary computational backend.
+
+A key innovation in PyMC 4 was the introduction of a JAX backend, allowing users to benefit from XLA compilation and modern accelerator hardware for faster sampling. The 4.0 release also laid the groundwork for better support of labeled dimensions and coordinates throughout the ecosystem.
+
+For more details on this release and its new features, see {ref}`v4_announcement`.

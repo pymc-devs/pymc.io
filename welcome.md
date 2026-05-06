@@ -251,7 +251,7 @@ NumFOCUS is our non-profit umbrella organization.
 :::{grid-item-card} PyMC Labs
 :link: https://pymc-labs.io
 
-<img src="https://github.com/pymc-labs/brand/blob/main/logos/4-pymc-labs-transp-black.png?raw=true"/>
+<img src="https://github.com/pymc-devs/brand/blob/main/sponsors/sponsor_logos/pymc_labs.png?raw=true"/>
 
 PyMC Labs offers professional consulting services for PyMC.
 :::

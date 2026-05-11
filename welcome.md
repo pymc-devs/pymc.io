@@ -306,6 +306,7 @@ Dedicated to basic and applied research in data and computational sciences.
 about/ecosystem
 about/history
 about/testimonials
+Blog <blog>
 :::
 
 :::{toctree}

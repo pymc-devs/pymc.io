@@ -47,5 +47,32 @@ Major changes from previous versions:
 While the addition of Aesara added a level of complexity to the development of PyMC, fundamentally altering how the underlying computation is performed, the dev team worked hard to maintain the elegant simplicity of the original PyMC model specification syntax.
 
 ## Version 4
-TODO: explanation on v4 development from history side, then link to {ref}`v4_announcement` for
-the explanation about the actual new features and improvements
+
+PyMC 4.0 was released in June 2022 and marked the first major rewrite of the library since
+PyMC3. The package was renamed from `pymc3` to `pymc`, and Theano was replaced by Aesara
+(a community fork of Theano cleaned up and restructured by the PyMC team) as the
+computational backend. The model-building API was kept largely backward-compatible, but
+internally random variables became first-class tensor variables, shape handling was
+delegated to the backend, and a JAX compilation path enabled GPU sampling and integration
+with samplers like `numpyro` and `blackjax`. See {ref}`v4_announcement` for the full set of
+new features and improvements.
+
+## Version 5
+
+In late 2022 the PyMC team forked Aesara into [PyTensor](https://github.com/pymc-devs/pytensor)
+after the governance and technical goals of the two projects diverged. PyMC 5.0, released in
+December 2022, replaced Aesara with PyTensor as the backend. PyTensor is developed under the
+same community-led governance as PyMC. See {ref}`pytensor_announcement` for the background on
+the fork.
+
+## Version 6
+
+PyMC 6.0, released alongside PyTensor 3.0, focuses on performance, ergonomics, and a broader
+ecosystem of companion packages. Numba becomes the default computational backend (with C, JAX,
+and MLX still available on demand), making PyMC `pip install`-able without a system BLAS or
+C compiler. `nutpie` becomes the default NUTS sampler, the new `pymc.dims` module lets you
+write entire models against named dimensions, and `pymc-extras` adds variational inference
+(Pathfinder, DADVI), automatic marginalization of discrete latents, and a high-level
+state-space API. ArviZ 1.0 ships a redesigned plotting library and `xarray.DataTree`-backed
+inference data. See {ref}`v6_announcement` for a tour of the new features across the
+ecosystem.

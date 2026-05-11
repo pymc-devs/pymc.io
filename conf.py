@@ -60,6 +60,7 @@ exclude_patterns = [
 
 nb_execution_mode = "auto"
 nb_execution_excludepatterns = ["*.ipynb"]
+nb_merge_streams = True
 myst_enable_extensions = ["colon_fence", "deflist", "dollarmath", "amsmath"]
 
 intersphinx_mapping = {
@@ -142,7 +143,7 @@ html_extra_path = ["robots.txt", "sitemapindex.xml"]
 # so a file named "default.css" will overwrite the builtin "default.css".
 
 html_theme_options = {
-    "show_nav_level": 2,
+    "show_nav_level": 1,
     "navbar_start": ["navbar-logo"],
     "search_bar_text": "Search within the PyMC blog...",
 }

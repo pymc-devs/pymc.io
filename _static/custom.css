@@ -1,3 +1,19 @@
+/* Give the main content area more room on wide screens.
+ * Theme defaults: left sidebar = 25% of viewport, right TOC = 17rem,
+ * content capped at 60em. Trim sidebars and lift the cap. */
+@media (min-width: 960px) {
+    .bd-sidebar-primary {
+        width: 16rem !important;
+        flex: 0 0 16rem !important;
+    }
+}
+:root {
+    --pst-sidebar-secondary: 14rem;
+}
+.bd-main .bd-content .bd-article-container {
+    max-width: 80em;
+}
+
 .bg-pymc-one {
     background-color: #52d16f3b !important;
 }
@@ -8,4 +24,71 @@
 
 .bg-pymc-three {
     background-color: #e7b07b96 !important;
+}
+
+/* Tighten the gap between an stderr/stdout line and a Rich/ipywidget
+ * output that follows it. The widget is rendered inside
+ * `.widget-subarea > .jp-OutputArea > ... > <pre>` which inherits the
+ * browser-default `pre { margin: 1em 0 }`. */
+.cell_output > .output ~ .output,
+.cell_output > .widget-subarea {
+    margin-top: 0.25rem !important;
+}
+
+.cell_output > .output,
+.cell_output > .output > .highlight,
+.cell_output > .output > .highlight pre,
+.cell_output > .output.text_html > pre,
+.cell_output .widget-subarea,
+.cell_output .widget-subarea .jp-OutputArea,
+.cell_output .widget-subarea .jp-OutputArea-child,
+.cell_output .widget-subarea .jp-RenderedHTMLCommon,
+.cell_output .widget-subarea .jp-RenderedHTMLCommon > pre {
+    margin: 0 !important;
+}
+
+.cell_output > .output.stderr .highlight,
+.cell_output > .output.stderr .highlight pre {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+/* Pandas DataFrame rendering: approximate JupyterLab styling */
+table.dataframe {
+    border: none !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.9em;
+    margin: 1em 0;
+}
+
+table.dataframe thead {
+    border-bottom: 1px solid var(--pst-color-text-base, #555);
+    vertical-align: bottom;
+}
+
+table.dataframe th,
+table.dataframe td {
+    text-align: right;
+    vertical-align: middle;
+    padding: 0.35em 0.7em;
+    line-height: 1.4;
+    border: none !important;
+}
+
+table.dataframe th {
+    font-weight: 600;
+}
+
+table.dataframe tbody tr:nth-child(odd) {
+    background: var(--pst-color-surface, rgba(0, 0, 0, 0.025));
+}
+
+/* pydata-sphinx-theme defaults the row-hover bg to a saturated purple
+ * (`#b780ff` light / `#6432bd` dark). Replace with a soft blue tint. */
+html[data-theme="light"] {
+    --pst-color-table-row-hover-bg: rgba(33, 150, 243, 0.12);
+}
+html[data-theme="dark"] {
+    --pst-color-table-row-hover-bg: rgba(144, 202, 249, 0.16);
 }

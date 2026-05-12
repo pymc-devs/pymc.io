@@ -16,7 +16,7 @@
 # %% [markdown]
 # (v6_announcement)=
 #
-# # PyMC v6 & PyTensor v3: ecosystem updates
+# # PyMC 6.0 & PyTensor 3.0: ecosystem updates
 #
 # :::{post} May 11, 2026
 # :tags: release, pytensor, numba, jax
@@ -25,7 +25,7 @@
 # :::
 #
 # PyMC has been under steady development since the early 2010s.
-# To mark the new major releases of PyMC v6 and PyTensor v3,
+# To mark the new major releases of PyMC 6.0 and PyTensor 3.0,
 # we want to highlight the developments across the PyMC ecosystem
 # (and its close cousin, the ArviZ ecosystem) that we're most excited about.
 #
@@ -36,7 +36,7 @@
 #
 # The short version, before we dig in:
 #
-# PyMC v6 is `pip install`-able with no extra system setup. The default computational
+# PyMC 6.0 is `pip install`-able with no extra system setup. The default computational
 # backend is now Numba; C, JAX, and MLX remain available on demand.
 #
 # NUTS sampling defaults to nutpie when it's installed. pymc-extras adds Pathfinder and
@@ -65,7 +65,7 @@
 # %% [markdown]
 # ### Numba is the new default backend
 #
-# Historically, PyMC compiled model functions to **C**, with some support for CUDA. In v6 we
+# Historically, PyMC compiled model functions to **C**, with some support for CUDA. In 6.0 we
 # switch the default linker to **Numba**. For most CPU workloads Numba matches or beats C,
 # while being far easier to maintain and extend.
 # It also unlocks a few things the old C path always struggled with:
@@ -155,7 +155,7 @@ pd.concat([
 #
 # Three things set it apart from what we had before:
 #
-# - **Faster adaptation.** nutpie often gets away with ~400 tuning draws where the old default
+# - **Faster diagonal adaptation.** nutpie often gets away with ~400 tuning draws where the old default
 #   conservatively used 1000, and after tuning it takes fewer leapfrog steps per draw, with no
 #   loss of accuracy. For the details, see [Seyboldt, Carlson, & Carpenter (2026)](https://arxiv.org/abs/2603.18845).
 # - **Low-rank mass-matrix adaptation.** For posteriors with strongly correlated parameters, the
@@ -167,7 +167,9 @@ pd.concat([
 # An experimental **normalizing-flow adaptation** is also available for really difficult
 # posteriors; see the [nutpie docs](https://pymc-devs.github.io/nutpie/nf-adapt.html).
 #
-# To be sure not to miss the train, set `nuts_sampler="nutpie"` explicitly.
+# If installed, nutpie (with diagonal adaptation) is selected automatically.
+# You can manually switch between implementations using the `nuts_sampler` argument of `pm.sample`.
+# Other options include `"pymc"`, `"numpyro"`, and `"blackjax"`.
 
 # %%
 with simple_model:
@@ -549,7 +551,7 @@ print(f"logp(y): {m.point_logps(round_vals=4)['y']}")
 # %% [markdown]
 # ### ArviZ 1.0
 #
-# PyMC v6 is compatible with the new **ArviZ 1.0**. Most of the changes are
+# PyMC 6.0 is compatible with the new **ArviZ 1.0**. Most of the changes are
 # invisible, the object returned by `pm.sample` still resembles the good old
 # `InferenceData`, and the usual `az.plot_*` and `az.summary` calls keep working.
 #
@@ -571,20 +573,22 @@ print(f"logp(y): {m.point_logps(round_vals=4)['y']}")
 # Oh and `plot_trace` is now `plot_trace_dist`...
 
 # %%
-pm.plots.plot_trace_dist(idata_numba);
+import arviz as az
+
+az.plot_trace_dist(idata_numba);
 
 # %% [markdown]
 # ... although you may want to try `plot_rank_dist` instead.
 
 # %%
-pm.plots.plot_rank_dist(idata_numba);
+az.plot_rank_dist(idata_numba);
 
 # %% [markdown]
 # ### PreliZ — prior elicitation
 #
 # [PreliZ](https://preliz.readthedocs.io/) helps with one of the trickiest parts of the Bayesian workflow: prior choice.
 #
-# There's a new [Distributions Gallery](https://preliz.readthedocs.io/en/latest/gallery/gallery.html) to help get familiar with every family PreliZ supports.
+# There's a new [Distributions Gallery](https://preliz.readthedocs.io/en/latest/gallery_content.html) to help get familiar with every family PreliZ supports.
 #
 # Recent PreliZ work integrates PyMC distributions and pymc-extras `Prior` objects
 # directly: `maxent`, matching, and plotting all accept them. `from_pymc` /

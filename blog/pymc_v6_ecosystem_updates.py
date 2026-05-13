@@ -37,10 +37,10 @@
 # The short version, before we dig in:
 #
 # PyMC 6.0 is `pip install`-able with no extra system setup. The default computational
-# backend is now Numba; C, JAX, and MLX remain available on demand.
+# backend is now Numba; C and JAX remain available on demand.
 #
-# NUTS sampling defaults to nutpie when it's installed. pymc-extras adds Pathfinder and
-# DADVI for variational inference.
+# NUTS sampling is roughly **2x faster** end-to-end, thanks to the new nutpie default sampler.
+# pymc-extras adds Pathfinder and DADVI for variational inference.
 #
 # The new `pymc.dims` module lets you write entire models against named dimensions.
 # pymc-extras covers automatic marginalization of discrete latents and a high-level
@@ -65,9 +65,9 @@
 # %% [markdown]
 # ### Numba is the new default backend
 #
-# Historically, PyMC compiled model functions to **C**, with some support for CUDA. In 6.0 we
-# switch the default linker to **Numba**. For most CPU workloads Numba matches or beats C,
-# while being far easier to maintain and extend.
+# Historically, PyMC compiled model functions to **C**. In 6.0 we switch the default linker
+# to **Numba**. For most CPU workloads Numba beats C, while being far easier to
+# maintain and extend.
 # It also unlocks a few things the old C path always struggled with:
 #
 # - **Native advanced indexing** — the hierarchical-modelling staple that the C
@@ -81,6 +81,7 @@
 # - **Native sparse support** — useful for spatial models (ICAR), state-space
 #   models, and INLA-style inference.
 #
+# For GPU-based sampling, the **JAX backend** remains the recommended backend.
 #
 # A knock-on win: **PyMC is finally `pip install`-safe.** The old C backend needed a system
 # BLAS installation *and* a C compiler, both beyond pip's reach. The first-time experience on a
@@ -152,12 +153,15 @@ pd.concat([
 # ```
 #
 # Once installed, nutpie becomes the **default** NUTS in PyMC.
+# Combined with the Numba backend, end-to-end sampling is roughly **2x faster** than the
+# old PyMC + C baseline on typical benchmarks, like the radon hierarchical model.
+# Low-rank adaptation can push it to **4x**.
+# For the details, see [Seyboldt, Carlson, & Carpenter (2026)](https://arxiv.org/abs/2603.18845).
 #
 # Three things set it apart from what we had before:
 #
 # - **Faster diagonal adaptation.** nutpie often gets away with ~400 tuning draws where the old default
-#   conservatively used 1000, and after tuning it takes fewer leapfrog steps per draw, with no
-#   loss of accuracy. For the details, see [Seyboldt, Carlson, & Carpenter (2026)](https://arxiv.org/abs/2603.18845).
+#   conservatively used 1000, and after tuning it takes fewer leapfrog steps per draw.
 # - **Low-rank mass-matrix adaptation.** For posteriors with strongly correlated parameters, the
 #   diagonal mass matrix used by most HMC implementations is a poor fit. nutpie offers a low-rank
 #   extension of the diagonal that can dramatically reduce the number of gradient evaluations per
@@ -228,9 +232,9 @@ with simple_model:
 # **DADVI** — *Deterministic* ADVI.
 # Instead of stochastic optimization of the ELBO, it draws a fixed Monte Carlo sample upfront
 # and hands the resulting deterministic objective to a second-order optimizer.
-# Three things fall out of this: convergence is unambiguous (no more "is the ELBO done bouncing around?"),
-# off-the-shelf optimizers like L-BFGS work directly, and DADVI supports linear-response covariance corrections
-# that fix the variance underestimation that mean-field ADVI is famous for. See [Giordano, Ingram & Broderick (2024)](https://jmlr.org/papers/volume25/23-1015/23-1015.pdf).
+# Convergence is unambiguous (no more "is the ELBO done bouncing around?"),
+# it works directly with off-the-shelf optimizers like L-BFGS, and linear-response covariance corrections
+# fix the variance underestimation that mean-field ADVI is famous for. See [Giordano, Ingram & Broderick (2024)](https://jmlr.org/papers/volume25/23-1015/23-1015.pdf).
 
 # %%
 from pymc_extras.inference import fit_dadvi
@@ -554,6 +558,7 @@ print(f"logp(y): {m.point_logps(round_vals=4)['y']}")
 # PyMC 6.0 is compatible with the new **ArviZ 1.0**. Most of the changes are
 # invisible, the object returned by `pm.sample` still resembles the good old
 # `InferenceData`, and the usual `az.plot_*` and `az.summary` calls keep working.
+# For a full rundown, see the [migration guide](https://python.arviz.org/en/stable/user_guide/migration_guide.html).
 #
 # A few changes worth knowing:
 #

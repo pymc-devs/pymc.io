@@ -76,8 +76,11 @@ instance/
 .scrapy
 
 # Sphinx documentation
-_build/
+_build*/
 jupyter_execute
+
+# Claude Code project-local settings
+.claude/
 
 # PyBuilder
 target/

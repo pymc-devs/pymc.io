@@ -13,7 +13,7 @@ Discourse is the best place to interact with the PyMC community and its team
 
 The PyMC community organizes [PyMCon](https://pymcon.com/), a recurring webseries which is currently ongoing! 
 
-Follow [**Discourse**](https://discourse.pymc.io/c/events/pymcon-web-series/23), [Twitter](https://twitter.com/pymc_devs), or [LinkedIn](https://www.linkedin.com/company/pymc/) to be notified about all the events!
+Follow [**Discourse**](https://discourse.pymc.io/c/events/pymcon-web-series/23), [X](https://x.com/pymc_devs), or [LinkedIn](https://www.linkedin.com/company/pymc/) to be notified about all the events!
 
 Videos from the previous PyMCon edition in 2020 are [available on YouTube](https://www.youtube.com/c/PyMCDevelopers/videos).
 
@@ -26,7 +26,7 @@ To purchase PyMC official merchandise feel free to check out the [NumFOCUS Shop]
 
 ## Social Media
 
-Twitter - You can follow us on Twitter at [@pymc_devs](https://twitter.com/pymc_devs)
+X - You can follow us on X at [@pymc_devs](https://x.com/pymc_devs)
 
 YouTube - Check out our latest videos at [@pymc-devs](https://www.youtube.com/@pymc-devs)
 

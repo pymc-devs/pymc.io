@@ -166,5 +166,6 @@ Connect with PyMC via:
 - YouTube: [PyMCDevelopers](https://www.youtube.com/c/PyMCDevelopers)
 - Star GH repo:  [pymc-devs/pymc](https://github.com/pymc-devs/pymc)
 - Join Meetup: [pymc-online-meetup](https://www.meetup.com/pymc-online-meetup/)
-- Twitter: [@pymc_devs](https://twitter.com/pymc_devs)
+- X: [@pymc_devs](https://x.com/pymc_devs)
+- Mastodon: [@pymc](https://bayes.club/@pymc)
 - LinkedIn: [@pymc](https://www.linkedin.com/company/pymc/)

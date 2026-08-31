@@ -1,6 +1,9 @@
 User-agent: *
 # Raw notebook/markdown sources duplicate the rendered pages in search results
 Disallow: /*_sources/
+# Sphinx search pages: no indexable content, and parameterized search URLs
+# (?q=...) are a common target for spam backlink campaigns
+Disallow: /*search.html
 # Outdated versioned builds of the docs and example gallery: these were built
 # without canonical tags and compete with /en/stable/ and /en/latest/ in search
 Disallow: /projects/docs/en/v3/

@@ -1,3 +1,11 @@
 User-agent: *
+# Raw notebook/markdown sources duplicate the rendered pages in search results
+Disallow: /*_sources/
+# Outdated versioned builds of the docs and example gallery: these were built
+# without canonical tags and compete with /en/stable/ and /en/latest/ in search
+Disallow: /projects/docs/en/v3/
+Disallow: /projects/docs/en/v4
+Disallow: /projects/docs/en/v5
+Disallow: /projects/examples/en/2
 
 Sitemap: https://www.pymc.io/sitemapindex.xml

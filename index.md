@@ -25,6 +25,8 @@ Here is what sets it apart:
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
 
+Learn more about the {doc}`PyMC ecosystem <about/ecosystem>`, our {doc}`history <about/history>`, and {doc}`what users say <about/testimonials>`. Read the latest updates on the {doc}`blog` or explore the [PyMC source code](https://github.com/pymc-devs/pymc).
+
 ## Get started
 * [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
 * [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
@@ -309,30 +311,10 @@ Dedicated to basic and applied research in data and computational sciences.
 :::{toctree}
 :hidden:
 
+Home <self>
 Examples <https://www.pymc.io/projects/examples/en/latest/gallery.html>
 Learn <https://www.pymc.io/projects/docs/en/stable/learn.html>
 API <https://www.pymc.io/projects/docs/en/stable/api.html>
 Community <community/index>
 Contributing <https://www.pymc.io/projects/docs/en/latest/contributing/index.html>
-:::
-
-:::{toctree}
-:hidden:
-
-about/ecosystem
-about/history
-about/testimonials
-Blog <blog>
-:::
-
-:::{toctree}
-:hidden:
-:caption: External links
-
-Discourse <https://discourse.pymc.io>
-Twitter <https://twitter.com/pymc_devs>
-YouTube <https://www.youtube.com/c/PyMCDevelopers>
-LinkedIn <https://www.linkedin.com/company/pymc/>
-Meetup <https://www.meetup.com/pymc-online-meetup/>
-GitHub <https://www.github.com/pymc-devs/pymc>
 :::

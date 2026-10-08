@@ -28,6 +28,9 @@ Here is what sets it apart:
 Learn more about the {doc}`PyMC ecosystem <about/ecosystem>`, our {doc}`history <about/history>`, and {doc}`what users say <about/testimonials>`. Read the latest updates on the {doc}`blog` or explore the [PyMC source code](https://github.com/pymc-devs/pymc).
 
 ## Get started
+Read the {ref}`PyMC 6.0 release announcement <v6_announcement>` for the new
+Numba backend, nutpie sampling, named dimensions, and ArviZ integration.
+
 * [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
 * [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
 * [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)

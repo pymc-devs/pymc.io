@@ -9,8 +9,8 @@
 #       jupytext_version: 1.19.2
 #   myst:
 #     html_meta:
-#       description lang=en: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the Numba backend, nutpie sampling, named dimensions, and ArviZ 1.0."
-#       twitter:description: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the Numba backend, nutpie sampling, named dimensions, and ArviZ 1.0."
+#       description lang=en: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the default Numba backend, nutpie sampling, named dimensions, and ArviZ >= 1.0."
+#       twitter:description: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the default Numba backend, nutpie sampling, named dimensions, and ArviZ >= 1.0."
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -28,7 +28,7 @@
 # :author: PyMC Contributors
 # :::
 #
-# PyMC 6.0 and PyTensor 3.0 introduce easier installation, a Numba backend, faster sampling with nutpie, named dimensions, and integration with ArviZ 1.0. This release announcement explains the changes and how to get started.
+# PyMC 6.0 and PyTensor 3.0 introduce easier installation, the default Numba backend, faster sampling with nutpie, named dimensions, and integration with ArviZ >= 1.0. This release announcement explains the changes and how to get started.
 #
 # ## Install PyMC 6
 #
@@ -171,7 +171,7 @@ pd.concat([
 # ```
 #
 # Once installed, nutpie becomes the **default** NUTS in PyMC.
-# Combined with the Numba backend, end-to-end sampling is roughly **2x faster** than the
+# Combined with the default Numba backend, end-to-end sampling is roughly **2x faster** than the
 # old PyMC + C baseline on typical benchmarks, like the radon hierarchical model.
 # Low-rank adaptation can push it to **4x**.
 # For the details, see [Seyboldt, Carlson, & Carpenter (2026)](https://arxiv.org/abs/2603.18845).

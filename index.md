@@ -21,19 +21,20 @@ Here is what sets it apart:
 
 * **Modern**: Includes state-of-the-art inference algorithms, including MCMC (NUTS) and variational inference (ADVI).
 * **User friendly**: Write your models using friendly Python syntax. [Learn Bayesian modeling](https://www.pymc.io/projects/docs/en/latest/learn.html#) from the many [example notebooks](https://www.pymc.io/projects/examples/en/latest/gallery.html).
-* **Fast**: Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through C, Numba or JAX, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
+* **Fast**: Uses {doc}`PyTensor <pytensor:index>` as its computational backend to compile through Numba (default), JAX, or C, [run your models on the GPU](https://www.pymc-labs.io/blog-posts/pymc-stan-benchmark/), and benefit from complex graph-optimizations.
 * **Batteries included**: Includes probability distributions, Gaussian processes, ABC, SMC and much more. It integrates nicely with {doc}`ArviZ <arviz:index>` for visualizations and diagnostics, as well as {doc}`Bambi <bambi:index>` for high-level mixed-effect models.
 * **Community focused**: Ask questions on [discourse](https://discourse.pymc.io), join [MeetUp events](https://meetup.com/pymc-online-meetup/), follow us on [Twitter](https://twitter.com/pymc_devs), and start [contributing](https://www.pymc.io/projects/docs/en/latest/contributing/index.html).
 
 Learn more about the {doc}`PyMC ecosystem <about/ecosystem>`, our {doc}`history <about/history>`, and {doc}`what users say <about/testimonials>`. Read the latest updates on the {doc}`blog` or explore the [PyMC source code](https://github.com/pymc-devs/pymc).
 
 ## Get started
-Read the {ref}`PyMC 6.0 release announcement <v6_announcement>` for the new
-Numba backend, nutpie sampling, named dimensions, and ArviZ integration.
+Read the {ref}`PyMC 6.0 release announcement <v6_announcement>` for the
+Numba backend (default), nutpie sampling, named dimensions, and ArviZ >= 1.0 integration.
 
 * [Installation instructions](https://www.pymc.io/projects/docs/en/latest/installation.html)
 * [Beginner guide (if you **do not** know Bayesian modeling)](https://www.pymc.io/projects/docs/en/latest/learn/core_notebooks/pymc_overview.html)
 * [API quickstart (if you **do** know Bayesian modeling)](https://www.pymc.io/projects/examples/en/latest/introductory/api_quickstart.html)
+* [Exploratory Analysis of Bayesian Models](https://arviz-devs.github.io/EABM/), an online book on visualization, diagnostics, and Bayesian workflow with ArviZ.
 * [Example gallery](https://www.pymc.io/projects/examples/en/latest/gallery.html)
 * [Discourse help forum](https://discourse.pymc.io)
 

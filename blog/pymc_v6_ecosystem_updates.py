@@ -7,6 +7,10 @@
 #       format_name: percent
 #       format_version: '1.3'
 #       jupytext_version: 1.19.2
+#   myst:
+#     html_meta:
+#       description lang=en: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the Numba backend, nutpie sampling, named dimensions, and ArviZ 1.0."
+#       twitter:description: "Discover what's new in PyMC 6.0 and PyTensor 3.0: easier pip installation, the Numba backend, nutpie sampling, named dimensions, and ArviZ 1.0."
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -16,13 +20,27 @@
 # %% [markdown]
 # (v6_announcement)=
 #
-# # PyMC 6.0 & PyTensor 3.0: ecosystem updates
+# # PyMC 6.0 and PyTensor 3.0 Release Announcement
 #
 # :::{post} May 11, 2026
 # :tags: release, pytensor, numba, jax
 # :category: news
 # :author: PyMC Contributors
 # :::
+#
+# PyMC 6.0 and PyTensor 3.0 introduce easier installation, a Numba backend, faster sampling with nutpie, named dimensions, and integration with ArviZ 1.0. This release announcement explains the changes and how to get started.
+#
+# ## Install PyMC 6
+#
+# Install PyMC 6 with the optional nutpie sampler:
+#
+# ```bash
+# python -m pip install "pymc[nutpie]>=6,<7"
+# ```
+#
+# For environment setup, see the [installation guide](https://www.pymc.io/projects/docs/en/stable/installation.html). When upgrading an existing project, check the [PyMC 6.0 release notes](https://github.com/pymc-devs/pymc/releases/tag/v6.0.0) for breaking changes, including the transition to ArviZ DataTree results and changes to posterior predictive sampling.
+#
+# ## What is new in PyMC 6.0?
 #
 # PyMC has been under steady development since the early 2010s.
 # To mark the new major releases of PyMC 6.0 and PyTensor 3.0,

@@ -13,12 +13,9 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from pathlib import Path
-
-
 # -- Project information -----------------------------------------------------
 
-project = "PyMC project website"
+project = "PyMC"
 copyright = "2025, PyMC Team"
 author = "PyMC Team"
 version = ""
@@ -77,8 +74,8 @@ intersphinx_mapping = {
     "xarray": ("https://docs.xarray.dev/en/stable/", None),
 }
 
-blog_baseurl = "https://pymc.io"
-blog_title = "PyMC project website"
+blog_baseurl = "https://www.pymc.io"
+blog_title = "PyMC Blog"
 blog_path = "blog"
 blog_authors = {
     "contributors": ("PyMC Contributors", "https://pymc.io"),
@@ -89,8 +86,10 @@ fontawesome_included = True
 
 notfound_urls_prefix = ""
 
+# The homepage content lives at index.md so that https://www.pymc.io/ serves
+# real, indexable content; welcome.html redirects there for old inbound links.
 rediraffe_redirects = {
-    "index.md": "welcome.md",
+    "welcome.md": "index.md",
 }
 
 def remove_catalogs(app):
@@ -102,30 +101,19 @@ def remove_catalogs(app):
     app.env.project.docnames -= {"blog/tag", "blog/category", "blog/archive"}
     yield "blog", {}, "layout.html"
 
-def remove_index(app):
-    """
-    This removes the index pages so rediraffe generates the redirect placeholder
-    It needs to be present initially for the toctree as it defines the navbar.
-    """
-
-    index_file = Path(app.outdir) / "index.html"
-    index_file.unlink()
-
-    app.env.project.docnames -= {"index"}
-    yield "", {}, "layout.html"
-
-
 def setup(app):
     """
     Add extra steps to sphinx build
     """
 
     app.connect("html-collect-pages", remove_catalogs, 100)
-    app.connect("html-collect-pages", remove_index, 100)
 
 ogp_site_url = "https://www.pymc.io"
 ogp_image = "https://www.pymc.io/_static/PyMC.jpg"
 ogp_use_first_image = True
+# Generate <meta name="description"> from page content for pages that don't
+# set one explicitly via html_meta (used as the search result snippet).
+ogp_enable_meta_description = True
 
 jupyterlite_bind_ipynb_suffix = False
 
@@ -160,7 +148,9 @@ html_favicon = "_static/favicon.ico"
 
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-html_title = "PyMC project website"
+# Used as the <title> suffix for every page, keep it short: it is what
+# search engines display after the page name.
+html_title = "PyMC"
 
 html_sidebars = {
     "blog/tag": [
